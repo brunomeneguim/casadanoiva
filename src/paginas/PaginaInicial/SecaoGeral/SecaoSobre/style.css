@@ -1,0 +1,47 @@
+.secao-sobre {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+
+.link-sobre {
+    margin-top: 60px;
+    font-size: 70px;
+    color: #CE947B;
+    font-family: 'Great Vibes';
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.secao-sobre h2 {
+    font-size: 25px;
+    color: #E6B194;
+    text-align: center;
+}
+
+.secao-sobre p {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 520px) {
+    .link-sobre {
+        font-size: 25px;
+    }
+    .secao-sobre h2 {
+        font-size: 15px;
+    }
+    .secao-sobre p {
+        font-size: 15px;
+    }
+}

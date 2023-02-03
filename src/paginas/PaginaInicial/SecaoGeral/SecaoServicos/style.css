@@ -1,0 +1,129 @@
+.secao-servicos {
+    /*height: 100%;*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-img-secao-servicos {
+    /*width: 50%;*/
+    display: flex;
+}
+
+.container-img-secao-servicos img {
+    width: 50vw;
+}
+
+.container-secao-servicos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #BB7D68;
+}
+
+.link-servicos {
+    font-size: 70px;
+    color: #ffffff;
+    font-family: 'Great Vibes';
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.container-secao-servicos p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.container-lista-servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-lista-servicos img {
+    margin-right: 30px;
+}
+
+.lista-servicos {
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.secao-servicos-link {
+    text-decoration: none;
+    color: #F6C1A1;
+}
+
+.secao-servicos-link h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1380px) {
+    .container-secao-servicos h1 {
+        font-size: 35px;
+    }
+
+    .container-secao-servicos h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+
+    .lista-servicos {
+        flex-direction: column;
+
+    }
+
+    .container-secao-servicos h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .container-secao-servicos h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container-secao-servicos p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .container-lista-servicos img {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .container-img-secao-servicos {
+        display: none;
+    }
+
+    .container-secao-servicos {
+        width: 100%;
+    }
+
+    .container-lista-servicos img {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 265px) {
+    .link-servicos {
+        font-size: 35px;
+    }
+}

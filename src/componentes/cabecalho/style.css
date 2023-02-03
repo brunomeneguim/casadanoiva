@@ -1,0 +1,146 @@
+.container-cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-login {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+.icone-login {
+    margin-right: 10px;
+    padding: 5px;
+    /*border: 1px solid black;
+    border-radius: 50px;*/
+    background-color: #fff;
+}
+
+.link-login {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.container-borda {
+    width: 90%;
+    margin-top: 20px;
+    border-bottom: 1px solid #8D5951;
+}
+
+.container-logo-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.container-logo {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    align-items: center;
+
+}
+
+.link-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #CE947B;
+    font-size: 70px;
+    font-family: 'Great Vibes';
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.img-logo {
+    width: 180px;
+    display: flex;
+}
+
+.container-links-icones {
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-links {
+    display: flex;
+}
+
+.link-cabecalho {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.container-icones {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+@media screen and (max-width: 950px) {
+    .container-login {
+        align-self: center;
+        padding: 0;        
+    }
+    .container-logo-links {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .container-logo {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link-logo {
+        text-align: center;
+    }
+
+    .container-links-icones {
+        flex-direction: column;
+        margin: 0;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .link-logo {
+        font-size: 30px;
+    }
+
+    .img-logo {
+        width: 150px;
+        transition: 1s;
+    }
+
+    .link-login {
+        margin: 0;
+    }
+
+}
