@@ -17,7 +17,7 @@ export default function SecaoInstagram() {
                 scrolling='no'
                 title="Feed do Instagram"
                 allowtransparency="true"
-                class="lightwidget-widget">
+                className="lightwidget-widget">
             </iframe>
             {/* FIM DO SCRIPT */}
 

@@ -19,14 +19,14 @@ export default function SecaoFormularioContato() {
                     method="POST"
                     action="">
 
-                    <label for="nome">Nome</label>
+                    <label htmlFor="nome">Nome</label>
                     <input type="text"
                         id="nome"
                         name="nome"
                         required>
                     </input>
 
-                    <label for="email">E-mail</label>
+                    <label htmlFor="email">E-mail</label>
                     <input type="email"
                         id="email"
                         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
@@ -34,7 +34,7 @@ export default function SecaoFormularioContato() {
                         required>
                     </input>
 
-                    <label for="celular">Celular</label>
+                    <label htmlFor="celular">Celular</label>
                     <input type="tel"
                         id="celular"
                         patern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}"
@@ -42,14 +42,14 @@ export default function SecaoFormularioContato() {
                         required>
                     </input>
 
-                    <label for="assunto">Assunto</label>
+                    <label htmlFor="assunto">Assunto</label>
                     <input type="text"
                         id="assunto"
                         name="assunto"
                         required>
                     </input>
 
-                    <label for="mensagem">Mensagem</label>
+                    <label htmlFor="mensagem">Mensagem</label>
                     <textarea type="text"
                         id="mensagem"
                         name="mensagem"

@@ -6,10 +6,9 @@ import Rotas from './Rotas';
 function App() {
   return (
     <main className="App">
-      <Rotas />   
-       
+      <Rotas />
     </main>
-    
+
   );
 }
 

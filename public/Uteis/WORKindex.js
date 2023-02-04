@@ -1,6 +1,7 @@
 import './style.css';
 
 /* FUNÇÃO QUE EXPORTA A SECAO SLIDER PARA A SECAO GERAL */
+
 export default function SecaoSlider() {
     return (
 

@@ -1,101 +1,59 @@
-.slides {
-  width: 400%;
-  display: flex;
+.slider {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #fff;
 }
 
-.slides input {
-  display: none;
+.image {
+    width: 100vw;
+    display: flex;
 }
 
-.slide {
-  width: 25%;
-  transition: 2s;
+.arrow {
+    border: 2px solid white;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    z-index: 999;
+    position: absolute;
 }
 
-.slide img {
-  height: 100%;
-  width: 100%;
+.arrow:hover {
+    background-color: #fff;
+    color: #777;
 }
 
-.container-navigation {
-  display: flex;
-  justify-content: center;
+.next {
+    right: 1.5rem;
+
 }
 
-.manual-navigation {
-  margin-top: -5%;
-  display: flex;
-  position: absolute;
+.prev {
+    left: 1.5rem;
 }
 
-.manual-btn {
-  border: 2px solid rgb(197, 186, 186);
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
+@media screen and (max-width: 400px) {
+    .arrow {
+        height: 1.5rem;
+        width: 1.5rem;
+        transition: 1s;
+    }
+
 }
 
-.navigation-auto {
-  margin-top: -5%;
-  display: flex;
-  position: absolute;
-}
+@keyframes slide-up {
+    0% {
+        visibility: visible;
+        top: 23rem;
 
-.navigation-auto div {
-  border: 2px solid #CE947B;
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 2s;
-}
+    }
 
-.manual-btn:not(:last-child) {
-  margin-right: 40px;
-}
-
-.manual-btn:hover {
-  background-color: #fff;
-}
-
-#radio1:checked~.first {
-  margin-left: 0;
-}
-
-#radio2:checked~.first {
-  margin-left: -25%;
-}
-
-#radio3:checked~.first {
-  margin-left: -50%;
-}
-
-#radio4:checked~.first {
-  margin-left: -75%;
-}
-
-.navigation-auto div:not(:last-child) {
-  margin-right: 40px;
-}
-
-#radio1:checked~.navigation-auto .auto-btn1 {
-  background-color: #fff;
-}
-
-#radio2:checked~.navigation-auto .auto-btn2 {
-  background-color: #fff;
-}
-
-#radio3:checked~.navigation-auto .auto-btn3 {
-  background-color: #fff;
-}
-
-#radio4:checked~.navigation-auto .auto-btn4 {
-  background-color: #fff;
-}
-
-@media screen and (max-width: 215px) {
-  .container-navigation {
-      width: fit-content;
-  }
+    100% {
+        visibility: visible;
+        top: 17rem;
+    }
 }
