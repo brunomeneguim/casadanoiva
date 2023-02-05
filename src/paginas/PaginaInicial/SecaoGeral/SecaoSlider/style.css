@@ -1,13 +1,56 @@
-.slider {
+.container-slider {
     display: flex;
+    /*alinhamento horizontal*/
+    justify-content: center;
+    /* alinhamento vertical*/
     align-items: center;
-    overflow: hidden;
-    background-color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
-.image {
-    width: 100vw;
+.slider {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transform: translateX(-50%);
+    transition: all 1s ease;
+}
+
+.slide img {
+    display: flex;
+    position: relative;
+    width: 100vw;
+}
+
+.current {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+@keyframes slide-up {
+    0% {
+        visibility: visible;
+        top: 23rem;
+    }
+
+    100% {
+        visibility: visible;
+        top: 17rem;
+    }
+}
+
+.current .content {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.5s ease;
 }
 
 .arrow {
@@ -18,8 +61,8 @@
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
-    z-index: 999;
     position: absolute;
+    z-index: 999;
 }
 
 .arrow:hover {
@@ -28,32 +71,33 @@
 }
 
 .next {
+    top: 50%;
     right: 1.5rem;
-
 }
 
 .prev {
+    top: 50%;
     left: 1.5rem;
 }
 
 @media screen and (max-width: 400px) {
     .arrow {
-        height: 1.5rem;
-        width: 1.5rem;
-        transition: 1s;
+        height: 1.3rem;
+        width: 1.3rem;
+        display: flex;
     }
 
+    .next {
+        right: 1.0rem;
+    }
+
+    .prev {
+        left: 1.0rem;
+    }
 }
 
-@keyframes slide-up {
-    0% {
-        visibility: visible;
-        top: 23rem;
-
-    }
-
-    100% {
-        visibility: visible;
-        top: 17rem;
+@media screen and (max-width: 150px) {
+    .slide img {
+        width: 100%;
     }
 }

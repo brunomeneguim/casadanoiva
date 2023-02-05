@@ -22,7 +22,7 @@
 
 .secao-introducao p {
     width: 70%;
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 @media screen and (max-width: 400px) {
-    .secao-introducao h1 {       
+    .secao-introducao h1 {
         font-size: 15px;
     }
 
@@ -58,7 +58,7 @@
 }
 
 @media screen and (max-width: 200px) {
-    .secao-introducao h1 {       
+    .secao-introducao h1 {
         text-align: center;
     }
 

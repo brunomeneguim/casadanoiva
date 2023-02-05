@@ -1,10 +1,10 @@
-import SecaoPrimeiroServico from "./SecaoPrimeiroServico";
+import SecaoTitulo from "./SecaoTitulo";
 
 /* FUNÇÃO QUE REUNE AS SEÇÕES DA PÁGINA E EXPORTA PARA A PÁGINA SERVICOS */
 export default function SecaoGeral() {
     return (
-        <div> 
-            <SecaoPrimeiroServico/>
+        <div>
+            <SecaoTitulo />
         </div>
     );
 }

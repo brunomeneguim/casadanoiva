@@ -27,7 +27,7 @@
 
 .secao-sobre p {
     width: 50%;
-    text-align: center;
+    text-align: justify;
     display: flex;
     justify-content: center;
     align-items: center;

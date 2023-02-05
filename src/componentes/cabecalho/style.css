@@ -109,6 +109,13 @@
 @media screen and (max-width: 630px) {
     .container-logo {
         flex-direction: column;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .container-icones {
+        padding-top: 20px;
     }
 }
 
@@ -126,6 +133,9 @@
         flex-direction: column;
         margin: 0;
         padding: 20px;
+    }
+    .container-icones {
+        padding-top: 20px;
     }
 }
 

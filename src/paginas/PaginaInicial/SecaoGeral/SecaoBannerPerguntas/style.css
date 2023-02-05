@@ -27,12 +27,12 @@
 
 @media screen and (max-width: 415px) {
     .link-perguntas {
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 
 @media screen and (max-width: 285px) {
     .link-perguntas {
-        font-size: 20px;
+        font-size: 32px;
     }
 }

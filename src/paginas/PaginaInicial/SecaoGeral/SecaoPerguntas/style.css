@@ -4,22 +4,23 @@
     padding-bottom: 50px;
 }
 
-.container-perguntas {  
+.container-perguntas {
     width: 100%;
-    display: flex;  
+    display: flex;
+    align-items: center;
 }
 
 .card-perguntas {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 60px;
+    padding: 0 20px;
 }
 
 .card-perguntas h2 {
     font-size: 30px;
     color: #E6B194;
-    text-align: justify;
+    text-align: center;
 }
 
 .card-perguntas p {
@@ -37,6 +38,7 @@
     .card-perguntas p {
         font-size: 18px;
     }
+
     .container-perguntas {
         flex-direction: column;
     }
@@ -48,4 +50,18 @@
         flex-direction: row;
     }
 
+}
+
+
+@media screen and (max-width: 230px) {
+    .card-perguntas p {
+        width: 160px;
+    }
+
+}
+
+@media screen and (max-width: 195px) {
+    .card-perguntas p {
+        width: 130px;
+    }
 }

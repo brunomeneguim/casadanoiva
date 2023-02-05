@@ -14,6 +14,10 @@
     height: 70%;
 }
 
+.lightwidget__footer {
+    display: none;
+}
+
 .link-instagram {
     margin: 0;
     font-size: 80px;
@@ -31,16 +35,9 @@
     }
 }
 
-@media screen and (max-width: 700px) {
-    .secao-instagram {
-        height: 40vh;
-        padding-top: 50px;
-    }
-}
-
 @media screen and (max-width: 1000px) {
-    .secao-instagram {
-        height: 70vh;
+    .secao-instagram iframe {
+        height: 40vh;
         transition: 1s;
     }
 }

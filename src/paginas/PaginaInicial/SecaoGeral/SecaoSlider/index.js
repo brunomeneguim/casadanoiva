@@ -8,8 +8,8 @@ const SecaoSlider = () => {
     const slideLength = sliderData.length;
 
     const autoScroll = true;
-    let slideInterval;
-    let intervalTime = 5000;
+    let slideInterval = 10;
+    let intervalTime = 4000;
 
     const nextSlide = () => {
         setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
@@ -19,8 +19,9 @@ const SecaoSlider = () => {
     const prevSlide = () => {
         setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
         console.log("prev");
-    };
 
+    };
+    // eslint-disable-next-line
     function auto() {
         slideInterval = setInterval(nextSlide, intervalTime);
     }
@@ -37,24 +38,26 @@ const SecaoSlider = () => {
     }, [auto, autoScroll, currentSlide, slideInterval]);
 
     return (
-        <div className="slider">
-            <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
-            <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
-            {sliderData.map((slide, index) => {
-                return (
-                    <div
-                        className={index === currentSlide ? "slide current" : "slide"}
-                        key={index}
-                    >
-                        {index === currentSlide && (
-                            <div>
-                                <img src={slide.image} alt="slide" className="image" />
-                            </div>
-                        )}
-                    </div>
-                );
-            })}
-        </div>
+        <section className="container-slider">
+            <div className="slider">
+                <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
+                <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
+                {sliderData.map((slide, index) => {
+                    return (
+                        <div
+                            className={index === currentSlide ? "slide current" : "slide"}
+                            key={index}
+                        >
+                            {index === currentSlide && (
+                                <div>
+                                    <img src={slide.image} alt="slide" className="image" />
+                                </div>
+                            )}
+                        </div>
+                    );
+                })}
+            </div>
+        </section>
     );
 };
 
