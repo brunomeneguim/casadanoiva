@@ -7,26 +7,16 @@ export default function SecaoServicos() {
 
         /* INICIO SECAO SERVICOS */
         <section className="secao-servicos">
-
-            {/* INICIO CONTAINER IMAGEM */}
             <div className="container-img-secao-servicos">
-
                 <img src="./assets/imgSecaoServicos.jpg"
                     alt="Imagem da Seção de Serviços" />
-
             </div>
-            {/* FIM CONTAINER IMAGEM */}
 
-            {/* INICIO CONTAINER SECAO SERVICOS */}
             <div className='container-secao-servicos'>
 
                 <Link className='link-servicos' to='/servicos'>Serviços que oferecemos</Link>
-                {/*<h1>Serviços que oferecemos</h1>*/}
 
-                {/* INICIO CONTAINER LISTA SERVICOS */}
                 <div className="container-lista-servicos">
-
-                    {/* INICIO SECAO SERVICOS VESTIDOS */}
                     <div className='lista-servicos'>
 
                         <img src="./assets/iconeVestido.png"
@@ -40,11 +30,8 @@ export default function SecaoServicos() {
                             <p>Tamanhos x, Tamanhos x, Tamanhos x</p>
 
                         </Link>
-
                     </div>
-                    {/* FIM SECAO SERVICOS VESTIDOS */}
 
-                    {/* INICIO SECAO SERVICOS ACESSORIOS */}
                     <div className='lista-servicos'>
 
                         <img src="./assets/iconeAcessorios.png"
@@ -60,9 +47,6 @@ export default function SecaoServicos() {
                         </Link>
 
                     </div>
-                    {/* FIM SECAO SERVICOS ACESSORIOS */}
-
-                    {/* INICIO SECAO SERVICOS VEUS */}
                     <div className='lista-servicos'>
 
                         <img src="./assets/iconeVeu.png"
@@ -76,11 +60,7 @@ export default function SecaoServicos() {
                             <p>Tamanhos x, Tamanhos x, Tamanhos x</p>
 
                         </Link>
-
                     </div>
-                    {/* FIM SECAO SERVICOS VEUS */}
-
-                    {/* INICIO SECAO SERVICOS OUTROS */}
                     <div className='lista-servicos'>
 
                         <img src="./assets/iconeOutros.png"
@@ -90,19 +70,11 @@ export default function SecaoServicos() {
                             to="/servicos">
 
                             <h2>Outros</h2>
-
-                            <p>Tamanhos x, Tamanhos x, Tamanhos x</p>
-
+                            <p>Sapatos x, Costureira x, Lavanderia x</p>
                         </Link>
                     </div>
-                    {/* FIM SECAO SERVICOS OUTROS */}
-
                 </div>
-                {/* FIM CONTAINER LISTA SERVICOS */}
-
             </div>
-            {/* FIM CONTAINER SECAO SERVICOS */}
-
         </section>
         /* FIM SECAO SERVICOS */
     );

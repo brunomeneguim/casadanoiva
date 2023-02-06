@@ -7,7 +7,8 @@ export const sliderData = [
   },
   {
     image: "./assets/imgSlider3.jpg",
-  }, {
+  },
+  {
     image: "./assets/imgSlider4.jpg",
   },
 ];

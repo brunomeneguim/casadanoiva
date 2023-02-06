@@ -1,11 +1,11 @@
 .secao-titulo {
+    width: 100%;
+    padding: 50px 0px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #BB7D68;
     font-family: 'Montserrat', sans-serif;
-    padding: 50px 0px;
 }
 
 .secao-titulo h1 {
@@ -15,7 +15,27 @@
 }
 
 .secao-titulo h2 {
+    width: 100%;
     color: #fff;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
+}
+
+@media screen and (max-width: 200px) {
+    .secao-titulo h1 {
+        font-size: 20px;
+    }
+
+    .secao-titulo h2 {
+        font-size: 10px;
+        transition: 1s;
+    }
+}
+
+
+@media screen and (max-width: 260px) {
+    .secao-titulo h2 {
+        font-size: 10px;
+        transition: 1s;
+    }
 }

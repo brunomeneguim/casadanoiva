@@ -11,12 +11,16 @@ const SecaoSlider = () => {
     let slideInterval = 10;
     let intervalTime = 4000;
 
-    const nextSlide = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    }
+
+    const nextSlide = (e) => {
         setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
         console.log("next");
     };
 
-    const prevSlide = () => {
+    const prevSlide = (e) => {
         setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
         console.log("prev");
 
@@ -50,7 +54,7 @@ const SecaoSlider = () => {
                         >
                             {index === currentSlide && (
                                 <div>
-                                    <img src={slide.image} alt="slide" className="image" />
+                                    <img src={slide.image} alt="slide" className="image" onSubmit={handleSubmit} />
                                 </div>
                             )}
                         </div>
