@@ -7,7 +7,7 @@ export default function SecaoSobre() {
 
         <section className="secao-sobre">
 
-            <Link className="link-sobre" to='/sobre#sobre'>Tudo sobre a Casa da Noiva</Link>
+            <Link className="link-sobre" to="/sobre#sobre">Tudo sobre a Casa da Noiva</Link>
 
             <h2>Orientando você no caminho certo</h2>
 

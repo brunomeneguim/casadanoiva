@@ -24,7 +24,8 @@
 
 /* Mouse Hover */
 .texto-erro:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    transition: 200ms linear;
 }
 
 /* Media Query*/

@@ -1,15 +1,15 @@
 .secao-slider {
-    display: flex;
-    /*alinhamento horizontal*/
-    justify-content: center;
-    /* alinhamento vertical*/
-    align-items: center;
-    margin: 0;
-    padding: 0;    
+  display: flex;
+  /*alinhamento horizontal*/
+  justify-content: center;
+  /* alinhamento vertical*/
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-.swiper {
-  width: 65%;
+.swiper#pagina-inicial {
+  width: 75%;
   height: 100%;
   padding: 50px 0;
   margin-left: auto;
@@ -36,14 +36,14 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #fff;
+  color: #B9AEAC !important;
+  width: 44px !important;  
 }
-
 
 /* Mouse Hover */
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  transform: scale(1.1);
+  transform: scale(1.2) !important;
   transition: 200ms linear;
 }
 
@@ -52,4 +52,3 @@
   transform: scale(1.1);
   transition: 200ms linear;
 }
-

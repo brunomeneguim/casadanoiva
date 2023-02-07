@@ -4,9 +4,9 @@ import './style.css';
 export default function SecaoSobreTexto() {
     return (
 
-        <div className='secao-sobre-texto' id='sobre'>
+        <div className='secao-sobre-texto'>
             <div className='container-texto'>
-                <h1>Minha história</h1>
+                <h1 id='sobre' >Minha história</h1>
                 <h2>PSICOLOGIA COMO PROPÓSITO DE VIDA</h2>
                 <div className='container-paragrafos'>
                     <p className='sobre-texto'>

@@ -72,13 +72,13 @@
 }
 
 /* Mouse Hover */
-.secao-servicos-link:hover {
+.secao-servicos-link h2:hover {
     transform: scale(1.1);
     transition: 200ms linear;
 }
 
 .link-servicos:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 200ms linear;
 }
 

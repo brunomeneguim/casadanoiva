@@ -6,13 +6,14 @@ export default function SecaoInstagram() {
     return (
 
         <section className="secao-instagram">
-            <Link className='link-instagram' to='https://www.instagram.com/casadanoiva.gpuava'>Redes Sociais</Link>
+            <Link className='link-instagram' to='https://www.instagram.com/casadanoiva.gpuava' target="_blank">Redes Sociais</Link>
             <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
             <iframe src="//lightwidget.com/widgets/deb224217e0351188bd81a5a81a8c92e.html"
                 scrolling='no'
                 title="Feed do Instagram"
                 allowtransparency="true"
                 className="lightwidget-widget">
+                
             </iframe>
         </section>
     );

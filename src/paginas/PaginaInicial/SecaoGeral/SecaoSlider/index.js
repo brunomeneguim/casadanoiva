@@ -8,7 +8,6 @@ import "swiper/css/pagination";
 import "./style.css";
 
 export default function SecaoSlider() {
-
     return (
 
         <div className="secao-slider">
@@ -22,14 +21,13 @@ export default function SecaoSlider() {
                 navigation={true}
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
+                id="pagina-inicial"
             >
-                <SwiperSlide className="slider-fullscreen"><img src="./assets/imgServicos/acessorios/imgSlider1.jpg" alt="Slide 1" /></SwiperSlide>
-                <SwiperSlide className="slider-fullscreen"><img src="./assets/imgServicos/acessorios/imgSlider2.jpg" alt="Slide 2" /></SwiperSlide>
-                <SwiperSlide className="slider-fullscreen"><img src="./assets/imgServicos/acessorios/imgSlider3.jpg" alt="Slide 3" /></SwiperSlide>
-                <SwiperSlide className="slider-fullscreen"><img src="./assets/imgServicos/acessorios/imgSlider4.jpg" alt="Slide 4" /></SwiperSlide>
+                <SwiperSlide><img src="./assets/imgServicos/acessorios/imgSlider1.jpg" alt="Slide 1" /></SwiperSlide>
+                <SwiperSlide><img src="./assets/imgServicos/acessorios/imgSlider2.jpg" alt="Slide 2" /></SwiperSlide>
+                <SwiperSlide><img src="./assets/imgServicos/acessorios/imgSlider3.jpg" alt="Slide 3" /></SwiperSlide>
+                <SwiperSlide><img src="./assets/imgServicos/acessorios/imgSlider4.jpg" alt="Slide 4" /></SwiperSlide>
             </Swiper>
-
         </div>
-
     );
 }
