@@ -4,16 +4,11 @@ import './style.css';
 export default function SecaoSobreTexto() {
     return (
 
-        <div className='secao-sobre-texto'>
-
+        <div className='secao-sobre-texto' id='sobre'>
             <div className='container-texto'>
-
                 <h1>Minha história</h1>
-
                 <h2>PSICOLOGIA COMO PROPÓSITO DE VIDA</h2>
-
                 <div className='container-paragrafos'>
-
                     <p className='sobre-texto'>
                         Imagine acordar todas as manhãs sentindo que você pode ajudar a transformar vidas!
                         Não é uma sensação maravilhosa?
@@ -41,9 +36,7 @@ export default function SecaoSobreTexto() {
                         autoconfiança e autoestima para alcançar seus objetivos de vida e se tornar sua
                         melhor versão.
                     </p>
-
                 </div>
-
             </div>
         </div>
     );

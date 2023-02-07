@@ -1,22 +1,14 @@
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import './style.css';
 
 /* FUNÇÃO QUE EXPORTA A SECAO CONTATO PARA A SECAO GERAL */
 export default function SecaoContato() {
     return (
-
-        /* INICIO SECAO CONTATO */
         <section className="secao-contato">
-
-            {/* INICIO CONTAINER BORDA */}
-            <div className="contato-borda-top"></div>
-            {/* FIM CONTAINER BORDA */}
-
-            {/* INICIO CONTAINER CONTATO */}
+            <div className="contato-borda-top"></div>    
             <div className="container-secao-contato">
-
-                <Link className='secao-contato-titulo' to='/contato'>Entre em contato</Link>
+                <Link className='secao-contato-titulo' to='/contato#contato'>Entre em contato</Link>
 
                 <p className="texto-contato">Tenho prazer em ajudar meus pacientes a desenvolverem as ferramentas que
                     precisam para lidar com todos os desafios da vida.

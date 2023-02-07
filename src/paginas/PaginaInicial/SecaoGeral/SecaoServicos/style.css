@@ -71,6 +71,21 @@
     color: #ffffff;
 }
 
+/* Mouse Hover */
+.secao-servicos-link:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+.link-servicos:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+
+
+
+/* Media Query */
 @media screen and (max-width: 1380px) {
     .container-secao-servicos h2 {
         font-size: 20px;

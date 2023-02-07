@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import './style.css';
 
 /* FUNÇÃO QUE EXPORTA A SECAO SOBRE PARA A SECAO GERAL */
@@ -7,8 +7,8 @@ export default function SecaoSobre() {
 
         <section className="secao-sobre">
 
-            <Link className="link-sobre" to='/sobre'>Tudo sobre a Casa da Noiva</Link>
-            
+            <Link className="link-sobre" to='/sobre#sobre'>Tudo sobre a Casa da Noiva</Link>
+
             <h2>Orientando você no caminho certo</h2>
 
             <p>Implemento métodos eficazes de psicoterapia para incentivar a

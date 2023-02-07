@@ -16,7 +16,7 @@ import "./style.css";
 
 export default function SecaoSegundoServico() {
     return (
-        <div className="secao-segundo-servico" >
+        <div className="secao-segundo-servico" id="veus">
 
             <Swiper
                 slidesPerView={2}
@@ -34,7 +34,7 @@ export default function SecaoSegundoServico() {
                 <SwiperSlide><img src="./assets/imgServicos/veus/imgSlider3.jpg" alt="Slide 3" /></SwiperSlide>
                 <SwiperSlide><img src="./assets/imgServicos/veus/imgSlider4.jpg" alt="Slide 4" /></SwiperSlide>
             </Swiper>
-            <div className="card-veus" id="veus">
+            <div className="card-veus">
                 <h1 className="veus-titulo">Véus</h1>
                 <p className="veus-paragrafo">Sim. Por causa do código de ética do psicólogo não é autorizado divulgar
                     os valores das sessões por aqui. Porém no pacote mensal (4 sessões) o valor é

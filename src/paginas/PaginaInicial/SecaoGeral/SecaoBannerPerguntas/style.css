@@ -19,6 +19,14 @@
     text-decoration: none;
 }
 
+/* Mouse Hover */
+.link-perguntas:hover {
+    transform: scale(1.1);
+transition: 200ms linear;
+}
+
+
+/* Media Query */
 @media screen and (max-width: 670px) {
     .link-perguntas {
         font-size: 50px;

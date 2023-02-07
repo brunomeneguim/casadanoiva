@@ -63,9 +63,21 @@
     font-weight: 600;
 }
 
+/* Mouse Hover */
+.secao-contato-titulo:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
 
+.contato-icones a:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+
+/* Media Query */
 @media screen and (max-width: 180px) {
-    .contato-icones a{
+    .contato-icones a {
         overflow: hidden;
     }
 }
@@ -87,10 +99,11 @@
 }
 
 @media screen and (max-width: 310px) {
-    .contato-icones a{
+    .contato-icones a {
         font-size: 10px;
         flex-direction: column;
     }
+
     .contato-icones img {
         padding-bottom: 10px;
     }

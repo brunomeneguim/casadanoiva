@@ -2,9 +2,9 @@ import "./style.css";
 
 export default function SecaoOutros() {
     return (
-        <section className="secao-outros">
+        <section className="secao-outros" id="outros">
             <div className="container-servicos">
-                <div className="card-outros" id="outros">
+                <div className="card-outros" >
                     <h1 className="outros-titulo">Sapatos</h1>
                     <p className="outros-paragrafo">Sim. Por causa do código de ética do psicólogo não é autorizado divulgar
                         os valores das sessões por aqui. Porém no pacote mensal (4 sessões) o valor é
@@ -18,7 +18,7 @@ export default function SecaoOutros() {
             </div>
 
             <div className="container-servicos">
-                <div className="card-outros" id="outros">
+                <div className="card-outros">
                     <h1 className="outros-titulo">Costureira</h1>
                     <p className="outros-paragrafo">Sim. Por causa do código de ética do psicólogo não é autorizado divulgar
                         os valores das sessões por aqui. Porém no pacote mensal (4 sessões) o valor é
@@ -32,7 +32,7 @@ export default function SecaoOutros() {
             </div>
 
             <div className="container-servicos">
-                <div className="card-outros" id="outros">
+                <div className="card-outros">
                     <h1 className="outros-titulo">Lavanderia</h1>
                     <p className="outros-paragrafo">Sim. Por causa do código de ética do psicólogo não é autorizado divulgar
                         os valores das sessões por aqui. Porém no pacote mensal (4 sessões) o valor é

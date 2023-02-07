@@ -4,20 +4,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-
-
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
 
 import "./style.css";
 
 export default function SecaoPrimeiroServico() {
+
     return (
-        <div className="secao-primeiro-servico" >
-            <div className="card-acessorios" id="acessorios">
+
+        <div className="secao-primeiro-servico" id="acessorios">
+            <div className="card-acessorios">
                 <h1 className="acessorios-titulo">Acessórios</h1>
                 <p className="acessorios-paragrafo">Sim. Por causa do código de ética do psicólogo não é autorizado divulgar
                     os valores das sessões por aqui. Porém no pacote mensal (4 sessões) o valor é
@@ -43,7 +41,6 @@ export default function SecaoPrimeiroServico() {
             </Swiper>
 
         </div>
+
     );
 }
-
-

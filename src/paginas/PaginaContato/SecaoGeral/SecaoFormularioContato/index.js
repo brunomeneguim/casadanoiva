@@ -4,20 +4,15 @@ import './style.css';
 export default function SecaoFormularioContato() {
     return (
 
-        /* INICIO SEÇÃO FORMULÁRIO */
-        <div className="secao-formulario">
 
-            <h1>Entre em contato</h1>
+        <div className="secao-formulario" >
 
-            {/* INICIO CONTAINER FORMULÁRIO */}
-            <div className="container-formulario">
-
-                <h2>Envie-nos uma mensagem</h2>
-
-                {/* INICIO FORMULÁRIO */}
+            <div className="container-formulario" id="contato">
+                {/* <h2>Envie-nos uma mensagem</h2> */}
+                <h1>Entre em contato</h1>
                 <form className="formulario"
                     method="POST"
-                    action="">
+                    action="https://formsubmit.co/brunomeneguim@hotmail.com">
 
                     <label htmlFor="nome">Nome</label>
                     <input type="text"
@@ -57,14 +52,10 @@ export default function SecaoFormularioContato() {
                     </textarea>
 
                     <button type="submit">Enviar</button>
-
+                    <input type="hidden" name="_next" value="/"></input>
+                    <input type="hidden" name="_captcha" value="false"></input>
                 </form>
-                {/* FIM FORMULÁRIO */}
-
             </div>
-            {/* FIM CONTAINER FORMULÁRIO */}
-
         </div>
-        /* FIM SEÇÃO FORMULÁRIO */
     )
 }

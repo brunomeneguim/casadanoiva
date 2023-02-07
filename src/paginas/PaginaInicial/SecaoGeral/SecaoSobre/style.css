@@ -34,13 +34,23 @@
     font-size: 20px;
 }
 
+/* Mouse Hover */
+.link-sobre:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+
+/* Media Query */
 @media screen and (max-width: 520px) {
     .link-sobre {
         font-size: 25px;
     }
+
     .secao-sobre h2 {
         font-size: 15px;
     }
+
     .secao-sobre p {
         font-size: 15px;
     }

@@ -1,11 +1,12 @@
-import { Link } from 'react-router-dom';
+import React from "react";
+import { HashLink as Link } from 'react-router-hash-link';
 import './style.css';
 
 /* FUNÇÃO QUE EXPORTA A SECAO SERVICOS PARA A SECAO GERAL */
 export default function SecaoServicos() {
+
     return (
 
-        /* INICIO SECAO SERVICOS */
         <section className="secao-servicos">
             <div className="container-img-secao-servicos">
                 <img src="./assets/imgSecaoServicos.jpg"
@@ -14,7 +15,7 @@ export default function SecaoServicos() {
 
             <div className='container-secao-servicos'>
 
-                <Link className='link-servicos' to='/servicos'>Serviços que oferecemos</Link>
+                <Link className='link-servicos' to='/servicos#top'>Serviços que oferecemos</Link>
 
                 <div className="container-lista-servicos">
                     <div className='lista-servicos'>
@@ -36,9 +37,8 @@ export default function SecaoServicos() {
 
                         <img src="./assets/iconeAcessorios.png"
                             alt="Ícone de Acessórios" />
-
                         <Link className="secao-servicos-link"
-                            to="/servicos">
+                            to="/servicos#acessorios">
 
                             <h2>Acessórios</h2>
 
@@ -53,7 +53,7 @@ export default function SecaoServicos() {
                             alt="Ícone de Véus" />
 
                         <Link className="secao-servicos-link"
-                            to="/servicos">
+                            to="/servicos#veus">
 
                             <h2>Véus</h2>
 
@@ -67,7 +67,7 @@ export default function SecaoServicos() {
                             alt="Ícone Outros" />
 
                         <Link className="secao-servicos-link"
-                            to="/servicos">
+                            to="/servicos#outros">
 
                             <h2>Outros</h2>
                             <p>Sapatos x, Costureira x, Lavanderia x</p>
@@ -76,6 +76,5 @@ export default function SecaoServicos() {
                 </div>
             </div>
         </section>
-        /* FIM SECAO SERVICOS */
     );
 }

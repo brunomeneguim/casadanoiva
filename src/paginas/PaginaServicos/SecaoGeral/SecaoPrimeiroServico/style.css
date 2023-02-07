@@ -63,7 +63,26 @@
   color: #fff;
 }
 
+/* Mouse Hover */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(1.1);
+  transition: 200ms linear;
+}
+/*
+.swiper-slide img:hover {
+  transform: scale(1.1);
+  transition: 200ms linear;
+}*/
 
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet-active:hover {
+  transform: scale(1.1);
+  transition: 200ms linear;
+}
+
+
+/* Media Query */
 @media screen and (max-width: 600px) {
   .secao-primeiro-servico {
     flex-direction: column;

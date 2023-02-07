@@ -95,11 +95,41 @@
     /*align-items: center;*/
 }
 
+/* Mouse Hover */
+.link-login:hover {
+    transform: scale(1.1);
+    -webkit-text-stroke: 0.5px #CE947B;
+    transition: 200ms linear;
+}
+
+.link-logo:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+.link-cabecalho:hover {
+    transform: scale(1.1);
+    -webkit-text-stroke: 1px #CE947B;
+    transition: 200ms linear;
+}
+
+.icone-localizacao:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+.icone-instagram:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+/* Media Query */
 @media screen and (max-width: 950px) {
     .container-login {
         align-self: center;
-        padding: 0;        
+        padding: 0;
     }
+
     .container-logo-links {
         flex-direction: column;
         padding-bottom: 20px;
@@ -134,6 +164,7 @@
         margin: 0;
         padding: 20px;
     }
+
     .container-icones {
         padding-top: 20px;
     }

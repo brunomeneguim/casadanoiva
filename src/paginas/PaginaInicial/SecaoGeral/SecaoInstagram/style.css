@@ -28,6 +28,13 @@
     text-decoration: none;
 }
 
+/* Mouse Hover */
+.link-instagram:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+/* Media Query */
 @media screen and (max-width: 260px) {
     .link-instagram {
         font-size: 45px;

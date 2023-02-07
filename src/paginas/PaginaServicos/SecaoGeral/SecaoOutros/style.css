@@ -39,6 +39,20 @@
   padding-bottom: 30px;
 }
 
+/* Mouse Hover */
+/*
+.card-outros:hover {
+  transform: scale(1.1);
+  transition: 200ms linear;
+}*/
+
+.imagem-servico:hover {
+  transform: scale(1.1);
+  transition: 200ms linear;
+}
+
+
+/* Media Query */
 @media screen and (max-width: 1080px) {
   .outros-titulo {
     font-size: 50px;
@@ -51,6 +65,7 @@
     font-size: 35px;
     transition: 1s;
   }
+
   .outros-paragrafo {
     font-size: 13px;
     transition: 1s;
@@ -63,6 +78,7 @@
     width: 100%;
     align-items: center;
   }
+
   .container-servicos {
     width: 100%;
   }
@@ -73,5 +89,5 @@
     font-size: 25px;
     transition: 1s;
   }
-  
+
 }
