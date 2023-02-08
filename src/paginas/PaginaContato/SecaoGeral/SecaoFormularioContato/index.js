@@ -13,7 +13,7 @@ export default function SecaoFormularioContato() {
             <div className="container-formulario" id="contato">
 
                 {/* <h2>Envie-nos uma mensagem</h2> */}
-                <h1>Entre em contato</h1>
+                <h1 className='titulo-formulario'>Entre em contato</h1>
                 <form className="formulario"
                     method="POST"
                     action="https://formsubmit.co/brunomeneguim@hotmail.com">
@@ -62,18 +62,21 @@ export default function SecaoFormularioContato() {
             </div>
 
             <div className="container-feedback" >
-                <h2>Se você já é nossa noivinha, deixe aqui seu feedback</h2>
+                <div className='box-feedback'>
+                    <h2 className='texto-feedback'>Se você já é nossa noivinha, deixe aqui seu feedback</h2>
 
-                <a className="link-feedback"
-                    target="_blank"
-                    rel='noreferrer'
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfmUNOTGZVAlsjg1UEjGs5lOhoA84B2_0dyiPziSdbsbo6sAw/viewform">
-                    Feedback
-                    <img className='img-feedback'
-                        src="/assets/iconeFeedback.png"
-                        alt='Ícone de Feedback' />
-                </a>
+                    <a className="link-feedback"
+                        target="_blank"
+                        rel='noreferrer'
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfmUNOTGZVAlsjg1UEjGs5lOhoA84B2_0dyiPziSdbsbo6sAw/viewform">
+                        Feedback
+                        <img className='img-feedback'
+                            src="/assets/iconeFeedback.png"
+                            alt='Ícone de Feedback' />
+                    </a>
+                </div>
+
             </div>
         </div>
-    )
+    );
 }
