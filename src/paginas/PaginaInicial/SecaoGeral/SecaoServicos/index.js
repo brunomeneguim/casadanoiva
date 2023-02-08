@@ -63,7 +63,7 @@ export default function SecaoServicos() {
                     </div>
                     <div className='lista-servicos'>
 
-                        <img src="./assets/iconeOutros.png"
+                        <img src="./assets/iconeSapato.png"
                             alt="Ícone Outros" />
 
                         <Link className="secao-servicos-link"

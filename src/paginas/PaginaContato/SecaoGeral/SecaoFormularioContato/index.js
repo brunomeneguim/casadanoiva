@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import './style.css';
 
 /* FUNÇÃO QUE EXPORTA A SECAO FORMULARIO PARA A SECAO GERAL */
@@ -65,12 +64,15 @@ export default function SecaoFormularioContato() {
             <div className="container-feedback" >
                 <h2>Se você já é nossa noivinha, deixe aqui seu feedback</h2>
 
-                <Link className="link-feedback"
+                <a className="link-feedback"
                     target="_blank"
-                    to="https://docs.google.com/forms/d/e/1FAIpQLSfmUNOTGZVAlsjg1UEjGs5lOhoA84B2_0dyiPziSdbsbo6sAw/viewform">
+                    rel='noreferrer'
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfmUNOTGZVAlsjg1UEjGs5lOhoA84B2_0dyiPziSdbsbo6sAw/viewform">
                     Feedback
-                    <img className='img-feedback' src="/assets/iconeFeedback.png" alt='Ícone de Feedback' />
-                </Link>
+                    <img className='img-feedback'
+                        src="/assets/iconeFeedback.png"
+                        alt='Ícone de Feedback' />
+                </a>
             </div>
         </div>
     )
