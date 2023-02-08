@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './style.css';
 
 /* FUNÇÃO QUE EXPORTA A SECAO FORMULARIO PARA A SECAO GERAL */
@@ -6,9 +7,12 @@ export default function SecaoFormularioContato() {
 
 
         <div className="secao-formulario" >
+            {/* <div className='container-img-fundo-contato'>
+                <img className='img-fundo-contato' src='/assets/imgFundoContato.jpg' alt='Imagem de fundo' />
+            </div> */}
 
             <div className="container-formulario" id="contato">
-            
+
                 {/* <h2>Envie-nos uma mensagem</h2> */}
                 <h1>Entre em contato</h1>
                 <form className="formulario"
@@ -56,6 +60,17 @@ export default function SecaoFormularioContato() {
                     <input type="hidden" name="_next" value="/"></input>
                     <input type="hidden" name="_captcha" value="false"></input>
                 </form>
+            </div>
+
+            <div className="container-feedback" >
+                <h2>Se você já é nossa noivinha, deixe aqui seu feedback</h2>
+
+                <Link className="link-feedback"
+                    target="_blank"
+                    to="https://docs.google.com/forms/d/e/1FAIpQLSfmUNOTGZVAlsjg1UEjGs5lOhoA84B2_0dyiPziSdbsbo6sAw/viewform">
+                    Feedback
+                    <img className='img-feedback' src="/assets/iconeFeedback.png" alt='Ícone de Feedback' />
+                </Link>
             </div>
         </div>
     )

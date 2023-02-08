@@ -12,7 +12,7 @@ export default function SecaoOutros() {
                         Se você tem interesse em fazer terapia, me chama no chat que te passo os valores!
                     </p>
                     <img className="imagem-servico"
-                        src="/assets/imgServicos/Outros/imgServicoSapato.jpg"
+                        src="/assets/imgServicos/Sapatos/imgServicoSapato.jpg"
                         alt="Imagem Sapato" />
                 </div>
             </div>
@@ -26,7 +26,7 @@ export default function SecaoOutros() {
                         Se você tem interesse em fazer terapia, me chama no chat que te passo os valores!
                     </p>
                     <img className="imagem-servico"
-                        src="/assets/imgServicos/Outros/imgServicoCostureira.jpg"
+                        src="/assets/imgServicos/Costureira/imgServicoCostureira.jpg"
                         alt="Imagem Costureira" />
                 </div>
             </div>
@@ -40,7 +40,7 @@ export default function SecaoOutros() {
                         Se você tem interesse em fazer terapia, me chama no chat que te passo os valores!
                     </p>
                     <img className="imagem-servico"
-                        src="/assets/imgServicos/Outros/imgServicoLavanderia.jpg"
+                        src="/assets/imgServicos/Lavanderia/imgServicoLavanderia.jpg"
                         alt="Imagem Lavanderia" />
                 </div>
             </div>

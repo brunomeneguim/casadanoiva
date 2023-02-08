@@ -29,10 +29,10 @@ export default function SecaoSegundoServico() {
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
             >
-                <SwiperSlide><img src="./assets/imgServicos/veus/imgSlider1.jpg" alt="Slide 1" /></SwiperSlide>
-                <SwiperSlide><img src="./assets/imgServicos/veus/imgSlider2.jpg" alt="Slide 2" /></SwiperSlide>
-                <SwiperSlide><img src="./assets/imgServicos/veus/imgSlider3.jpg" alt="Slide 3" /></SwiperSlide>
-                <SwiperSlide><img src="./assets/imgServicos/veus/imgSlider4.jpg" alt="Slide 4" /></SwiperSlide>
+                <SwiperSlide><img src="./assets/imgServicos/veus/imgServicoVeus1.jpg" alt="Slide 1" /></SwiperSlide>
+                <SwiperSlide><img src="./assets/imgServicos/veus/imgServicoVeus2.jpg" alt="Slide 2" /></SwiperSlide>
+                <SwiperSlide><img src="./assets/imgServicos/veus/imgServicoVeus3.jpg" alt="Slide 3" /></SwiperSlide>
+                <SwiperSlide><img src="./assets/imgServicos/veus/imgServicoVeus4.jpg" alt="Slide 4" /></SwiperSlide>
             </Swiper>
             <div className="card-veus">
                 <h1 className="veus-titulo">Véus</h1>

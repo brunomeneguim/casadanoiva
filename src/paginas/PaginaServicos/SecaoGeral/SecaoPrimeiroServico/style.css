@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-   padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .card-acessorios {
@@ -69,6 +69,7 @@
   transform: scale(1.1);
   transition: 200ms linear;
 }
+
 /*
 .swiper-slide img:hover {
   transform: scale(1.1);
@@ -87,6 +88,7 @@
   .secao-primeiro-servico {
     flex-direction: column;
   }
+
   .card-acessorios {
     width: 90%;
   }
