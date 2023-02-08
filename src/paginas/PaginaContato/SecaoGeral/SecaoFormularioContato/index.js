@@ -8,6 +8,7 @@ export default function SecaoFormularioContato() {
         <div className="secao-formulario" >
 
             <div className="container-formulario" id="contato">
+            
                 {/* <h2>Envie-nos uma mensagem</h2> */}
                 <h1>Entre em contato</h1>
                 <form className="formulario"
