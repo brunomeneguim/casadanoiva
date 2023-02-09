@@ -5,7 +5,7 @@ export default function SecaoVestido1() {
     return (
         <section className='secao-vestido-claro' id='tipo-vestido1'>
             <div>
-                <h1 className='titulo-vestido-claro' >Vestido1</h1>
+                <h1 className='titulo-vestido-claro'>Vestido1</h1>
             </div>
             <div className='container-imagens-vestido-claro'>
                 {

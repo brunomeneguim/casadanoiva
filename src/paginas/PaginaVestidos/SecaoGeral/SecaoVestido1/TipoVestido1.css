@@ -1,3 +1,4 @@
+/* Container da página */
 .secao-vestido-claro {
     display: flex;
     flex-direction: column;
@@ -5,6 +6,7 @@
     background-color: #fff;
 }
 
+/* Texto da Seção */
 .titulo-vestido-claro {
     display: center;
     font-family: 'Great Vibes';
@@ -16,6 +18,7 @@
     padding-top: 40px;
 }
 
+/* Container Geral para agrupamento das imagens */
 .container-imagens-vestido-claro {
     display: flex;
     align-items: center;
@@ -25,85 +28,139 @@
     width: 100%;
 }
 
-.img-vestido1 {
-    max-width: 100%;
-    width: 100%;
-    display: flex;
-}
-
+/* Container da Imagem */
 figure.vestido1 {
     width: 25%;
-    padding: 0;
     display: block;
     position: relative;
     overflow: hidden;
     box-shadow: 5px 0 20px 3px #B9AEAC;
 }
 
+/* Imagem */
+.img-vestido1 {
+    width: 100%;
+    display: block;
+}
+
+/* Comportamento da caption sem o mouse hover */
+figure.vestido1 .caption-vestido1 {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    z-index: 100;
+    width: 100%;
+    max-height: 100%;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    background: white;
+    opacity: 0;
+
+    box-sizing: border-box;
+    transition: all 0.5s;
+    transform: translate3d(-100%, -50%, 0);
+
+    -moz-box-sizing: border-box;
+    -moz-transition: all 0.5s;
+    -moz-transform: translate3d(-100%, -50%, 0);
+
+    -webkit-box-sizing: border-box;
+    -webkit-transition: all 0.5s;
+    -webkit-transform: translate3d(-100%, -50%, 0);
+}
+
+/* Texto que será deslocado no mouse hover */
 .texto-vestido1 {
-    color: #BB7D68;
+    display: block;
+    color: #8D5951;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center;
 }
 
-figure.vestido1 .caption-vestido1 {
-    position: absolute;
-    display: block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: center;
-    background: white;
-    padding: 10px;
-    z-index: 100;
-    width: 100%;
-    max-height: 100%;
-    overflow: hidden;
-    top: 50%;
-    left: 0;
-    -moz-transform: translate3d(-100%, -50%, 0);
-    -webkit-transform: translate3d(-100%, -50%, 0);
-    transform: translate3d(-100%, -50%, 0);
-    opacity: 0;
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-
-}
-
 /*** Efeitos ****/
+/* Deslocamento da imagem */
 figure.efeito .img-vestido1 {
-    -moz-transform: translate3d(0, 0, 0);
-    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    transition: all 0.5s;
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    transition: all 0.5s;
 }
 
+/* Deslocamento da caption */
 figure.efeito .caption-vestido1 {
     top: 100%;
     opacity: 70%;
+
+    transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
 }
 
-
+/* Mouse Hover */
+/* Deslocamento da imagem com mouse hover */
 figure.efeito:hover .img-vestido1 {
     transform: translate3d(0, -20px, 0);
     transform: scale(1.1);
     transition: 300ms linear;
 }
 
+/* Deslocamento da caption com mouse hover */
 figure.efeito:hover .caption-vestido1 {
-    -moz-transform: translate3d(0, -100%, 0);
-    /* move caption up vertically to fully reveal caption */
-    -webkit-transform: translate3d(0, -100%, 0);
+    box-shadow: 0px -2px 28px rgba(0, 0, 0, 0.3);
+
+    /* Tamanho do fundo da caption que irá aparecer */
+    /* moz e webkit para navegadores */
+    transition: all 0.5s;
     transform: translate3d(0, -100%, 0);
+    -moz-transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    box-shadow: 0px -2px 28px rgba(0, 0, 0, 0.3);
+}
+
+/* Media Query */
+@media screen and (max-width: 975px) {
+    figure.vestido1 {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .texto-vestido1 {
+        font-size: 15px;
+        transition: 1s;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    figure.vestido1 {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .texto-vestido1 {
+        font-size: 10px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .titulo-vestido-claro {
+        font-size: 50px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 210px) {
+    .titulo-vestido-claro {
+        font-size: 40px;
+        transition: 1s;
+    }
 }
