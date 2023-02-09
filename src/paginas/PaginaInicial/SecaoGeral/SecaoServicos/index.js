@@ -15,7 +15,7 @@ export default function SecaoServicos() {
 
             <div className='container-secao-servicos'>
 
-                <Link className='link-servicos' to='/servicos#top'>Serviços que oferecemos</Link>
+                <Link className='link-servicos' to='/servicos#servicos'>Serviços que oferecemos</Link>
 
                 <div className="container-lista-servicos">
                     <div className='lista-servicos'>

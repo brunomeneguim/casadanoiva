@@ -11,15 +11,8 @@ export default function SecaoVestido1() {
                 {
                     imgVestidos && imgVestidos.map(imgVestidos => {
                         return (
-
-
                             <figure className="vestido1 efeito" key={imgVestidos.id}>
-
-                                <img className='img-vestido1'
-                                    src={imgVestidos.imagem}
-                                    alt={imgVestidos.name}
-
-
+                                <img className='img-vestido1' src={imgVestidos.imagem} alt={imgVestidos.name}
                                 />
                                 <figcaption className='caption-vestido1'>
                                     <h4 className='texto-vestido1'>{imgVestidos.caption}</h4>
