@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "json-loader": "^0.5.7",
     "webpack": "^5.75.0"
   }
 }

@@ -75,7 +75,6 @@ export default function SecaoFormularioContato() {
                             alt='Ícone de Feedback' />
                     </a>
                 </div>
-
             </div>
         </div>
     );

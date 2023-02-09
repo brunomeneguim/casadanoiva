@@ -1,0 +1,56 @@
+.secao-vestido-escuro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+    background-color: #BB7D68;
+}
+
+.titulo-vestido-escuro {
+    display: center;
+    font-family: 'Great Vibes';
+    letter-spacing: 3px;
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.container-imagens-vestido-escuro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box-img-vestido-escuro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+    width: 30%;
+    padding: 40px 20px;
+}
+
+.img-vestido-escuro {
+    display: flex;
+    width: 90%;
+    box-shadow: 5px 0 20px 3px #8D5951;
+}
+
+/* Mouse Hover */
+
+.titulo-vestido-escuro:hover {
+    transform: scale(1.05);
+    transition: 200ms linear;
+}
+
+.img-vestido-escuro:hover {
+    transform: scale(1.02);
+    transition: 300ms linear;
+}

@@ -1,0 +1,107 @@
+.secao-vestido-claro {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+
+.titulo-vestido-claro {
+    display: center;
+    font-family: 'Great Vibes';
+    letter-spacing: 3px;
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+    color: #BB7D68;
+    padding-top: 40px;
+}
+
+.container-imagens-vestido-claro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.img-vestido1 {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+}
+
+/*** Default shared CSS ****/
+figure.vestido1 {
+    width: 25%;
+    padding: 0;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 0 20px 3px #B9AEAC;
+    /* hide overflowing elements by default */
+}
+
+figure.vestido1 .caption-vestido1 {
+    position: absolute;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    background: white;
+    padding: 10px;
+    z-index: 100;
+    width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    top: 50%;
+    left: 0;
+    -moz-transform: translate3d(-100%, -50%, 0);
+    /* position caption outside layout horizontally and centered vertically */
+    -webkit-transform: translate3d(-100%, -50%, 0);
+    transform: translate3d(-100%, -50%, 0);
+    opacity: 0;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
+
+/*** Push Up effect ****/
+figure.efeito .img-vestido1 {
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+figure.efeito .caption-vestido1 {
+    top: 100%;
+    opacity: 60%;
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+
+figure.efeito:hover .img-vestido1 {
+    /* move image up vertically a bit for parallax effect */
+    /* -webkit-transform: translate3d(0, -20px, 0);*/
+    transform: translate3d(0, -20px, 0);
+    transform: scale(1.1);
+    transition: 300ms linear;
+}
+
+figure.efeito:hover .caption-vestido1 {
+    -moz-transform: translate3d(0, -100%, 0);
+    /* move caption up vertically to fully reveal caption */
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    box-shadow: 0px -2px 28px rgba(0, 0, 0, 0.3);
+}
