@@ -26,6 +26,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 70%;
 }
 
 .contato-icones img {
@@ -39,6 +40,10 @@
     color: #CE947B;
     font-weight: 600;
     padding-bottom: 10px;
+}
+
+.icones-contato {
+    margin: 15px 0;
 }
 
 .secao-contato-titulo {
@@ -84,6 +89,7 @@
 @media screen and (max-width: 225px) {
     .secao-contato-titulo {
         font-size: 50px;
+        transition: 1s;
     }
 
     .contato-icones {
@@ -94,6 +100,7 @@
 @media screen and (max-width: 245px) {
     .texto-contato {
         font-size: 15px;
+        transition: 1s;
     }
 }
 

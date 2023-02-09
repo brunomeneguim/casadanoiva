@@ -6,7 +6,7 @@ import './style.css';
 export default function SecaoContato() {
     return (
         <section className="secao-contato">
-            <div className="contato-borda-top"></div>    
+            <div className="contato-borda-top"></div>
             <div className="container-secao-contato">
                 <Link className='secao-contato-titulo' to='/contato#contato'>Entre em contato</Link>
 
@@ -15,22 +15,32 @@ export default function SecaoContato() {
                     Entre em contato comigo para mais informações e também para agendar uma sessão.
                 </p>
 
-                <p className="endereco-contato">Casa da Noiva - Rua Quintino Bocaíuva, 947 - Centro, Guarapuava - PR, 85010-300, Brasil</p>
+
 
                 <nav className='contato-icones'>
 
-                    <a href="mailto:anne_wendler@hotmail.com"
-                        alt="E-mail do Atêlie">
-                        <img alt="Ícone E-mail"
-                            src="../../../assets/iconeEmail.png" />
+                    <a className='icones-contato'
+                        href="https://www.google.com.br/maps/place/Casa+da+Noiva/@-25.3996489,-51.4686269,17z/data=!3m1!4b1!4m5!3m4!1s0x94ef37c33a87ec89:0x4fd3c5c50cf7b6d0!8m2!3d-25.3996571!4d-51.4664418"
+                        target="_blank"
+                        rel='noreferrer'>
+                        <img alt='Ícone da Localização' src='./assets/iconeLocalizacao.png' />
+                        Casa da Noiva - Rua Quintino Bocaíuva, 947 - Centro, Guarapuava - PR, 85010-300, Brasil
+                    </a>
+
+                    <a className='icones-contato'
+                        href="mailto:anne_wendler@hotmail.com"
+                        alt="E-mail do Atêlie"
+                        rel='noreferrer'>
+                        <img alt="Ícone E-mail" src="./assets/iconeEmail.png" />
                         E-mail: anne_wendler@hotmail.com
 
                     </a>
 
-                    <a href="tel:5542999901300"
-                        alt="Telefone do Atêlie">
-                        <img alt="Ícone Telefone"
-                            src="../../../assets/iconeTelefone.png" />
+                    <a className='icones-contato'
+                        href="tel:5542999901300"
+                        alt="Telefone do Atêlie"
+                        rel='noreferrer'>
+                        <img alt="Ícone Telefone" src="./assets/iconeTelefone.png" />
                         Celular: (42) 9-9990-1300
 
                     </a>
