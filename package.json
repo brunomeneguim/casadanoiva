@@ -1,7 +1,7 @@
 {
   "name": "casadanoiva",
   "version": "0.1.0",
-  "homepage":"https://www.casadanoiva.net",
+  "homepage": "https://www.casadanoiva.net",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -13,7 +13,7 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-    "react-router-dom": "^6.8.0",
+    "react-router-dom": "^6.8.1",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-switch": "^7.0.0",

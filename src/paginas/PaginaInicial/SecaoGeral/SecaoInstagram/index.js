@@ -11,7 +11,7 @@ export default function SecaoInstagram() {
             title='Instagram'
             scrolling="no" 
             allowtransparency="true" 
-            class="lightwidget-widget"></iframe>
+            className="lightwidget-widget"></iframe>
         </section>
     );
 }
