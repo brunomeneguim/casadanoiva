@@ -1,17 +1,52 @@
 import React from 'react';
-import './App.css';
-import Rotas from './Rotas';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import PaginaInicial from './paginas/PaginaInicial'
+import PaginaVestidos from './paginas/PaginaVestidos';
+import PaginaServicos from './paginas/PaginaServicos';
+import PaginaSobre from './paginas/PaginaSobre';
+import PaginaContato from './paginas/PaginaContato/';
+import Erro404 from './componentes/erro404';
 
 
 function App() {
   return (
-    <main className="App">     
-      <Rotas />
+    <main className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<PaginaInicial />}></Route>
+          <Route path="/vestidos" element={<PaginaVestidos />}></Route>
+          <Route path="/servicos" element={<PaginaServicos />}></Route>
+          <Route path="/sobre" element={<PaginaSobre />}></Route>
+          <Route path="/contato" element={<PaginaContato />}></Route>
+          {/* Página de Erro */}
+          <Route path="*" element={<Erro404 />}></Route>
+        </Routes>
+      </BrowserRouter>
     </main>
   );
 }
 
 export default App;
+
+
+
+
+
+// import Rotas from './Rotas'
+// import React from 'react';
+
+
+// function App() {
+//   return (
+//     <main className="App">
+//       <Rotas />
+//     </main>
+//   );
+// }
+
+// export default App;
+
 
 
 
