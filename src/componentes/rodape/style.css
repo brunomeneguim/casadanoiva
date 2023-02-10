@@ -1,12 +1,12 @@
 .container-rodape {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #BB7D68;
     color: #fff;
 }
 
-@media screen and (max-width: 460px){
-    .texto-rodape{
+@media screen and (max-width: 460px) {
+    .texto-rodape {
         font-size: 12px;
         text-align: center;
     }
