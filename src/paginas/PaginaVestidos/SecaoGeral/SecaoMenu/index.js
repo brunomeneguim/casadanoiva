@@ -5,11 +5,11 @@ export default function SecaoMenu() {
     return (
         <section className='container-menu-vestidos'>
             <nav className='links-menu-vestido'>
-                <Link className='link-vestido' to="/vestidos#tipo-vestido1">Vestido</Link>
-                <Link className='link-vestido' to="/vestidos#tipo-vestido2">Vestido</Link>
-                <Link className='link-vestido' to="/vestidos#tipo-vestido3">Vestido</Link>
-                <Link className='link-vestido' to="/vestidos#tipo-vestido4">Vestido</Link>
-                <Link className='link-vestido' to="/vestidos#tipo-vestido5">Vestido</Link>
+                <Link className='link-vestido' to="/vestidos#primeiro-vestido">Vestido1</Link>
+                <Link className='link-vestido' to="/vestidos#segundo-vestido">Vestido2</Link>
+                <Link className='link-vestido' to="/vestidos#terceiro-vestido">Vestido3</Link>
+                <Link className='link-vestido' to="/vestidos#quarto-vestido">Vestido4</Link>
+                <Link className='link-vestido' to="/vestidos#quinto-vestido">Vestido5</Link>
             </nav>
         </section>
     );

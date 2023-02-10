@@ -1,5 +1,7 @@
+/* SECAO VESTIDO TIPO 1 - BACKGROUND CLARO */
+
 /* Container da página */
-.secao-vestido-claro {
+.secao-primeiro-vestido {
     display: flex;
     flex-direction: column;
     padding-bottom: 100px;
@@ -7,7 +9,7 @@
 }
 
 /* Texto da Seção */
-.titulo-vestido-claro {
+.titulo-primeiro-vestido {
     display: center;
     font-family: 'Great Vibes';
     letter-spacing: 3px;
@@ -19,7 +21,7 @@
 }
 
 /* Container Geral para agrupamento das imagens */
-.container-imagens-vestido-claro {
+.container-primeiro-vestido {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,22 +31,22 @@
 }
 
 /* Container da Imagem */
-figure.vestido1 {
+figure.fig-primeiro-vestido {
     width: 25%;
     display: block;
     position: relative;
     overflow: hidden;
-    box-shadow: 5px 0 20px 3px #B9AEAC;
+    box-shadow: 5px 0 20px 10px #E8DAD2;
 }
 
 /* Imagem */
-.img-vestido1 {
+.img-primeiro-vestido {
     width: 100%;
     display: block;
 }
 
 /* Comportamento da caption sem o mouse hover */
-figure.vestido1 .caption-vestido1 {
+figure.fig-primeiro-vestido .caption-primeiro-vestido {
     position: absolute;
     display: block;
     overflow: hidden;
@@ -71,9 +73,9 @@ figure.vestido1 .caption-vestido1 {
 }
 
 /* Texto que será deslocado no mouse hover */
-.texto-vestido1 {
+.texto-primeiro-vestido {
     display: block;
-    color: #8D5951;
+    color: #BB7D68;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -81,7 +83,7 @@ figure.vestido1 .caption-vestido1 {
 
 /*** Efeitos ****/
 /* Deslocamento da imagem */
-figure.efeito .img-vestido1 {
+figure.pushup-primeiro-vestido .img-primeiro-vestido {
     transform: translate3d(0, 0, 0);
     transition: all 0.5s;
 
@@ -92,9 +94,9 @@ figure.efeito .img-vestido1 {
 }
 
 /* Deslocamento da caption */
-figure.efeito .caption-vestido1 {
+figure.pushup-primeiro-vestido .caption-primeiro-vestido {
     top: 100%;
-    opacity: 70%;
+    opacity: 85%;
 
     transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -103,14 +105,14 @@ figure.efeito .caption-vestido1 {
 
 /* Mouse Hover */
 /* Deslocamento da imagem com mouse hover */
-figure.efeito:hover .img-vestido1 {
+figure.pushup-primeiro-vestido:hover .img-primeiro-vestido {
     transform: translate3d(0, -20px, 0);
     transform: scale(1.1);
     transition: 300ms linear;
 }
 
 /* Deslocamento da caption com mouse hover */
-figure.efeito:hover .caption-vestido1 {
+figure.pushup-primeiro-vestido:hover .caption-primeiro-vestido {
     box-shadow: 0px -2px 28px rgba(0, 0, 0, 0.3);
 
     /* Tamanho do fundo da caption que irá aparecer */
@@ -125,13 +127,13 @@ figure.efeito:hover .caption-vestido1 {
 
 /* Media Query */
 @media screen and (max-width: 975px) {
-    figure.vestido1 {
+    figure.fig-primeiro-vestido {
         width: 35%;
     }
 }
 
 @media screen and (max-width: 755px) {
-    .texto-vestido1 {
+    .texto-primeiro-vestido {
         font-size: 15px;
         transition: 1s;
         width: 100%;
@@ -139,28 +141,35 @@ figure.efeito:hover .caption-vestido1 {
 }
 
 @media screen and (max-width: 655px) {
-    figure.vestido1 {
+    figure.fig-primeiro-vestido {
         width: 70%;
     }
 }
 
 @media screen and (max-width: 335px) {
-    .texto-vestido1 {
+    .texto-primeiro-vestido {
         font-size: 10px;
         transition: 1s;
     }
 }
 
 @media screen and (max-width: 290px) {
-    .titulo-vestido-claro {
+    .titulo-primeiro-vestido {
         font-size: 50px;
         transition: 1s;
     }
 }
 
 @media screen and (max-width: 210px) {
-    .titulo-vestido-claro {
+    .titulo-primeiro-vestido {
         font-size: 40px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 210px) {
+    .titulo-primeiro-vestido {
+        font-size: 35px;
         transition: 1s;
     }
 }

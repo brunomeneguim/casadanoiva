@@ -24,7 +24,7 @@ export default function SecaoFormularioContato() {
 
 
             <div className="container-formulario" id="contato">
-                {/* <h2>Envie-nos uma mensagem</h2> */}
+               
                 <h1 className='titulo-formulario'>Entre em contato</h1>
                 <form className="formulario"
                     method="POST"
@@ -73,7 +73,7 @@ export default function SecaoFormularioContato() {
                 </form>
             </div>
 
-            <div className="container-feedback-whatsapp" >
+            <div className="container-feedback-whatsapp">
                 <div className='box-feedback-whatsapp'>
                     <h2 className='texto-feedback-whatsapp'>Se você já é nossa noivinha, deixe aqui seu feedback.</h2>
 
