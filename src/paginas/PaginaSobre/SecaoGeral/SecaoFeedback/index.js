@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './style.css';
 
 export default function SecaoFeedback() {
@@ -74,7 +73,8 @@ export default function SecaoFeedback() {
                     </figure>
                 </div>
                 <a className='rodape-feedback'
-                target="_blank"
+                    rel="noreferrer"
+                    target="_blank"
                     href='https://docs.google.com/forms/d/e/1FAIpQLSfmUNOTGZVAlsjg1UEjGs5lOhoA84B2_0dyiPziSdbsbo6sAw/viewform'>Envie-nos agora mesmo seu feedback</a>
             </div>
 
