@@ -5,7 +5,7 @@ export default function SecaoFeedback() {
     return (
         <section className='secao-sobre-feedback'>
             <div className='container-sobre-feedback'>
-                <h1 className='titulo-feedback'>Feedback</h1>
+                <h1 className='titulo-feedback'>Feedbacks</h1>
                 <div className='container-feedback'>
 
                     <figure className='container-imagem-feedback'>
@@ -73,8 +73,9 @@ export default function SecaoFeedback() {
                         </article>
                     </figure>
                 </div>
-                <Link className='rodape-feedback'
-                    to='/contato#contato'>Envie-nos agora mesmo um feedback.</Link>
+                <a className='rodape-feedback'
+                target="_blank"
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSfmUNOTGZVAlsjg1UEjGs5lOhoA84B2_0dyiPziSdbsbo6sAw/viewform'>Envie-nos agora mesmo seu feedback</a>
             </div>
 
         </section>

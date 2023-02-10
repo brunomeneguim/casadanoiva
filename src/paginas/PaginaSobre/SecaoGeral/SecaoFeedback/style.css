@@ -36,14 +36,14 @@
     flex-direction: row;
     width: 40%;
     padding: 20px;
-    /* border: 2px solid #BB7D68;
-    box-shadow: 2px 2px 20px 5px #BB7D68; */
+    border: 2px solid #BB7D68;
+    box-shadow: 1px 1px 1px  #BB7D68;
 }
 
 .img-feedback {
     display: flex;
     border-radius: 10px;
-    /* box-shadow: 2px 2px 2px #BB7D68; */
+    box-shadow: 2px 2px 2px #BB7D68;
     margin-right: 30px;
 }
 
