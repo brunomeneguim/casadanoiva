@@ -31,7 +31,7 @@
     font-family: 'Great Vibes';
     letter-spacing: 3px;
     text-decoration: none;
-    padding: 30px 0;
+    padding: 30px 20px;
     text-align: center;
 }
 
@@ -83,15 +83,7 @@
 }
 
 
-
-
 /* Media Query */
-@media screen and (max-width: 1380px) {
-    .container-secao-servicos h2 {
-        font-size: 20px;
-    }
-}
-
 @media screen and (max-width: 1065px) {
 
     .lista-servicos {
@@ -101,16 +93,19 @@
     .container-secao-servicos h1 {
         font-size: 25px;
         text-align: center;
+        transition: 1s;
     }
 
     .container-secao-servicos h2 {
         font-size: 20px;
         text-align: center;
+        transition: 1s;
     }
 
     .container-secao-servicos p {
         font-size: 15px;
         text-align: center;
+        transition: 1s;
     }
 
     .container-lista-servicos img {
@@ -135,5 +130,6 @@
 @media screen and (max-width: 265px) {
     .link-servicos {
         font-size: 35px;
+        transition: 1s;
     }
 }

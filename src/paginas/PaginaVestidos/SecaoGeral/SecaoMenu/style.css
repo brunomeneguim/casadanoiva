@@ -32,9 +32,16 @@
 }
 
 /* Media Query */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1075px) {
     .link-vestido {
-        font-size: 40px;
+        font-size: 38px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .link-vestido {
+        font-size: 35px;
         transition: 1s;
     }
 }

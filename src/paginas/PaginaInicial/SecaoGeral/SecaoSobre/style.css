@@ -12,21 +12,24 @@
 .link-sobre {
     margin-top: 60px;
     font-size: 70px;
+    font-weight: 00;
     color: #CE947B;
     font-family: 'Great Vibes';
     letter-spacing: 3px;
     text-decoration: none;
     text-align: center;
+    width: 80%;
 }
 
 .secao-sobre h2 {
     font-size: 25px;
     color: #E6B194;
     text-align: center;
+    width: 80%;
 }
 
 .secao-sobre p {
-    width: 50%;
+    width: 80%;
     text-align: justify;
     display: flex;
     justify-content: center;
@@ -38,20 +41,4 @@
 .link-sobre:hover {
     transform: scale(1.05);
     transition: 200ms linear;
-}
-
-
-/* Media Query */
-@media screen and (max-width: 520px) {
-    .link-sobre {
-        font-size: 25px;
-    }
-
-    .secao-sobre h2 {
-        font-size: 15px;
-    }
-
-    .secao-sobre p {
-        font-size: 15px;
-    }
 }

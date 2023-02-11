@@ -6,16 +6,18 @@
     flex-direction: column;
     background-color: #BB7D68;
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 .secao-titulo h1 {
     color: #E6B194;
     font-size: 35px;
     text-align: center;
+    width: 80%;
 }
 
 .secao-titulo h2 {
-    width: 100%;
+    width: 80%;
     color: #fff;
     font-size: 20px;
     text-align: center;

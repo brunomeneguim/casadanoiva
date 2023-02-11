@@ -5,10 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FCF9F7;
+    background-color: #FCF9F7;   
 }
 
+
 .secao-instagram iframe {
+    display: block;
     border: 0;
     width: 90%;
     height: 70%;
@@ -19,6 +21,7 @@
 }
 
 .link-instagram {
+    display: block;
     margin: 0;
     font-size: 80px;
     color: #CE947B;
@@ -37,21 +40,26 @@
 /* Media Query */
 @media screen and (max-width: 260px) {
     .link-instagram {
-        font-size: 45px;
+        font-size: 60px;
         transition: 1s;
     }
 }
 
-@media screen and (max-width: 1000px) {
-    .secao-instagram iframe {
-        height: 40vh;
-        transition: 1s;
+@media screen and (max-width: 950px) {
+    .secao-instagram {        
+        height: 65vh ; 
     }
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1250px) {
     .secao-instagram {
-        height: 80vh;
-        transition: 1s;
+        height: 70vh ; 
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .secao-instagram {
+        max-height: 80vh; 
+        margin: 40px 0;
     }
 }

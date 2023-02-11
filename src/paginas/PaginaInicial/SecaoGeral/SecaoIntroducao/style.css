@@ -14,19 +14,23 @@
 .secao-introducao h1 {
     color: #E6B194;
     font-size: 35px;
+    text-align: center;
+    width: 80%;
 }
 
 .secao-introducao h2 {
     font-size: 20px;
+    text-align: center;
+    width: 80%;
 }
 
 .secao-introducao p {
-    width: 70%;
+    width: 80%;
     text-align: justify;
     font-size: 20px;
 }
 
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
     .secao-introducao h2 {
         font-size: 15px;
     }
@@ -34,16 +38,16 @@
     .secao-introducao p {
         font-size: 15px;
     }
-}
+} */
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
     .secao-introducao h1 {
         font-size: 25px;
         transition: 1s;
     }
-}
+} */
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
     .secao-introducao h1 {
         font-size: 15px;
     }
@@ -55,9 +59,9 @@
     .secao-introducao p {
         font-size: 10px;
     }
-}
+} */
 
-@media screen and (max-width: 200px) {
+/* @media screen and (max-width: 200px) {
     .secao-introducao h1 {
         text-align: center;
     }
@@ -65,4 +69,4 @@
     .secao-introducao h2 {
         text-align: center;
     }
-}
+} */
