@@ -1,0 +1,48 @@
+.secao-frase {
+    width: 100%;
+    min-height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(#8D5951,#BB7D68,#fff );   
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.secao-frase h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.secao-frase p {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 410px) {
+    .secao-frase h1{
+        font-size: 20px;
+    }
+    .secao-frase p {
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 240px) {
+    .secao-frase h1{
+        font-size: 15px;
+    }
+    .secao-frase p {
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 180px) {
+    .secao-frase h1{
+        font-size: 13px;
+    }
+    
+    
+}

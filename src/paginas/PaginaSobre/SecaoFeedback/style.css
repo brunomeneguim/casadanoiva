@@ -1,0 +1,126 @@
+.container-sobre-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.titulo-feedback,
+.rodape-feedback {
+    font-family: 'Great Vibes';
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 70px;
+    color: #BB7D68;
+    font-weight: 100;
+    width: 100%;
+}
+
+.rodape-feedback {
+    padding: 80px 0;
+    text-decoration: none;
+}
+
+.container-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container-imagem-feedback {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 40%;
+    padding: 20px;
+    border: 2px solid #BB7D68;
+    box-shadow: 1px 1px 1px  #BB7D68;
+}
+
+.img-feedback {
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #BB7D68;
+    margin-right: 30px;
+}
+
+.container-texto-feedback {
+    display: block;
+    text-align: justify;
+}
+
+.titulo-box-feedback {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #BB7D68;
+    letter-spacing: 3px;
+}
+
+.texto-feedback {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Mouse Hover */
+.rodape-feedback:hover {
+    transform: scale(1.05);
+    transition: 200ms linear;
+}
+
+/* Media Query */
+@media screen and (max-width: 1250px) {
+    .container-imagem-feedback {
+        width: 60%;
+        margin-bottom: 80px;
+    }
+    .titulo-box-feedback {
+        
+    text-align: center;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .texto-feedback {
+        font-size: 15px;
+        transition: 1s;
+    }
+
+    .titulo-box-feedback {
+        font-size: 25px;
+        transition: 1s;
+    }
+
+    .container-imagem-feedback {
+        flex-direction: column;
+    }
+
+    .img-feedback {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 290px) {
+
+    .titulo-feedback,
+    .rodape-feedback {
+        font-size: 45px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 200px) {
+
+    .titulo-feedback,
+    .rodape-feedback {
+        font-size: 35px;
+        transition: 1s;
+    }
+}

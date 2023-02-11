@@ -1,55 +1,22 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+/* Desenvolvido por - Bruno Marcondes */
+/* Importação de "Rotas", onde estão todos os caminhos para as páginas do projeto */
+/* Cabecaolho e Rodapé vão estar presentes em todas as telas */
 
-import PaginaInicial from './paginas/PaginaInicial'
-import PaginaVestidos from './paginas/PaginaVestidos';
-import PaginaServicos from './paginas/PaginaServicos';
-import PaginaSobre from './paginas/PaginaSobre';
-import PaginaContato from './paginas/PaginaContato/';
-import Erro404 from './componentes/erro404';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-import './App.css'
-
+import Cabecalho from './componentes/Cabecalho';
+import Rotas from './Rotas';
+import Rodape from './componentes/Rodape';
 
 export default function App() {
   return (
+
     <div className="App">
       <Router>
-        <Routes>
-          <Route path='/' element={<PaginaInicial />}></Route>
-          <Route path="/vestidos" element={<PaginaVestidos />}></Route>
-          <Route path="/servicos" element={<PaginaServicos />}></Route>
-          <Route path="/sobre" element={<PaginaSobre />}></Route>
-          <Route path="/contato" element={<PaginaContato />}></Route>
-          {/* Página de Erro */}
-          <Route path="*" element={<Erro404 />}></Route>
-        </Routes>
+        <Cabecalho />
+        <Rotas />
+        <Rodape />
       </Router>
     </div>
   );
 }
-
-
-
-
-
-
-// import Rotas from './Rotas'
-// import React from 'react';
-
-
-// function App() {
-//   return (
-//     <main className="App">
-//       <Rotas />
-//     </main>
-//   );
-// }
-
-// export default App;
-
-
-
-
-
-

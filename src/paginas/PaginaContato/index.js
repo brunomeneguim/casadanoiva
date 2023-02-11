@@ -1,14 +1,11 @@
-import Cabecalho from '../../componentes/cabecalho/';
-import Rodape from '../../componentes/rodape';
-import SecaoGeral from '../PaginaContato/SecaoGeral';
+import SecaoBanner from './SecaoBanner';
+import SecaoFormularioContato from './SecaoFormularioContato';
 
-/* FUNÇÃO QUE EXPORTA A PÁGINA CONTATO PARA O ARQUIVO ROTAS */
 export default function PaginaContato() {
     return (
         <div>
-            <Cabecalho />
-            <SecaoGeral />
-            <Rodape />
+            <SecaoBanner />
+            <SecaoFormularioContato />
         </div>
     );
 }

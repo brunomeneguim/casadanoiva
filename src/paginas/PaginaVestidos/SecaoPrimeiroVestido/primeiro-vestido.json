@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-1.jpg",
+        "alt": "Imagem 1",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 2,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-2.jpg",
+        "alt": "Imagem 2",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 3,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-3.jpg",
+        "alt": "Imagem 3",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 4,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-1.jpg",
+        "alt": "Imagem 4",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 5,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-2.jpg",
+        "alt": "Imagem 5",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 6,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-3.jpg",
+        "alt": "Imagem 6",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 7,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-1.jpg",
+        "alt": "Imagem 7",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 8,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-2.jpg",
+        "alt": "Imagem 8",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 9,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-3.jpg",
+        "alt": "Imagem 9",
+        "caption": "Vestido Exemplo"
+    }    
+]

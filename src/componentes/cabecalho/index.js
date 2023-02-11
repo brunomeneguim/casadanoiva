@@ -1,23 +1,22 @@
+/* Desenvolvido por - Bruno Marcondes */
+/* Função que exporta o Cabeçalho para todas as páginas do site */
+
 import React from 'react';
+
 import { Link } from 'react-router-dom';
 import './style.css';
 
-
-/* FUNÇÃO QUE EXPORTA O CABEÇALHO PARA AS PÁGINAS DO SITE */
 export default function Cabecalho() {
     return (
         <header className='container-cabecalho'>
             <div className='container-login'>
-                <a className="link-login"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://accounts.google.com/v3/signin/identifier?dsh=S823034822%3A1675198883795592&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHc4gBtIsVpjk4WF7yH_ABmeoTxFzsR99EiHIun-HyPSdJZo_FoTQJGdry-GKPsaH0dE7fGc1A">
+                <Link className="link-login" to="*">
 
                     <img className="icone-login"
                         alt="Ícone de Login"
                         src="../../assets/iconeLogin.png" />
                     Login
-                </a>
+                </Link>
             </div>
             <div className='container-borda'></div>
             <div className='container-logo-links'>

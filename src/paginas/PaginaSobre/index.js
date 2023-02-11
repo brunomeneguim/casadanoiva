@@ -1,14 +1,14 @@
-import Cabecalho from '../../componentes/cabecalho/';
-import Rodape from '../../componentes/rodape';
-import SecaoGeral from './SecaoGeral';
+import SecaoBanner from './SecaoBanner';
+import SecaoFeedback from './SecaoFeedback';
+import SecaoSobreTexto from './SecaoSobreTexto';
 
 /* FUNÇÃO QUE EXPORTA A PÁGINA SOBRE PARA O ARQUIVO ROTAS */
 export default function PaginaSobre() {
     return (
         <div>
-            <Cabecalho />
-            <SecaoGeral />
-            <Rodape />
+            <SecaoBanner />
+            <SecaoSobreTexto />
+            <SecaoFeedback />
         </div>
     );
 }
