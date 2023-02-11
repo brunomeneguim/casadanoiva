@@ -20,21 +20,21 @@
 }
 
 .secao-sobre-texto h2 {
-    font-size: 20px;
+    font-size: 25px;
+    letter-spacing: 1px;
     width: 80%;
 }
 
 .container-paragrafos {
     width: 80%;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
     display: flex;
     /*justify-content: center;*/
     flex-direction: column;
     padding-top: 40px;
-}
-
-.sobre-texto {
     text-align: justify;
-    font-size: 20px;
 }
 
 /* Media Query */

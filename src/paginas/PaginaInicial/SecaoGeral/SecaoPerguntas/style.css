@@ -18,14 +18,17 @@
 }
 
 .card-perguntas h2 {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
     color: #E6B194;
     text-align: center;
 }
 
 .card-perguntas p {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 600;
+    letter-spacing: 1px;
     color: #fff;
     text-align: justify;
 }
@@ -33,7 +36,7 @@
 /* Media Query */
 @media screen and (max-width: 1200px) {
     .card-perguntas h2 {
-        font-size: 20px;
+        font-size: 25px;
         width: 90%;
     }
 

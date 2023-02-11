@@ -8,12 +8,12 @@
 }
 
 .container-rodape p {
-    width: 100%;
+    font-size: 15px;
 }
 
 @media screen and (max-width: 460px) {
     .container-rodape p {
         font-size: 12px;
-        text-align: center;
+        transition: 1s;
     }
 }

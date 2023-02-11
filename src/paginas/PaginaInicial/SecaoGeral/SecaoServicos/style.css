@@ -37,8 +37,8 @@
 
 .container-secao-servicos p {
     font-size: 20px;
-    font-style: italic;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .container-lista-servicos {
@@ -68,6 +68,7 @@
 .secao-servicos-link h2 {
     font-size: 25px;
     font-weight: 600;
+    letter-spacing: 1px;
     color: #ffffff;
 }
 

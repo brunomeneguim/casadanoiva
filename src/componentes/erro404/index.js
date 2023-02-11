@@ -9,7 +9,8 @@ export default function Erro404() {
         <section className='section-erro'>
             <Cabecalho />
             <Link className="link-erro" to='/#top'>
-                <p className='texto-erro'>Página não encontrada - Retorne à Página Inicial</p>
+                <p className='texto-erro'>Página não encontrada</p>
+                <p className='texto-erro'>Retorne à Página Inicial</p>
                 <img className="img-erro" src='/assets/imgErro404.jpg' alt='Logo' />
             </Link>
             <Rodape />

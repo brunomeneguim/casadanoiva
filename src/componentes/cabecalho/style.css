@@ -25,8 +25,9 @@
     align-items: center;
     text-decoration: none;
     color: black;
-    margin-right: 30px;
+    font-size: 20px;
     font-weight: 600;
+    margin-right: 30px;
 }
 
 .container-borda {
@@ -59,9 +60,9 @@
     text-decoration: none;
     color: #CE947B;
     font-size: 70px;
-    font-family: 'Great Vibes';
-    letter-spacing: 3px;
     font-weight: 100;
+    letter-spacing: 3px;
+    font-family: 'Great Vibes';
 }
 
 .img-logo {
@@ -86,6 +87,7 @@
     color: black;
     margin: 10px;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .container-icones {

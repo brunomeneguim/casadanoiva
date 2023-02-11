@@ -39,6 +39,7 @@
     text-decoration: none;
     color: #CE947B;
     font-weight: 600;
+    font-size: 20px;
     padding-bottom: 10px;
 }
 
@@ -57,7 +58,9 @@
 }
 
 .texto-contato {
-    font-size: 25px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
     text-align: justify;
     width: 80%;
 }
