@@ -1,14 +1,15 @@
 {
   "name": "casadanoiva",
   "version": "0.1.0",
-  "homepage": "https://www.casadanoiva.net",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "antd": "^5.1.7",
-    "node-sass": "^8.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "node": "^18.14.0",
     "react": "^18.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.2.0",
@@ -17,6 +18,7 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-switch": "^7.0.0",
+    "sass": "^1.58.0",
     "ssr-window": "^4.0.2",
     "styled-components": "^5.3.6",
     "swiper": "^9.0.2",
@@ -49,5 +51,17 @@
   "devDependencies": {
     "json-loader": "^0.5.7",
     "webpack": "^5.75.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunomeneguim/casadanoiva.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunomeneguim/casadanoiva/issues"
   }
 }

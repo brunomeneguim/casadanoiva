@@ -9,6 +9,8 @@ export default function Cabecalho() {
         <header className='container-cabecalho'>
             <div className='container-login'>
                 <a className="link-login"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://accounts.google.com/v3/signin/identifier?dsh=S823034822%3A1675198883795592&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHc4gBtIsVpjk4WF7yH_ABmeoTxFzsR99EiHIun-HyPSdJZo_FoTQJGdry-GKPsaH0dE7fGc1A">
 
                     <img className="icone-login"

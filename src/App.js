@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import PaginaInicial from './paginas/PaginaInicial'
 import PaginaVestidos from './paginas/PaginaVestidos';
@@ -8,11 +8,13 @@ import PaginaSobre from './paginas/PaginaSobre';
 import PaginaContato from './paginas/PaginaContato/';
 import Erro404 from './componentes/erro404';
 
+import './App.css'
 
-function App() {
+
+export default function App() {
   return (
-    <main className="App">
-      <BrowserRouter>
+    <div className="App">
+      <Router>
         <Routes>
           <Route path='/' element={<PaginaInicial />}></Route>
           <Route path="/vestidos" element={<PaginaVestidos />}></Route>
@@ -22,12 +24,12 @@ function App() {
           {/* Página de Erro */}
           <Route path="*" element={<Erro404 />}></Route>
         </Routes>
-      </BrowserRouter>
-    </main>
+      </Router>
+    </div>
+
   );
 }
 
-export default App;
 
 
 
