@@ -9,7 +9,7 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,8 +19,29 @@
 </head>
 
 <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <a class="button-whatsapp" href="https://wa.me/5542999901300" target="_blank"
+        style="position:fixed;width:60px;height:60px;bottom:10px;right:10px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;z-index:1000;">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    </a>
+
+
+    <a onclick="scrollToTop();return false" class="button-top" href="#top" title="Voltar ao Topo"
+        style="position:fixed;scroll-behavior: smooth;width:60px;height:60px;bottom:10px;opacity: 30%;left:10px;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;z-index:1000;">
+        <img src="assets/iconeSetaParaCima.png" />
+        <i style="margin-top:16px"></i>
+    </a>
+
+    <script>
+        function scrollToTop() {
+            var position =
+                document.body.scrollTop || document.documentElement.scrollTop;
+            if (position) {
+                window.scrollBy(0, -Math.max(1, Math.floor(position / 10)));
+                scrollAnimation = setTimeout("scrollToTop()", 10);
+            } else clearTimeout(scrollAnimation);
+        }
+    </script>
 </body>
 
 </html>
