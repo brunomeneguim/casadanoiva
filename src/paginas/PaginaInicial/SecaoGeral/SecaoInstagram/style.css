@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     background-color: #FCF9F7;   
-    margin: 50px 0;
+    padding: 50px 0;
 }
 
 
@@ -22,8 +22,7 @@
 }
 
 .link-instagram {
-    display: block;
-    margin: 0;
+    display: flex;
     font-size: 80px;
     color: #CE947B;
     font-family: 'Great Vibes';
@@ -58,9 +57,3 @@
     }
 }
 
-@media screen and (max-width: 1500px) {
-    .secao-instagram {
-        max-height: 80vh; 
-        margin: 40px 0;
-    }
-}
