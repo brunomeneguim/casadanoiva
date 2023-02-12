@@ -3,8 +3,8 @@
 /* Cabecaolho e Rodapé vão estar presentes em todas as telas */
 
 import { BrowserRouter as Router } from 'react-router-dom';
-import ScrollToTop from "react-scroll-to-top";
 import { ReactComponent as MySVG } from "./componentes/iconeSetaParaCima.svg";
+import ScrollToTop from "react-scroll-to-top";
 
 /* Desenvolvido por - Bruno Marcondes */
 /* Documento que define as rotas da página */
@@ -22,7 +22,11 @@ export default function App() {
       <Router>
 
         {/* Função que cria botão quando o usuário desce a página e volta para o topo com a função propriedade Smooth */}
-        <ScrollToTop smooth component={<MySVG />} />
+        <ScrollToTop 
+        className='scrollUp'
+        id='scrollUp'
+        smooth         
+        component={<MySVG />} />
 
         {/* Função que importa o botão do WhatsApp */}
         <WhatsApp />

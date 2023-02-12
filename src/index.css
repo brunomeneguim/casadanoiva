@@ -14,7 +14,7 @@ code {
 }
 
 /* Style do botão Scroll para o Topo */
-.scroll-to-top {
+.scroll-to-top#scrollUp {
   width: 60px;
   height: 60px;
   bottom: 10px;
