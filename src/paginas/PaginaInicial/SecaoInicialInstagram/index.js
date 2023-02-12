@@ -8,7 +8,7 @@ export default function SecaoInicialInstagram() {
     return (
         
         /* Secao do Instagram */
-        <section className="secaoInstagram">
+        <section className="secaoInicialInstagram">
             <Link className='linkInstagram' to='https://www.instagram.com/casadanoiva.gpuava' target="_blank">Redes Sociais</Link>
 
             {/* Script do site Light Widget */}

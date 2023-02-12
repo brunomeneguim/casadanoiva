@@ -6,7 +6,7 @@ import './style.css';
 
 export default function SecaoVestidosMenu() {
     return (
-        <section className='containerVestidosMenu'>
+        <section className='secaoVestidosMenu'>
             <nav className='linksVestidosMenu'>
                 <Link className='linksVestidos' to="/vestidos#primeiroVestido">Vestido1</Link>
                 <Link className='linksVestidos' to="/vestidos#segundoVestido">Vestido2</Link>

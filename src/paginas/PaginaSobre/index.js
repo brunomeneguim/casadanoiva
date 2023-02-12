@@ -7,10 +7,10 @@ import SecaoSobreTexto from './SecaoSobreTexto';
 
 export default function PaginaSobre() {
     return (
-        <div>
+        <main>
             <SecaoSobreBanner />
             <SecaoSobreTexto />
             <SecaoSobreFeedback />
-        </div>
+        </main>
     );
 }

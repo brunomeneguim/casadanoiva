@@ -6,9 +6,9 @@ import SecaoContatoFormulario from './SecaoContatoFormulario';
 
 export default function PaginaContato() {
     return (
-        <div>
+        <main>
             <SecaoContatoBanner />
             <SecaoContatoFormulario />
-        </div>
+        </main>
     );
 }

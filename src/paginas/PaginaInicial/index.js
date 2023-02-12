@@ -13,7 +13,7 @@ import SecaoInicialContato from './SecaoInicialContato';
 
 export default function PaginaInicial() {
     return (
-        <div>
+        <main>
             <SecaoInicialIntroducao/>
             <SecaoInicialSlider/>
             <SecaoInicialFrase/>
@@ -23,6 +23,6 @@ export default function PaginaInicial() {
             <SecaoInicialBannerPerguntas/>
             <SecaoInicialPerguntas/>
             <SecaoInicialContato/>
-        </div>
+        </main>
     );
 }

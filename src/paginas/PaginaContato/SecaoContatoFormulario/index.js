@@ -7,7 +7,7 @@ export default function SecaoContatoFormulario() {
     return (
         
         /* Container apenas do Agendamento e FeedBack */
-        <div className="containerSecaoContato">
+        <section className="secaoContatoFormulario">
             <div className="boxAgFeed">
                 <p className='textoAgFeed'>Atendimento apenas com hora marcada. Venha nos conhecer!</p>
                 <a className="linkAgFeed"
@@ -56,6 +56,6 @@ export default function SecaoContatoFormulario() {
                 </a>
                 {/* </div> */}
             </div>
-        </div>
+        </section>
     );
 }

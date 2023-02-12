@@ -1,7 +1,7 @@
 /* SECAO VESTIDO TIPO 5 - BACKGROUND CLARO */
 
 /* Container da página */
-.secaoQuintoVestido {
+.secaoVestidosQuinto {
     display: flex;
     flex-direction: column;
     padding-bottom: 100px;

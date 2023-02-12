@@ -1,4 +1,4 @@
-.containerSecaoContato {
+.secaoContatoFormulario {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -169,7 +169,7 @@
 
 /* Media Query */
 @media screen and (max-width: 410px) {
-    .containerSecaoContato h1 {
+    .secaoContatoFormulario h1 {
         font-size: 35px;
         letter-spacing: 1px;
         transition: 1s;
@@ -195,7 +195,7 @@
 }
 
 @media screen and (max-width: 1020px) {
-    .containerSecaoContato {
+    .secaoContatoFormulario {
         flex-direction: column;
         padding: 30px 0;
     }

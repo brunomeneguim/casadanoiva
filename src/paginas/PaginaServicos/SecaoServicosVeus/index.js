@@ -18,7 +18,7 @@ export default function SecaoServicosVeus() {
     return (
 
         /* Container Véus */
-        <div className="secaoServicosVeus" id="veus">
+        <section className="secaoServicosVeus" id="veus">
 
             {/* Container penas do Slider */}
             <Swiper
@@ -49,6 +49,6 @@ export default function SecaoServicosVeus() {
                     Se você tem interesse em fazer terapia, me chama no chat que te passo os valores!
                 </p>
             </div>
-        </div>
+        </section>
     );
 }

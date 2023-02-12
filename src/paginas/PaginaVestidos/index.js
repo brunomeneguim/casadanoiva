@@ -10,13 +10,13 @@ import SecaoVestidosQuinto from "./SecaoVestidosQuinto";
 
 export default function PaginaVestidos() {
     return (
-        <div>
+        <main>
             <SecaoVestidosMenu />
             <SecaoVestidosPrimeiro />
             <SecaoVestidosSegundo />
             <SecaoVestidosTerceiro />
             <SecaoVestidosQuarto />
             <SecaoVestidosQuinto />
-        </div>
+        </main>
     );
 }

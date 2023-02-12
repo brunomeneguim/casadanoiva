@@ -7,7 +7,7 @@ import './style.css';
 export default function SecaoVestidosQuarto() {
     return (
         /* SECAO VESTIDO TIPO 4 - BACKGROUND ESCURO */
-        <section className='secaoQuartoVestido'>
+        <section className='secaoVestidosQuarto'>
             <div>
                 <h1 className='tituloQuartoVestido' id='quartoVestido'>Quarto Vestido</h1>
             </div>

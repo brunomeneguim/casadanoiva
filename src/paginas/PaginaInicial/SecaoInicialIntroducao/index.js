@@ -6,7 +6,7 @@ import './style.css';
 export default function SecaoInicialIntroducao() {
     return (
 
-        <section className="secaoIntroducao">
+        <section className="secaoInicialIntroducao">
             <h1 className='tituloIntroducao'>ATELIÊ CASA DA NOIVA</h1>
             <h2 className='subtituloIntroducao'>Aluguel de vestidos de noiva e acessórios</h2>
             <p className='textoIntroducao'>Você está vivenciando questões relacionadas a um trauma, ao sofrimento,

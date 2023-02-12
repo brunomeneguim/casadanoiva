@@ -7,7 +7,7 @@ export default function SecaoSobreTexto() {
     return (
         <>
             {/* Container do Titulo, subtitulo e paragráfos */}
-            <div className='containerSobreTexto'>
+            <section className='secaoSobreTexto'>
 
                 <h1 className='tituloSobre'>Minha história</h1>
                 <h2 className='subtituloSobre'>PSICOLOGIA COMO PROPÓSITO DE VIDA</h2>
@@ -42,7 +42,7 @@ export default function SecaoSobreTexto() {
                         melhor versão.
                     </p>
                 </div>
-            </div>
+            </section>
         </>
     );
 }

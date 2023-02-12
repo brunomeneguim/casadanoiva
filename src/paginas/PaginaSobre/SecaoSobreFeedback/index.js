@@ -7,7 +7,7 @@ export default function SecaoSobreFeedback() {
     return (
         <>
             {/* Container do Titulo, Feedback e Link no Rodope */}
-            <div className='containerSobreFeedback'>
+            <section className='secaoSobreFeedback'>
                 <h1 className='tituloSecaoFeedback'>Feedbacks</h1>
 
                 {/* Container Apenas dos Feedbacks */}
@@ -83,7 +83,7 @@ export default function SecaoSobreFeedback() {
                     rel="noreferrer"
                     target="_blank"
                     href='https://docs.google.com/forms/d/e/1FAIpQLSfmUNOTGZVAlsjg1UEjGs5lOhoA84B2_0dyiPziSdbsbo6sAw/viewform'>Envie-nos agora mesmo seu feedback</a>
-            </div>
+            </section>
         </>
     );
 }

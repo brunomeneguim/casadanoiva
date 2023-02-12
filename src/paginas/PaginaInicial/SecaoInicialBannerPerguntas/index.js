@@ -6,7 +6,7 @@ import './style.css';
 
 export default function SecaoInicialBannerPerguntas() {
     return (
-        <section className="inicialBannerPerguntas">
+        <section className="secaoInicialBanner">
             <Link className='linkPerguntas' to='/contato'>Perguntas Frequentes</Link>
         </section>
     );

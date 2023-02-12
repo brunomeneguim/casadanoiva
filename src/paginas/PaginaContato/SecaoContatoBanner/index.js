@@ -5,8 +5,8 @@ import './style.css';
 
 export default function SecaoContatoBanner() {
     return (
-        <div className="bannerContato" >
+        <section className="secaoContatoBanner" >
             <img className='imgContato' src="/assets/imgPaginaContato.jpg" alt="Banner da Página Contato" />
-        </div>
+        </section>
     );
 }

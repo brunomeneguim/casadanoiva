@@ -13,7 +13,7 @@ import "./style.css";
 export default function SecaoInicialSlider() {
     return (
 
-        <div className="secaoInicialSlider">
+        <section className="secaoInicialSlider">
             <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
@@ -31,6 +31,6 @@ export default function SecaoInicialSlider() {
                 <SwiperSlide><img src="/assets/imgSlider3.jpg" alt="Slide Inicial 3" /></SwiperSlide>
                 <SwiperSlide><img src="/assets/imgSlider4.jpg" alt="Slide Inicial 4" /></SwiperSlide>
             </Swiper>
-        </div>
+        </section>
     );
 }

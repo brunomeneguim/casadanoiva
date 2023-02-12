@@ -18,7 +18,7 @@ export default function SecaoServicosAcessorios() {
     return (
 
         /* Container Acessórios */
-        <div className="secaoServicosAcessorios" id="acessorios">
+        <section className="secaoServicosAcessorios" id="acessorios">
 
             {/* Container apenas dos Textos */}
             <div className="boxAcessorios">
@@ -48,7 +48,7 @@ export default function SecaoServicosAcessorios() {
                 <SwiperSlide><img src="/assets/imgServicos/Acessorios/imgServicoAcessorios1.jpg" alt="Acessório 3" /></SwiperSlide>
                 <SwiperSlide><img src="/assets/imgServicos/Acessorios/imgServicoAcessorios2.jpg" alt="Acessório 4" /></SwiperSlide>
             </Swiper>
-        </div>
+        </section>
 
     );
 }

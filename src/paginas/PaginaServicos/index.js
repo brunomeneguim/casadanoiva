@@ -8,11 +8,11 @@ import SecaoServicosTitulo from "./SecaoServicosTitulo";
 
 export default function PaginaServicos() {
     return (
-        <div>
+        <main>
             <SecaoServicosTitulo />
             <SecaoServicosAcessorios />
             <SecaoServicosVeus />
             <SecaoServicosOutros />
-        </div>
+        </main>
     );
 }

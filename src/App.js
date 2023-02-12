@@ -2,7 +2,7 @@
 /* Importação de "Rotas", onde estão todos os caminhos para as páginas do projeto */
 /* Cabecaolho e Rodapé vão estar presentes em todas as telas */
 
-import { BrowserRouter as Router, HashRouter } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { ReactComponent as MySVG } from "./componentes/iconeSetaParaCima.svg";
 import ScrollToTop from "react-scroll-to-top";
 
