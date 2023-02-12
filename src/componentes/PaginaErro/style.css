@@ -1,21 +1,20 @@
-.section-erro {
-    display: flex;
-    flex-direction: column;
+.secaoError {
+    display: block;
     background-color: #CE947B;
     overflow: hidden;
 }
 
-.img-erro {
+.imgError {
     width: 100%;
 }
 
-.link-erro {
+.linkError {
     text-decoration: none;
     display: contents;
 }
 
-.link-erro p {
-    font-family: 'Montserrat', sans-serif;  
+.textoError {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 60px;
     color: #fff;
@@ -23,28 +22,28 @@
 }
 
 /* Mouse Hover */
-.link-erro p:hover {
+.textoError:hover {
     transform: scale(1.05);
     transition: 200ms linear;
 }
 
 /* Media Query*/
 @media screen and (max-width: 380px) {
-    .link-erro p {
+    .textoError {
         font-size: 40px;
         transition: 1s;
     }
 }
 
 @media screen and (max-width: 250px) {
-    .link-erro p {
+    .textoError {
         font-size: 30px;
         transition: 1s;
     }
 }
 
 @media screen and (max-width: 170px) {
-    .link-erro p {
+    .textoError {
         font-size: 20px;
         transition: 1s;
     }
