@@ -2,7 +2,7 @@
 /* Importação de "Rotas", onde estão todos os caminhos para as páginas do projeto */
 /* Cabecaolho e Rodapé vão estar presentes em todas as telas */
 
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, HashRouter } from 'react-router-dom';
 import { ReactComponent as MySVG } from "./componentes/iconeSetaParaCima.svg";
 import ScrollToTop from "react-scroll-to-top";
 
@@ -15,12 +15,13 @@ import Rodape from './componentes/Rodape';
 import BackToTop from './componentes/BackToTop';
 import WhatsApp from './componentes/WhatsApp';
 
+
 export default function App() {
   return (
 
     <div className="App">
       <Router>
-
+      
         {/* Função que cria botão quando o usuário desce a página e volta para o topo com a função propriedade Smooth */}
         <ScrollToTop 
         id='scrollUp'
@@ -36,6 +37,7 @@ export default function App() {
         <Cabecalho />
         <Rotas />
         <Rodape />
+
       </Router>
     </div>
   );
