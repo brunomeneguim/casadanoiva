@@ -1,0 +1,127 @@
+.secaoServicosVeus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #BB7D68;
+  padding-bottom: 30px;
+}
+
+.boxVeus {
+  margin: 0;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tituloVeus {
+  font-family: 'Great Vibes';
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 70px;
+  color: #fff;
+  display: flex;
+  font-weight: 100;
+}
+
+.textoVeus {
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  width: 80%;
+}
+
+.swiper {
+  width: 65%;
+  height: 100%;
+  padding: 50px 0;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+}
+
+/* Mouse Hover */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(1.1);
+  transition: 200ms linear;
+}
+
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet-active:hover {
+  transform: scale(1.1);
+  transition: 200ms linear;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 900px) {
+  .secaoServicosVeus {
+    flex-direction: column;
+  }
+  .boxVeus {
+    width: 100%;
+  }
+  .swiper#swiperServicos {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .tituloVeus {
+    font-size: 50px;
+    transition: 1s;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .secaoServicosVeus {
+    flex-direction: column;
+  }
+
+  .boxVeus {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .tituloVeus {
+    font-size: 50px;
+    transition: 1s;
+  }
+}
+
+@media screen and (max-width: 215px) {
+  .tituloVeus {
+    font-size: 40px;
+    transition: 1s;
+  }
+
+  .textoVeus {
+    font-size: 10px;
+    transition: 1s;
+  }
+}

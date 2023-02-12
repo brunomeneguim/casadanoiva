@@ -1,14 +1,16 @@
-import SecaoBanner from './SecaoBanner';
-import SecaoFeedback from './SecaoFeedback';
+/* Desenvolvido por - Bruno Marcondes */
+/* Função que exporta as seções para a página Sobre */
+
+import SecaoSobreBanner from './SecaoSobreBanner';
+import SecaoSobreFeedback from './SecaoSobreFeedback';
 import SecaoSobreTexto from './SecaoSobreTexto';
 
-/* FUNÇÃO QUE EXPORTA A PÁGINA SOBRE PARA O ARQUIVO ROTAS */
 export default function PaginaSobre() {
     return (
         <div>
-            <SecaoBanner />
+            <SecaoSobreBanner />
             <SecaoSobreTexto />
-            <SecaoFeedback />
+            <SecaoSobreFeedback />
         </div>
     );
 }

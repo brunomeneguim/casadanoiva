@@ -1,16 +1,18 @@
-import SecaoPrimeiroServico from "./SecaoPrimeiroServico";
-import SecaoSegundoServico from "./SecaoSegundoServico";
-import SecaoOutros from "./SecaoOutros";
-import SecaoTitulo from "./SecaoTitulo";
+/* Desenvolvido por - Bruno Marcondes */
+/* Função que exporta as seções para a página Serviços */
 
-/* FUNÇÃO QUE EXPORTA A PÁGINA SERVICOS PARA O ARQUIVO ROTAS */
+import SecaoServicosAcessorios from "./SecaoServicosAcessorios";
+import SecaoServicosVeus from "./SecaoServicosVeus";
+import SecaoServicosOutros from "./SecaoServicosOutros";
+import SecaoServicosTitulo from "./SecaoServicosTitulo";
+
 export default function PaginaServicos() {
     return (
         <div>
-            <SecaoTitulo />
-            <SecaoPrimeiroServico />
-            <SecaoSegundoServico />
-            <SecaoOutros />
+            <SecaoServicosTitulo />
+            <SecaoServicosAcessorios />
+            <SecaoServicosVeus />
+            <SecaoServicosOutros />
         </div>
     );
 }

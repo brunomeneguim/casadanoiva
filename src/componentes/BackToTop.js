@@ -1,3 +1,6 @@
+/* Desenvolvido por - Bruno Marcondes */
+/* Função que ao trocar de página o usuário sempre vai para o topo da mesma */
+
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 

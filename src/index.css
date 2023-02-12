@@ -13,6 +13,7 @@ code {
     monospace;
 }
 
+/* Style do botão Scroll para o Topo */
 .scroll-to-top {
   width: 60px;
   height: 60px;
@@ -28,7 +29,8 @@ code {
   background-size: cover;
 }
 
-.button-whatsapp {
+/* Style do botão do WhatsApp */
+.botaoWhatsApp {
   position: fixed;
   width: 60px;
   height: 60px;
@@ -47,7 +49,7 @@ code {
 }
 
 /* Mouse Hover */
-.button-whatsapp:hover {
+.botaoWhatsApp:hover {
   transform: scale(1.2);
   transition: 200ms linear;
 }

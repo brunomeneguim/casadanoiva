@@ -1,0 +1,10 @@
+.bannerContato {
+    display: flex;   
+    justify-content: center;
+    max-height: 100vh;
+}
+
+.imgContato {
+    width: 100%;
+}
+

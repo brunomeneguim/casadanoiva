@@ -1,27 +1,28 @@
-import SecaoIntroducao from './SecaoIntroducao';
-import SecaoSlider from './SecaoSlider';
-import SecaoFrase from './SecaoFrase';
-import SecaoSobre from './SecaoSobre';
-import SecaoServicos from './SecaoServicos';
-import SecaoInstagram from './SecaoInstagram';
-import SecaoBannerPerguntas from './SecaoBannerPerguntas';
-import SecaoPerguntas from './SecaoPerguntas';
-import SecaoContato from './SecaoContato';
+/* Desenvolvido por - Bruno Marcondes */
+/* Função que exporta as seções para a página Inicial */
 
+import SecaoInicialIntroducao from './SecaoInicialIntroducao';
+import SecaoInicialSlider from './SecaoInicialSlider';
+import SecaoInicialFrase from './SecaoInicialFrase';
+import SecaoInicialSobre from './SecaoInicialSobre';
+import SecaoInicialServicos from './SecaoInicialServicos';
+import SecaoInicialInstagram from './SecaoInicialInstagram';
+import SecaoInicialBannerPerguntas from './SecaoInicialBannerPerguntas';
+import SecaoInicialPerguntas from './SecaoInicialPerguntas';
+import SecaoInicialContato from './SecaoInicialContato';
 
-/* FUNÇÃO QUE EXPORTA A PÁGINA INICIAL PARA O ARQUIVO ROTAS */
 export default function PaginaInicial() {
     return (
         <div>
-            <SecaoIntroducao/>
-            <SecaoSlider/>
-            <SecaoFrase/>
-            <SecaoSobre/>
-            <SecaoServicos/>
-            <SecaoInstagram/>
-            <SecaoBannerPerguntas/>
-            <SecaoPerguntas/>
-            <SecaoContato/>
+            <SecaoInicialIntroducao/>
+            <SecaoInicialSlider/>
+            <SecaoInicialFrase/>
+            <SecaoInicialSobre/>
+            <SecaoInicialServicos/>
+            <SecaoInicialInstagram/>
+            <SecaoInicialBannerPerguntas/>
+            <SecaoInicialPerguntas/>
+            <SecaoInicialContato/>
         </div>
     );
 }

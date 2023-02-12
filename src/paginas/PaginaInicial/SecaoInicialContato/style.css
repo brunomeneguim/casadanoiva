@@ -1,0 +1,120 @@
+.secaoInicialContato {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FCF9F7;
+    text-align: center;
+    width: 100%;
+}
+
+.contatoBordaTop {
+    display: flex;
+    width: 90%;
+    padding-top: 100px;
+    border-bottom: 1px solid #8D5951;
+}
+
+.containerInicialContato {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.navIconesContato {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.endereco-contato {
+    color: #CE947B;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.imgInicialContato {
+    padding-right: 15px;
+}
+
+.iconeInicialContato {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #CE947B;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.iconeInicialContato {
+    margin: 15px 0;
+}
+
+.tituloInicialContato {
+    padding-top: 100px;
+    color: #CE947B;
+    font-size: 80px;
+    font-family: 'Great Vibes';
+    letter-spacing: 3px;
+    text-decoration: none;
+    width: 80%;
+}
+
+.textoInicialContato {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: justify;
+    width: 80%;
+}
+
+/* Mouse Hover */
+.tituloInicialContato:hover {
+    transform: scale(1.05);
+    transition: 200ms linear;
+}
+
+.iconeInicialContato:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 180px) {
+    .iconeInicialContato {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 225px) {
+    .tituloInicialContato {
+        font-size: 50px;
+        transition: 1s;
+    }
+
+    .navIconesContato {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 245px) {
+    .textoInicialContato {
+        font-size: 15px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .iconeInicialContato {
+        font-size: 10px;
+        flex-direction: column;
+    }
+
+    .imgInicialContato {
+        padding-bottom: 10px;
+    }
+}

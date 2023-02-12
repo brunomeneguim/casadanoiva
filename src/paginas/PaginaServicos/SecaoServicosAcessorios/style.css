@@ -1,0 +1,116 @@
+.secaoServicosAcessorios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.boxAcessorios {
+  margin: 0;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tituloAcessorios {
+  font-family: 'Great Vibes';
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 70px;
+  color: #BB7D68;
+  display: flex;
+  font-weight: 100;
+}
+
+.textoAcessorios {
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  width: 80%;
+}
+
+
+.swiper#swiperServicos {
+  width: 80%;
+  height: 100%;
+  padding: 50px 0;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+}
+
+/* Mouse Hover */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(1.1);
+  transition: 200ms linear;
+}
+
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet-active:hover {
+  transform: scale(1.1);
+  transition: 200ms linear;
+}
+
+/* Media Query */
+@media screen and (max-width: 900px) {
+  .secaoServicosAcessorios {
+    flex-direction: column;
+  }
+  .boxAcessorios {
+    width: 100%;
+  }
+  .swiper#swiperServicos {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .tituloAcessorios {
+    font-size: 50px;
+    transition: 1s;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .tituloAcessorios {
+    font-size: 50px;
+    transition: 1s;
+  }
+}
+
+@media screen and (max-width: 215px) {
+  .tituloAcessorios {
+    font-size: 40px;
+    transition: 1s;
+  }
+
+  .textoAcessorios {
+    font-size: 10px;
+    transition: 1s;
+  }
+}

@@ -6,6 +6,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import ScrollToTop from "react-scroll-to-top";
 import { ReactComponent as MySVG } from "./componentes/iconeSetaParaCima.svg";
 
+/* Desenvolvido por - Bruno Marcondes */
+/* Documento que define as rotas da página */
+
 import Cabecalho from './componentes/Cabecalho';
 import Rotas from './Rotas';
 import Rodape from './componentes/Rodape';

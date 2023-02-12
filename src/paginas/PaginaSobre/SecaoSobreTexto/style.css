@@ -1,6 +1,5 @@
-.container-texto {
+.containerSobreTexto {
     display: flex;
-    /*justify-content: center;*/
     align-items: center;
     flex-direction: column;
     background-color: #BB7D68;
@@ -10,7 +9,7 @@
     padding-bottom: 140px;
 }
 
-.secao-sobre-texto h1 {
+.tituloSobre {
     font-family: 'Great Vibes';
     font-size: 80px;
     letter-spacing: 3px;
@@ -19,19 +18,18 @@
     width: 80%;
 }
 
-.secao-sobre-texto h2 {
+.subtituloSobre {
     font-size: 25px;
     letter-spacing: 1px;
     width: 80%;
 }
 
-.container-paragrafos {
+.containerParagrafos {
     width: 80%;
     font-size: 20px;
     font-weight: 100;
     letter-spacing: 1px;
     display: flex;
-    /*justify-content: center;*/
     flex-direction: column;
     padding-top: 40px;
     text-align: justify;
@@ -39,37 +37,37 @@
 
 /* Media Query */
 @media screen and (max-width: 320px) {
-    .container-texto h1 {
+    .tituloSobre {
         font-size: 40px;
     }
 }
 
 @media screen and (max-width: 270px) {
-    .container-texto h1 {
+    .tituloSobre {
         font-size: 50px;
     }
 
-    .container-texto h2 {
+    .subtituloSobre {
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 215px) {
-    .sobre-texto {
+    .sobreParagrafo {
         font-size: 15px;
     }
 }
 
 @media screen and (max-width: 175px) {
-    .container-texto h1 {
+    .tituloSobre {
         font-size: 40px;
     }
 
-    .container-texto h2 {
+    .subtituloSobre {
         font-size: 20px;
     }
 
-    .sobre-texto {
+    .sobreParagrafo {
         font-size: 10px;
     }
 }

@@ -1,0 +1,40 @@
+.inicialBannerPerguntas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BB7D68;
+    padding-top: 40px;
+}
+
+.linkPerguntas {
+    width: 90%;
+    margin: 40px 0;
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Great Vibes';
+    letter-spacing: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Mouse Hover */
+.linkPerguntas:hover {
+    transform: scale(1.05);
+    transition: 200ms linear;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 415px) {
+    .linkPerguntas {
+        font-size: 60px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .linkPerguntas {
+        font-size: 45px;
+    }
+}

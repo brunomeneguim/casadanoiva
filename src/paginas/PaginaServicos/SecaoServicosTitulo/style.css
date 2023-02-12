@@ -1,0 +1,45 @@
+.secaoServicosTitulo {
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #BB7D68;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.tituloServicos {
+    color: #E6B194;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    width: 80%;
+}
+
+.subtituloServicos {
+    width: 80%;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+@media screen and (max-width: 200px) {
+    .tituloServicos {
+        font-size: 20px;
+    }
+
+    .subtituloServicos {
+        font-size: 10px;
+        transition: 1s;
+    }
+}
+
+
+@media screen and (max-width: 290px) {
+    .subtituloServicos {
+        font-size: 10px;
+        transition: 1s;
+    }
+}

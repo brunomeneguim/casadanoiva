@@ -1,21 +1,22 @@
-import SecaoMenu from "./SecaoMenu";
-import SecaoPrimeiroVestido from "./SecaoPrimeiroVestido";
-import SecaoSegundoVestido from "./SecaoSegundoVestido";
-import SecaoTerceiroVestido from "./SecaoTerceiroVestido";
-import SecaoQuartoVestido from "./SecaoQuartoVestido";
-import SecaoQuintoVestido from "./SecaoQuintoVestido";
+/* Desenvolvido por - Bruno Marcondes */
+/* Função que exporta as seções para a página Vestidos */
 
+import SecaoVestidosMenu from "./SecaoVestidosMenu";
+import SecaoVestidosPrimeiro from "./SecaoVestidosPrimeiro";
+import SecaoVestidosSegundo from "./SecaoVestidosSegundo";
+import SecaoVestidosTerceiro from "./SecaoVestidosTerceiro";
+import SecaoVestidosQuarto from "./SecaoVestidosQuarto";
+import SecaoVestidosQuinto from "./SecaoVestidosQuinto";
 
-/* FUNÇÃO QUE EXPORTA A PÁGINA VESTIDOS PARA O ARQUIVO ROTAS */
 export default function PaginaVestidos() {
     return (
         <div>
-            <SecaoMenu />
-            <SecaoPrimeiroVestido />
-            <SecaoSegundoVestido />
-            <SecaoTerceiroVestido />
-            <SecaoQuartoVestido />
-            <SecaoQuintoVestido />
+            <SecaoVestidosMenu />
+            <SecaoVestidosPrimeiro />
+            <SecaoVestidosSegundo />
+            <SecaoVestidosTerceiro />
+            <SecaoVestidosQuarto />
+            <SecaoVestidosQuinto />
         </div>
     );
 }

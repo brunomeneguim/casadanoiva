@@ -1,11 +1,14 @@
-import SecaoBanner from './SecaoBanner';
-import SecaoFormularioContato from './SecaoFormularioContato';
+/* Desenvolvido por - Bruno Marcondes */
+/* Função que exporta as seções para a página Contato */
+
+import SecaoContatoBanner from './SecaoContatoBanner';
+import SecaoContatoFormulario from './SecaoContatoFormulario';
 
 export default function PaginaContato() {
     return (
         <div>
-            <SecaoBanner />
-            <SecaoFormularioContato />
+            <SecaoContatoBanner />
+            <SecaoContatoFormulario />
         </div>
     );
 }

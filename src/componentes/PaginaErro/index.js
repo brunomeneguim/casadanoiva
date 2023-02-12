@@ -1,7 +1,9 @@
+/* Desenvolvido por - Bruno Marcondes */
+/* Página de ERro caso o usuário digite uma URL que não pertence ao site */
+
 import "./style.css";
 import { Link } from "react-router-dom";
 
-/* FUNÇÃO QUE EXPORTA A PAGINA DE ERRO CASO O USUARIO DIGITE UM ENDEREÇO ERRADO*/
 export default function PaginaErro() {
     return (
         <section className="secaoError">

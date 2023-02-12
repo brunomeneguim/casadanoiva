@@ -1,4 +1,4 @@
-.container-rodape {
+.containerRodape {
     display: flex;
     justify-content: space-evenly;
     background-color: #BB7D68;
@@ -7,12 +7,12 @@
     width: 100%;
 }
 
-.container-rodape p {
+.textoRodape {
     font-size: 15px;
 }
 
 @media screen and (max-width: 460px) {
-    .container-rodape p {
+    .textoRodape {
         font-size: 12px;
         transition: 1s;
     }
