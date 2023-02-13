@@ -33,7 +33,7 @@ export default function SecaoServicosAcessorios() {
             <Swiper
                 /* Id para diferenciar do Slider da página inicial */
 
-                slidesPerView={2}
+                // slidesPerView={2}
                 spaceBetween={30}
                 loop={true}
                 pagination={{
@@ -43,6 +43,14 @@ export default function SecaoServicosAcessorios() {
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
                 id="swiperServicos"
+                breakpoints={{
+                    0: {
+                        slidesPerView: 1,
+                    },
+                    1024: {
+                        slidesPerView: 2,
+                    },
+                }}
             >
                 <SwiperSlide><img src="/assets/imgServicos/Acessorios/imgServicoAcessorios1.jpg" alt="Acessório 1" /></SwiperSlide>
                 <SwiperSlide><img src="/assets/imgServicos/Acessorios/imgServicoAcessorios2.jpg" alt="Acessório 2" /></SwiperSlide>

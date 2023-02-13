@@ -22,8 +22,8 @@ export default function SecaoServicosVeus() {
 
             {/* Container penas do Slider */}
             <Swiper
-                /* Id para diferenciar do Slider da página inicial */                
-                slidesPerView={2}
+                /* Id para diferenciar do Slider da página inicial */
+                // slidesPerView={2}
                 spaceBetween={30}
                 loop={true}
                 pagination={{
@@ -33,13 +33,21 @@ export default function SecaoServicosVeus() {
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
                 id="swiperServicos"
+                breakpoints={{
+                    0: {
+                        slidesPerView: 1,
+                    },
+                    1024: {
+                        slidesPerView: 2,
+                    },
+                }}
             >
                 <SwiperSlide><img src="/assets/imgServicos/Veus/imgServicoVeus1.jpg" alt="Véu 1" /></SwiperSlide>
                 <SwiperSlide><img src="/assets/imgServicos/Veus/imgServicoVeus2.jpg" alt="Véu 2" /></SwiperSlide>
                 <SwiperSlide><img src="/assets/imgServicos/Veus/imgServicoVeus3.jpg" alt="Véu 3" /></SwiperSlide>
                 <SwiperSlide><img src="/assets/imgServicos/Veus/imgServicoVeus4.jpg" alt="Véu 4" /></SwiperSlide>
             </Swiper>
-            
+
             {/* Container apenas dos Textos */}
             <div className="boxVeus">
                 <h1 className="tituloVeus">Véus</h1>
