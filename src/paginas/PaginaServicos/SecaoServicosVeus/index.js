@@ -42,10 +42,10 @@ export default function SecaoServicosVeus() {
                     },
                 }}
             >
-                <SwiperSlide><img src="/assets/imgServicos/Veus/imgServicoVeus1.jpg" alt="Véu 1" /></SwiperSlide>
-                <SwiperSlide><img src="/assets/imgServicos/Veus/imgServicoVeus2.jpg" alt="Véu 2" /></SwiperSlide>
-                <SwiperSlide><img src="/assets/imgServicos/Veus/imgServicoVeus3.jpg" alt="Véu 3" /></SwiperSlide>
-                <SwiperSlide><img src="/assets/imgServicos/Veus/imgServicoVeus4.jpg" alt="Véu 4" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderVeus" src="/assets/imgServicos/Veus/imgServicoVeus1.jpg" alt="Véu 1" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderVeus" src="/assets/imgServicos/Veus/imgServicoVeus2.jpg" alt="Véu 2" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderVeus" src="/assets/imgServicos/Veus/imgServicoVeus3.jpg" alt="Véu 3" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderVeus" src="/assets/imgServicos/Veus/imgServicoVeus4.jpg" alt="Véu 4" /></SwiperSlide>
             </Swiper>
 
             {/* Container apenas dos Textos */}

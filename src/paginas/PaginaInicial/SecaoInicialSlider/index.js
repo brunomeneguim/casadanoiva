@@ -16,6 +16,8 @@ export default function SecaoInicialSlider() {
 
         <section className="secaoInicialSlider">
             <Swiper
+                id="sliderPaginaInicial"
+                className="mySwiper"
                 slidesPerView={1}
                 spaceBetween={30}
                 autoplay={{
@@ -29,13 +31,11 @@ export default function SecaoInicialSlider() {
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
-                className="mySwiper"
-                id="sliderPaginaInicial"
             >
-                <SwiperSlide><img src="/assets/imgSlider1.jpg" alt="Slide Inicial 1" /></SwiperSlide>
-                <SwiperSlide><img src="/assets/imgSlider2.jpg" alt="Slide Inicial 2" /></SwiperSlide>
-                <SwiperSlide><img src="/assets/imgSlider3.jpg" alt="Slide Inicial 3" /></SwiperSlide>
-                <SwiperSlide><img src="/assets/imgSlider4.jpg" alt="Slide Inicial 4" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderInicial" src="/assets/imgSlider1.jpg" alt="Slide Inicial 1" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderInicial" src="/assets/imgSlider2.jpg" alt="Slide Inicial 2" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderInicial" src="/assets/imgSlider3.jpg" alt="Slide Inicial 3" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderInicial" src="/assets/imgSlider4.jpg" alt="Slide Inicial 4" /></SwiperSlide>
             </Swiper>
         </section>
     );

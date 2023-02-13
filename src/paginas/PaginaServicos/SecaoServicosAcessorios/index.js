@@ -34,6 +34,7 @@ export default function SecaoServicosAcessorios() {
                 /* Id para diferenciar do Slider da página inicial */
 
                 // slidesPerView={2}
+                wrapperClass="sWAcessorios"
                 spaceBetween={30}
                 loop={true}
                 pagination={{
@@ -41,8 +42,8 @@ export default function SecaoServicosAcessorios() {
                 }}
                 navigation={true}
                 modules={[Pagination, Navigation]}
-                className="mySwiper"
-                id="swiperServicos"
+                className="sAcessorios"
+                id="swiperAcessorios"
                 breakpoints={{
                     0: {
                         slidesPerView: 1,
@@ -52,10 +53,12 @@ export default function SecaoServicosAcessorios() {
                     },
                 }}
             >
-                <SwiperSlide><img src="/assets/imgServicos/Acessorios/imgServicoAcessorios1.jpg" alt="Acessório 1" /></SwiperSlide>
-                <SwiperSlide><img src="/assets/imgServicos/Acessorios/imgServicoAcessorios2.jpg" alt="Acessório 2" /></SwiperSlide>
-                <SwiperSlide><img src="/assets/imgServicos/Acessorios/imgServicoAcessorios1.jpg" alt="Acessório 3" /></SwiperSlide>
-                <SwiperSlide><img src="/assets/imgServicos/Acessorios/imgServicoAcessorios2.jpg" alt="Acessório 4" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderAcessorios" src="/assets/imgServicos/Acessorios/imgServicoAcessorios1.jpg" alt="Acessório 1" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderAcessorios" src="/assets/imgServicos/Acessorios/imgServicoAcessorios2.jpg" alt="Acessório 2" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderAcessorios" src="/assets/imgServicos/Acessorios/imgServicoAcessorios3.jpg" alt="Acessório 3" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderAcessorios" src="/assets/imgServicos/Acessorios/imgServicoAcessorios4.jpg" alt="Acessório 4" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderAcessorios" src="/assets/imgServicos/Acessorios/imgServicoAcessorios5.jpg" alt="Acessório 5" /></SwiperSlide>
+                <SwiperSlide><img className="imgSliderAcessorios" src="/assets/imgServicos/Acessorios/imgServicoAcessorios6.jpg" alt="Acessório 6" /></SwiperSlide>
             </Swiper>
         </section>
     );
