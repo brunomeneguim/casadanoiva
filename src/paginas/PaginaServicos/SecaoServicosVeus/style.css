@@ -23,6 +23,8 @@
   color: #fff;
   display: flex;
   font-weight: 100;
+  margin: 0;
+  padding-top: 60px;
 }
 
 .textoVeus {
