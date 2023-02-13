@@ -3,10 +3,11 @@
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 import "./style.css";
 
@@ -17,12 +18,17 @@ export default function SecaoInicialSlider() {
             <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
+                autoplay={{
+                    delay: 5000,
+                    disableOnInteraction: false,
+                }}
                 loop={true}
+                freeMode={true}
                 pagination={{
                     clickable: true,
                 }}
                 navigation={true}
-                modules={[Pagination, Navigation]}
+                modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
                 id="sliderPaginaInicial"
             >

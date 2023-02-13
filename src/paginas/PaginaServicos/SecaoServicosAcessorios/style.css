@@ -28,7 +28,7 @@
 .textoAcessorios {
   text-align: justify;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 100;
   font-size: 20px;
   letter-spacing: 1px;
   width: 80%;
@@ -77,21 +77,30 @@
 }
 
 /* Media Query */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1115px) {
+  .tituloAcessorios {
+    font-size: 60px;
+    transition: 1s;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .secaoServicosAcessorios {
     flex-direction: column;
   }
+
   .boxAcessorios {
     width: 100%;
   }
+
   .swiper#swiperServicos {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 750px) {
-  .tituloAcessorios {
-    font-size: 50px;
+@media screen and (max-width: 500px) {
+  .textoAcessorios {
+    font-size: 15px;
     transition: 1s;
   }
 }

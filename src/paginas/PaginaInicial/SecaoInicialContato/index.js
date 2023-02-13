@@ -29,7 +29,7 @@ export default function SecaoInicialContato() {
                         href="https://www.google.com.br/maps/place/Casa+da+Noiva/@-25.3996489,-51.4686269,17z/data=!3m1!4b1!4m5!3m4!1s0x94ef37c33a87ec89:0x4fd3c5c50cf7b6d0!8m2!3d-25.3996571!4d-51.4664418"
                         target="_blank"
                         rel='noreferrer'>
-                        <img className='imgInicialContato' alt='Ícone da Localização' src='/assets/iconeLocalizacao.png' />
+                        <img className='imgInicialLocalizacao' alt='Ícone da Localização' src='/assets/iconeLocalizacaoContato.png' />
                         Casa da Noiva - Rua Quintino Bocaíuva, 947 - Centro, Guarapuava - PR, 85010-300, Brasil
                     </a>
                     <a className='iconeInicialContato'

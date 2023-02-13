@@ -89,8 +89,8 @@
         flex-direction: column;
     }
 
-    .containerSecaoServicos h1 {
-        font-size: 25px;
+    .linkSecaoServicos {
+        font-size: 60px;
         text-align: center;
         transition: 1s;
     }
@@ -128,7 +128,7 @@
 
 @media screen and (max-width: 265px) {
     .linkSecaoServicos {
-        font-size: 35px;
+        font-size: 40px;
         transition: 1s;
     }
 }

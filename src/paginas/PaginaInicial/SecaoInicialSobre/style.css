@@ -11,7 +11,7 @@
 
 .linkInicialSobre {
     margin-top: 60px;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 00;
     color: #CE947B;
     font-family: 'Great Vibes';
@@ -37,7 +37,7 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 100;
     letter-spacing: 1px;
 }
 
@@ -45,4 +45,63 @@
 .linkInicialSobre:hover {
     transform: scale(1.05);
     transition: 200ms linear;
+}
+
+/* Media Query */
+@media screen and (max-width: 1070px) {
+    .linkInicialSobre {
+        font-size: 60px;
+        transition: 1s;
+    }
+
+    .secaoInicialSobre h2 {
+        font-size: 24px;
+        transition: 1s;
+    }
+
+    .secaoInicialSobre p {
+        font-size: 19px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .linkInicialSobre {
+        font-size: 55px;
+        transition: 1s;
+    }
+
+    .secaoInicialSobre h2 {
+        font-size: 20px;
+        transition: 1s;
+    }
+
+    .secaoInicialSobre p {
+        font-size: 18px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .secaoInicialSobre h2 {
+        font-size: 18px;
+        transition: 1s;
+    }
+
+    .secaoInicialSobre p {
+        font-size: 15px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .secaoInicialSobre h2 {
+        font-size: 15px;
+        transition: 1s;
+    }
+
+    .secaoInicialSobre p {
+        font-size: 13px;
+        transition: 1s;
+    }
 }

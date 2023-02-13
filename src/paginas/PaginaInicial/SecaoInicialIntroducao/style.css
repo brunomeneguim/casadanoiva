@@ -28,6 +28,41 @@
     width: 80%;
     text-align: justify;
     font-size: 20px;
-    letter-spacing: 1px;    
+    letter-spacing: 1px;
     font-weight: 100;
+}
+
+/* Media Query */
+@media screen and (max-width: 800px) {
+    .tituloIntroducao {
+        font-size: 35px;
+        transition: 1s;
+    }
+
+    .subtituloIntroducao {
+        font-size: 20px;
+        transition: 1s;
+    }
+
+    .textoIntroducao {
+        font-size: 18px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tituloIntroducao {
+        font-size: 28px;
+        transition: 1s;
+    }
+
+    .subtituloIntroducao {
+        font-size: 16px;
+        transition: 1s;
+    }
+
+    .textoIntroducao {
+        font-size: 14px;
+        transition: 1s;
+    }
 }

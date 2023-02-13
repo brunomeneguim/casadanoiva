@@ -11,6 +11,7 @@
 
 .tituloSobre {
     font-family: 'Great Vibes';
+    text-align: center;
     font-size: 80px;
     letter-spacing: 3px;
     color: #E6B194;
@@ -38,17 +39,13 @@
 /* Media Query */
 @media screen and (max-width: 320px) {
     .tituloSobre {
-        font-size: 40px;
+        font-size: 60px;
     }
 }
 
-@media screen and (max-width: 270px) {
-    .tituloSobre {
-        font-size: 50px;
-    }
-
+@media screen and (max-width: 270px) { 
     .subtituloSobre {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
@@ -60,7 +57,7 @@
 
 @media screen and (max-width: 175px) {
     .tituloSobre {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .subtituloSobre {

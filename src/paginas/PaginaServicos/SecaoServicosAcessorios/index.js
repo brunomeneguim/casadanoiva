@@ -32,7 +32,7 @@ export default function SecaoServicosAcessorios() {
             {/* Container penas do Slider */}
             <Swiper
                 /* Id para diferenciar do Slider da página inicial */
-                id="swiperServicos"
+
                 slidesPerView={2}
                 spaceBetween={30}
                 loop={true}
@@ -42,6 +42,7 @@ export default function SecaoServicosAcessorios() {
                 navigation={true}
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
+                id="swiperServicos"
             >
                 <SwiperSlide><img src="/assets/imgServicos/Acessorios/imgServicoAcessorios1.jpg" alt="Acessório 1" /></SwiperSlide>
                 <SwiperSlide><img src="/assets/imgServicos/Acessorios/imgServicoAcessorios2.jpg" alt="Acessório 2" /></SwiperSlide>
@@ -49,6 +50,5 @@ export default function SecaoServicosAcessorios() {
                 <SwiperSlide><img src="/assets/imgServicos/Acessorios/imgServicoAcessorios2.jpg" alt="Acessório 4" /></SwiperSlide>
             </Swiper>
         </section>
-
     );
 }

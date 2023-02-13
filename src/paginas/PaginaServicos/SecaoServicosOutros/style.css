@@ -37,7 +37,7 @@
 .textoOutrosServicos {
   text-align: justify;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 100;
   font-size: 20px;
   letter-spacing: 1px;
   padding-bottom: 30px;
@@ -65,7 +65,7 @@
   }
 
   .textoOutrosServicos {
-    font-size: 13px;
+    font-size: 15px;
     transition: 1s;
   }
 }
@@ -75,6 +75,10 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+  }
+  .tituloOutrosServicos {
+    font-size: 45px;
+    transition: 1s;
   }
 
   .containerOutrosServicos {

@@ -126,7 +126,41 @@
 }
 
 /* Media Query */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1160px) {
+    .linkLogo {
+        font-size: 50px;
+        transition: 1s;
+    }
+
+    .imgLogo {
+        width: 140px;
+        transition: 1s;
+    }
+
+    .linkCabecalho {
+        font-size: 18px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .linkLogo {
+        font-size: 40px;
+        transition: 1s;
+    }
+
+    .imgLogo {
+        width: 120px;
+        transition: 1s;
+    }
+
+    .linkCabecalho {
+        font-size: 16px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 875px) {
     .containerLogin {
         align-self: center;
         padding: 0;
@@ -134,45 +168,107 @@
 
     .containerLogoLinks {
         flex-direction: column;
-        padding-bottom: 20px;
+        padding: 15px 0px;
+        width: 90%;
     }
-}
 
-@media screen and (max-width: 630px) {
     .containerLogo {
-        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .containerLinkIcones {
         margin: 0;
     }
 }
 
-@media screen and (max-width: 549px) {
-    .containerIcones {
-        padding-top: 20px;
-    }
-}
 
-@media screen and (max-width: 480px) {
-    .containerLink {
-        flex-direction: column;
-        text-align: center;
-    }
-
+@media screen and (max-width: 519px) {
     .linkLogo {
         text-align: center;
     }
 
-    .containerLinkIcones {
-        flex-direction: column;
-        margin: 0;
-        padding: 20px;
-    }
-
     .containerIcones {
         padding-top: 20px;
     }
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 410px) {
+    .linkCabecalho {
+        font-size: 13px;
+        transition: 1s;
+    }
+
+    .imgLogo {
+        width: 100px;
+    }
+
+    .linkLogin {
+        font-size: 15px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .imgLogo {
+        width: 80px;
+    }
+
+    .containerIcones img {
+        width: 20px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .containerLogo {
+
+        margin: 0;
+    }
+
+    .linkLogo {
+        font-size: 20px;
+        transition: 1s;
+    }
+
+    .linkLogo {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .linkCabecalho {
+        font-size: 10px;
+    }
+
+    .containerIcones {
+        width: 20%;
+    }
+
+    .containerIcones img {
+        width: 18px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+
+    .containerLink,
+    .containerLinkIcones {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerIcones {
+        width: auto;
+    }
+
+    .containerIcones img {
+        width: 15px;
+    }
+}
+
+/* @media screen and (max-width: 200px) {
     .linkLogo {
         font-size: 30px;
     }
@@ -186,4 +282,4 @@
         margin: 0;
     }
 
-}
+} */
