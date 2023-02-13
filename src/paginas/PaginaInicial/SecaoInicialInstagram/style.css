@@ -1,25 +1,26 @@
-.secaoInicialInstagram {   
+.secaoInicialInstagram {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #FCF9F7;
-    padding-top: 5em;
+    padding-top: 10em;
     width: 100%;
-    height: 90vh;
-    overflow: hidden;
 }
 
 
 .secaoInicialInstagram iframe {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 0;
     width: 90%;
-    height: 100%;
+    height: 100vh;
 }
 
 .lightwidget__footer {
     display: none;
+    overflow: hidden;
 }
 
 .linkInstagram {
@@ -39,6 +40,7 @@
 }
 
 /* Media Query */
+
 @media screen and (max-width: 1700px) {
     .secaoInicialInstagram {
         height: 100vh;
@@ -67,6 +69,7 @@
     .secaoInicialInstagram {
         height: 100vh;
     }
+
     .linkInstagram {
         font-size: 60px;
         transition: 1s;
@@ -96,4 +99,3 @@
         height: 60vh;
     }
 }
-

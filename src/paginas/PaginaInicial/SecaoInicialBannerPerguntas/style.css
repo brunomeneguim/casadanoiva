@@ -1,10 +1,10 @@
-.secaoInicialBanner {
-    width: 100%;
+.secaoInicialBanner {    
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #BB7D68;
     padding-top: 40px;
+    width: 100%;
 }
 
 .linkPerguntas {

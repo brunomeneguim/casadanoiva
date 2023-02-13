@@ -13,11 +13,13 @@ export default function SecaoInicialInstagram() {
 
             {/* Script do site Light Widget */}
             <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-            <iframe src="https://cdn.lightwidget.com/widgets/deb224217e0351188bd81a5a81a8c92e.html"
+            <iframe className="lightwidget-widget"
+                src="https://cdn.lightwidget.com/widgets/deb224217e0351188bd81a5a81a8c92e.html"
                 title='Instagram Frame'
                 scrolling="no"
+                id='frameInstagram'
                 allowtransparency="true"
-                className="lightwidget-widget"></iframe>
+            ></iframe>
         </section>
     );
 }

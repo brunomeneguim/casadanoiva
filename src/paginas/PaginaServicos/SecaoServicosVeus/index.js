@@ -22,8 +22,7 @@ export default function SecaoServicosVeus() {
 
             {/* Container penas do Slider */}
             <Swiper
-                /* Id para diferenciar do Slider da página inicial */
-                id="swiperServicos"
+                /* Id para diferenciar do Slider da página inicial */                
                 slidesPerView={2}
                 spaceBetween={30}
                 loop={true}
@@ -33,6 +32,7 @@ export default function SecaoServicosVeus() {
                 navigation={true}
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
+                id="swiperServicos"
             >
                 <SwiperSlide><img src="/assets/imgServicos/Veus/imgServicoVeus1.jpg" alt="Véu 1" /></SwiperSlide>
                 <SwiperSlide><img src="/assets/imgServicos/Veus/imgServicoVeus2.jpg" alt="Véu 2" /></SwiperSlide>
