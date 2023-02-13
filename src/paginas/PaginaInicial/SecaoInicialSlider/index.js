@@ -19,7 +19,7 @@ export default function SecaoInicialSlider() {
                 slidesPerView={1}
                 spaceBetween={30}
                 autoplay={{
-                    delay: 5000,
+                    delay: 4500,
                     disableOnInteraction: false,
                 }}
                 loop={true}

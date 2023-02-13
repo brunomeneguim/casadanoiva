@@ -59,7 +59,7 @@
 
 @media screen and (max-width: 690px) {
     .secaoInicialInstagram {
-        height: 90vh;
+        height: 100vh;
     }
     .linkInstagram {
         font-size: 60px;
@@ -67,21 +67,27 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .secaoInicialInstagram {
+        height: 90vh;
+    }
+}
+
 @media screen and (max-width: 500px) {
+    .secaoInicialInstagram {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
     .secaoInicialInstagram {
         height: 70vh;
     }
 }
 
-@media screen and (max-width: 430px) {
-    .secaoInicialInstagram {
-        height: 60vh;
-    }
-}
-
 @media screen and (max-width: 300px) {
     .secaoInicialInstagram {
-        height: 50vh;
+        height: 60vh;
     }
 }
 
