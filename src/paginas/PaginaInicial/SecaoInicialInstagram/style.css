@@ -1,5 +1,4 @@
 .secaoInicialInstagram {   
-    object-fit: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,6 +7,7 @@
     padding-top: 5em;
     width: 100%;
     height: 90vh;
+    overflow: hidden;
 }
 
 
@@ -39,21 +39,27 @@
 }
 
 /* Media Query */
+@media screen and (max-width: 1700px) {
+    .secaoInicialInstagram {
+        height: 100vh;
+    }
+}
+
 @media screen and (max-width: 1600px) {
     .secaoInicialInstagram {
-        height: 80vh;
+        height: 90vh;
     }
 }
 
 @media screen and (max-width: 1250px) {
     .secaoInicialInstagram {
-        height: 70vh;
+        height: 75vh;
     }
 }
 
 @media screen and (max-width: 950px) {
     .secaoInicialInstagram {
-        height: 70vh;
+        height: 80vh;
     }
 }
 
