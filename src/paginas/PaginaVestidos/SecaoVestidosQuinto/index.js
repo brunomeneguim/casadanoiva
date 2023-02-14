@@ -9,7 +9,7 @@ export default function SecaoVestidosQuinto() {
         /* SECAO VESTIDO TIPO 5 - BACKGROUND BRANCO */
         <section className='secaoVestidosQuinto'>
             <div>
-                <h1 className='tituloQuintoVestido' id='quintoVestido'>Quinto Vestido</h1>
+                <h1 className='tituloQuintoVestido' id='quintoVestido'>Plus Size</h1>
             </div>
 
             {/* Container das imagens e caption do Quinto Vestido */}

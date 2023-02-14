@@ -3,53 +3,53 @@
         "id": 1,
         "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-1.jpg",
         "alt": "Imagem 1",
-        "caption": "Vestido Exemplo"
+        "caption": "Vestido Emoção"
     },
     {
         "id": 2,
         "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-2.jpg",
         "alt": "Imagem 2",
-        "caption": "Vestido Exemplo"
+        "caption": "Vestido Emoção"
     },
     {
         "id": 3,
         "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-3.jpg",
         "alt": "Imagem 3",
-        "caption": "Vestido Exemplo"
+        "caption": "Vestido Emoção"
     },
     {
         "id": 4,
-        "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-1.jpg",
+        "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-4.jpg",
         "alt": "Imagem 4",
-        "caption": "Vestido Exemplo"
+        "caption": "Vestido Força"
     },
     {
         "id": 5,
-        "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-2.jpg",
+        "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-5.jpg",
         "alt": "Imagem 5",
-        "caption": "Vestido Exemplo"
+        "caption": "Vestido Força"
     },
     {
         "id": 6,
-        "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-3.jpg",
+        "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-6.jpg",
         "alt": "Imagem 6",
-        "caption": "Vestido Exemplo"
+        "caption": "Vestido Força"
     },
     {
         "id": 7,
-        "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-1.jpg",
+        "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-7.jpg",
         "alt": "Imagem 7",
         "caption": "Vestido Exemplo"
     },
     {
         "id": 8,
-        "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-2.jpg",
+        "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-8.jpg",
         "alt": "Imagem 8",
         "caption": "Vestido Exemplo"
     },
     {
         "id": 9,
-        "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-3.jpg",
+        "imagem": "assets/imgVestidos/terceiroVestido/imgVestido3-9.jpg",
         "alt": "Imagem 9",
         "caption": "Vestido Exemplo"
     }

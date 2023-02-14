@@ -34,8 +34,8 @@ export default function SecaoVestidosMenu() {
                             <li><Link className='vestidoLink' to="/vestidos#segundoVestido">Boho Chic</Link></li>
                             <li><Link className='vestidoLink' to="/vestidos#terceiroVestido">Sereia</Link></li>
                             <li><Link className='vestidoLink' to="/vestidos#quartoVestido">Evasê</Link></li>
-                            <li><Link className='vestidoLink' to="/vestidos#quintoVestido">Civil</Link></li>
-                            <li><Link className='vestidoLink' to="/vestidos#sextoVestido">Plus Size</Link></li>
+                            <li><Link className='vestidoLink' to="/vestidos#quintoVestido">Plus Size</Link></li>
+                            <li><Link className='vestidoLink' to="/vestidos#sextoVestido">Civil</Link></li>
                         </ul>
                     </div>
                 </div>
