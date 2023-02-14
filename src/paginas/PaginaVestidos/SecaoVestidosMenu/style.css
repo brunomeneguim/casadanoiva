@@ -1,5 +1,7 @@
 .secaoVestidosMenu {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #BB7D68;
     max-height: 100%;
     max-width: 100%;
@@ -7,25 +9,63 @@
     position: relative;
 }
 
-.icon {
+.secaoVestidosMenu .window {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+
+.secaoVestidosMenu.secaoVestidosMenuActive .window {
+    flex-direction: column;
+}
+
+.containerMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+
+.boxTitulo .tituloVestidos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
     z-index: 100;
-    right: 50%;
-    height: 50px;
+    width: 40px;
+    /* height: 40px; */
     cursor: pointer;
 }
 
 .burguer {
-    top: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    top: 50%;
     width: 30px;
     height: 6px;
-    background: #BB7D68;
-    position: absolute;
+    background: #fff;
+    /* position: absolute; */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: 1s;
+    transition: 0.5s;
+    transform: scale(0.9);
 }
 
 .burguer::before {
@@ -34,9 +74,9 @@
     position: absolute;
     width: 37px;
     height: 6px;
-    background: #BB7D68;
+    background: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .burguer::after {
@@ -45,15 +85,16 @@
     position: absolute;
     width: 37px;
     height: 6px;
-    background: #BB7D68;
+    background: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .list ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 30px 0;
+    height: 100%;
 }
 
 .list .listItems a {
@@ -64,16 +105,11 @@
     line-height: 100px;
     font-family: 'Montserrat', sans-serif;
     color: #E6B194;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 100;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-
-}
-
-.list .listItems a:hover {
-    font-weight: 800;
 }
 
 .icon.iconActive .burguer {
@@ -101,8 +137,10 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 90vh;
-    box-shadow: 10px 0px 69px 0px rgba(0, 0, 0, 0.59);
+    height: 100%;
+    padding: 50px 0;
+    box-shadow: 10px 0px 69px 0px rgba(187, 125, 104, 0.30);
+
 }
 
 .menu.menuClose {
@@ -110,12 +148,51 @@
     width: 0px;
 }
 
+
+/* Mouse Hover */
+.tituloVestidos:hover {
+    transform: scale(1.02);
+    transition: 1s;
+}
+
+.burguer:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.list .listItems a:hover {
+    font-weight: 800;
+}
+
+
+
 /* Media Query */
 @media screen and (max-width: 450px) {
     .list .listItems a {
         font-size: 40px;
     }
 }
+
+@media screen and (max-width: 435px) {
+    .boxTitulo .tituloVestidos {
+        font-size: 20px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 306px) {
+    .containerMenu .tituloVestidos {
+        width: 80%;
+        padding: 0;
+    }
+
+    .boxTitulo .tituloVestidos {
+        font-size: 15px;
+        transition: 1s;
+    }
+}
+
+
 
 @media screen and (max-width: 230px) {
     .list .listItems a {
@@ -189,11 +266,3 @@
     }
 }
 */
-
-
-@media screen and (max-width: 160px) {
-    .linksVestidos {
-        font-size: 30px;
-        transition: 1s;
-    }
-}

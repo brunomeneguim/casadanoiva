@@ -15,15 +15,15 @@
 .iconeLogin {
     margin-right: 10px;
     padding: 5px;
-    /*border: 1px solid black;
-    border-radius: 50px;*/
     background-color: #fff;
+    transform: scale(0.9);
 }
 
 .linkLogin {
     display: flex;
     align-items: center;
     text-decoration: none;
+    flex-wrap: nowrap;
     color: black;
     font-size: 20px;
     font-weight: 600;
@@ -37,6 +37,7 @@
 }
 
 .containerLogoLinks {
+    /* height: 15vh; */
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -48,7 +49,6 @@
     margin-left: 10px;
     display: flex;
     flex-direction: row;
-    /*justify-content: center;*/
     align-items: center;
 
 }
@@ -67,7 +67,7 @@
 
 .imgLogo {
     transform: scale(0.8);
-    width: 180px;  
+    width: 180px;
 }
 
 .containerLinkIcones {
@@ -94,11 +94,12 @@
     width: 70px;
     display: flex;
     justify-content: space-between;
+    transform: scale(0.8);
 }
 
 /* Mouse Hover */
 .linkLogin:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     -webkit-text-stroke: 0.5px #CE947B;
     transition: 200ms linear;
 }
@@ -162,33 +163,28 @@
 @media screen and (max-width: 875px) {
     .containerLogin {
         align-self: center;
+        margin: 0;
         padding: 0;
+    }
+
+    .linkLogin {
+        margin: 0;
     }
 
     .containerLogoLinks {
         flex-direction: column;
         padding: 15px 0px;
-        width: 90%;
+        width: 100%;
     }
 
     .containerLogo {
         justify-content: center;
         margin: 0;
+        min-width: 200px;
     }
 
     .containerLinkIcones {
         margin: 0;
-    }
-}
-
-
-@media screen and (max-width: 499px) {
-    .linkLogo {
-        text-align: center;
-    }
-
-    .containerIcones {
-        padding-top: 20px;
     }
 }
 
@@ -221,18 +217,17 @@
 
 @media screen and (max-width: 358px) {
     .containerLogo {
-
         margin: 0;
+        width: 100%;
+        justify-content: center;
     }
 
     .linkLogo {
-        font-size: 20px;
+        font-size: 30px;
         transition: 1s;
+        width: 100%;
     }
 
-    .linkLogo {
-        width: 90px;
-    }
 }
 
 @media screen and (max-width: 335px) {
@@ -248,37 +243,3 @@
         width: 18px;
     }
 }
-
-@media screen and (max-width: 280px) {
-
-    .containerLink,
-    .containerLinkIcones {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .containerIcones {
-        width: auto;
-    }
-
-    .containerIcones img {
-        width: 15px;
-    }
-}
-
-/* @media screen and (max-width: 200px) {
-    .linkLogo {
-        font-size: 30px;
-    }
-
-    .imgLogo {
-        width: 150px;
-        transition: 1s;
-    }
-
-    .linkLogin {
-        margin: 0;
-    }
-
-} */

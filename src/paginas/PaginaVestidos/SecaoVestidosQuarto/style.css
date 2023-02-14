@@ -10,7 +10,9 @@
 
 /* Texto da Seção */
 .tituloQuartoVestido {
-    display: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Great Vibes';
     letter-spacing: 3px;
     font-size: 80px;
