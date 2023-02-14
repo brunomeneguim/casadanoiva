@@ -66,8 +66,8 @@
 }
 
 .imgLogo {
-    width: 180px;
-    display: flex;
+    transform: scale(0.8);
+    width: 180px;  
 }
 
 .containerLinkIcones {
@@ -94,7 +94,6 @@
     width: 70px;
     display: flex;
     justify-content: space-between;
-    /*align-items: center;*/
 }
 
 /* Mouse Hover */
@@ -183,7 +182,7 @@
 }
 
 
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 499px) {
     .linkLogo {
         text-align: center;
     }
@@ -220,7 +219,7 @@
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 358px) {
     .containerLogo {
 
         margin: 0;

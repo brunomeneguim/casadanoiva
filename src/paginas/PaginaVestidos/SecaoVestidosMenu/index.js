@@ -1,19 +1,35 @@
 /* Desenvolvido por - Bruno Marcondes */
 /* Função que exporta o Menu para a página Vestidos */
 
-import { HashLink as Link } from 'react-router-hash-link';
-import './style.css';
+import { useState } from 'react';
+import { HashLink as Link } from 'react-router-hash-link'
+import './style.css'
 
 export default function SecaoVestidosMenu() {
+
+    const [active, setMode] = useState(false);
+    const ToggleMode = () => {
+        setMode(!active)
+    }
+
     return (
         <section className='secaoVestidosMenu'>
-            <nav className='linksVestidosMenu'>
-                <Link className='linksVestidos' to="/vestidos#primeiroVestido">Vestido1</Link>
-                <Link className='linksVestidos' to="/vestidos#segundoVestido">Vestido2</Link>
-                <Link className='linksVestidos' to="/vestidos#terceiroVestido">Vestido3</Link>
-                <Link className='linksVestidos' to="/vestidos#quartoVestido">Vestido4</Link>
-                <Link className='linksVestidos' to="/vestidos#quintoVestido">Vestido5</Link>
-            </nav>
+            <div className={active ? "icon iconActive" : "icon"} onClick={ToggleMode}>
+                <div className='burguer burguerIcon'></div>
+            </div>
+
+            <div className={active ? "menu menuOpen" : "menu menuClose"}>
+                <div className='list'>
+                    <ul className='listItems'>
+                        <li><Link className='vestidoLink' to="/vestidos#primeiroVestido">Princesa</Link></li>
+                        <li><Link className='vestidoLink' to="/vestidos#segundoVestido">Boho Chic</Link></li>
+                        <li><Link className='vestidoLink' to="/vestidos#terceiroVestido">Sereia</Link></li>
+                        <li><Link className='vestidoLink' to="/vestidos#quartoVestido">Evasê</Link></li>
+                        <li><Link className='vestidoLink' to="/vestidos#quintoVestido">Civil</Link></li>
+                        <li><Link className='vestidoLink' to="/vestidos#sextoVestido">Plus Size</Link></li>
+                    </ul>
+                </div>
+            </div>
         </section>
     );
 

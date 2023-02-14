@@ -1,5 +1,5 @@
 /* Desenvolvido por - Bruno Marcondes */
-/* Secao que exporta os Segundos Vestidos para a Página Vestido */
+/* Secao que exporta o Segundo Vestido para a Página Vestido */
 
 import imgVestidos from './dadosSegundoVestido.json'
 import './style.css';

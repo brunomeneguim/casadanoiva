@@ -7,6 +7,7 @@ import SecaoVestidosSegundo from "./SecaoVestidosSegundo";
 import SecaoVestidosTerceiro from "./SecaoVestidosTerceiro";
 import SecaoVestidosQuarto from "./SecaoVestidosQuarto";
 import SecaoVestidosQuinto from "./SecaoVestidosQuinto";
+import SecaoVestidosSexto from "./SecaoVestidosSexto";
 
 export default function PaginaVestidos() {
     return (
@@ -17,6 +18,7 @@ export default function PaginaVestidos() {
             <SecaoVestidosTerceiro />
             <SecaoVestidosQuarto />
             <SecaoVestidosQuinto />
+            <SecaoVestidosSexto />
         </main>
     );
 }

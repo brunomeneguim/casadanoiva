@@ -32,9 +32,7 @@ export default function SecaoServicosAcessorios() {
             {/* Container penas do Slider */}
             <Swiper
                 /* Id para diferenciar do Slider da página inicial */
-
-                // slidesPerView={2}
-                wrapperClass="sWAcessorios"
+                // slidesPerView={2}               
                 spaceBetween={30}
                 loop={true}
                 pagination={{
@@ -42,7 +40,7 @@ export default function SecaoServicosAcessorios() {
                 }}
                 navigation={true}
                 modules={[Pagination, Navigation]}
-                className="sAcessorios"
+                className="mySwiper"
                 id="swiperAcessorios"
                 breakpoints={{
                     0: {

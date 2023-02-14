@@ -25,10 +25,12 @@ export default function Cabecalho() {
             <div className='containerLogoLinks'>
                 <div className='containerLogo'>
                     <div>
-                        <img className='imgLogo' alt='Logo' src="/assets/imgLogo.png" />
+                        <Link className='linkLogo' to="/" alt="Imagem Logo">
+                            <img className='imgLogo' alt='Logo' src="/assets/imgLogo.png" />
+                        </Link>
                     </div>
                     <div>
-                        <Link className='linkLogo' to="/" alt="Imagem Logo">
+                        <Link className='linkLogo' to="/" alt="Link Logo">
                             Casa da Noiva
                         </Link>
                     </div>

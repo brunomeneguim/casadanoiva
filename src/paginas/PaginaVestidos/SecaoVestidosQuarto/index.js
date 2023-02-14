@@ -1,5 +1,5 @@
 /* Desenvolvido por - Bruno Marcondes */
-/* Secao que exporta os Quartos Vestidos para a Página Vestido */
+/* Secao que exporta o Quarto Vestido para a Página Vestido */
 
 import imgVestidos from './dadosQuartoVestido.json'
 import './style.css';

@@ -1,5 +1,5 @@
 /* Desenvolvido por - Bruno Marcondes */
-/* Secao que exporta os Quintos Vestidos para a Página Vestido */
+/* Secao que exporta o Quinto Vestido para a Página Vestido */
 
 import imgVestidos from './dadosQuintoVestido.json'
 import './style.css';

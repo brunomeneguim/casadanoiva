@@ -40,14 +40,19 @@
 }
 
 /* Media Query */
-
-@media screen and (max-width: 1700px) {
+@media screen and (min-width: 1700px) {
     .secaoInicialInstagram {
         height: 100vh;
     }
 }
 
 @media screen and (max-width: 1600px) {
+    .secaoInicialInstagram {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1400px) {
     .secaoInicialInstagram {
         height: 90vh;
     }
@@ -97,5 +102,11 @@
 @media screen and (max-width: 300px) {
     .secaoInicialInstagram {
         height: 60vh;
+    }
+}
+
+@media screen and (max-width: 180px) {
+    .linkInstagram {
+        font-size: 50px;
     }
 }
