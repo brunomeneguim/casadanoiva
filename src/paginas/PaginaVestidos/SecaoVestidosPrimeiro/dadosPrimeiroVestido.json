@@ -52,5 +52,41 @@
         "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-9.jpg",
         "alt": "Imagem 9",
         "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 10,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-10.jpg",
+        "alt": "Imagem 10",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 11,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-11.jpg",
+        "alt": "Imagem 11",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 12,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-12.jpg",
+        "alt": "Imagem 12",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 13,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-13.jpg",
+        "alt": "Imagem 13",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 14,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-14.jpg",
+        "alt": "Imagem 14",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 15,
+        "imagem": "assets/imgVestidos/primeiroVestido/imgVestido1-15.jpg",
+        "alt": "Imagem 15",
+        "caption": "Vestido Exemplo"
     }
 ]

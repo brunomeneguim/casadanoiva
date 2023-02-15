@@ -52,5 +52,23 @@
         "imagem": "assets/imgVestidos/quartoVestido/imgVestido4-9.jpg",
         "alt": "Imagem 9",
         "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 10,
+        "imagem": "assets/imgVestidos/quartoVestido/imgVestido4-10.jpg",
+        "alt": "Imagem 10",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 11,
+        "imagem": "assets/imgVestidos/quartoVestido/imgVestido4-11.jpg",
+        "alt": "Imagem 11",
+        "caption": "Vestido Exemplo"
+    },
+    {
+        "id": 12,
+        "imagem": "assets/imgVestidos/quartoVestido/imgVestido4-12.jpg",
+        "alt": "Imagem 12",
+        "caption": "Vestido Exemplo"
     }
 ]
