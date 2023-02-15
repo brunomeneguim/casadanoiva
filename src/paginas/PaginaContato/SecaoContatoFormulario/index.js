@@ -28,6 +28,7 @@ export default function SecaoContatoFormulario() {
         emailjs.send('service_casa_da_noiva', 'template_casa_da_noiva', templateParams, 'STyo0BYl8_59vaemH')
             .then(function (response) {
                 console.log('Success!!!!', response.status, response.text);
+                alert("Sua mensagem foi enviada com sucesso.");
             }, function (error) {
                 console.log('Failed...', error);
             });
