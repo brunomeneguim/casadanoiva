@@ -18,7 +18,7 @@ export default function SecaoVestidosTerceiro() {
                     imgVestidos && imgVestidos.map(imgVestidos => {
                         return (
                             <figure className="figTerceiroVestido pushupTerceiroVestido" key={imgVestidos.id}>
-                                <img className='imgTerceiroVestido' src={imgVestidos.imagem} alt={imgVestidos.name}
+                                <img className='imgTerceiroVestido' src={imgVestidos.imagem} alt={imgVestidos.alt}
                                 />
                                 <figcaption className='captionTerceiroVestido'>
                                     <h4 className='textoTerceiroVestido'>{imgVestidos.caption}</h4>
