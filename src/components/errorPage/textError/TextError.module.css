@@ -1,19 +1,4 @@
-.secaoError {
-    display: block;
-    background-color: #BB7D68;
-    overflow: hidden;
-}
-
-.imgError {
-    width: 100%;
-}
-
-.linkError {
-    text-decoration: none;
-    display: contents;
-}
-
-.textoError {
+.textError {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 60px;
@@ -21,29 +6,36 @@
     text-align: center;
 }
 
+.linkError {
+    text-decoration: none;
+    display: block;
+    background-color: #BB7D68;
+    overflow: hidden;
+}
+
 /* Mouse Hover */
-.textoError:hover {
+.textError:hover {
     transform: scale(1.05);
     transition: 200ms linear;
 }
 
 /* Media Query*/
 @media screen and (max-width: 380px) {
-    .textoError {
+    .textError {
         font-size: 40px;
         transition: 1s;
     }
 }
 
 @media screen and (max-width: 250px) {
-    .textoError {
+    .textError {
         font-size: 30px;
         transition: 1s;
     }
 }
 
 @media screen and (max-width: 170px) {
-    .textoError {
+    .textError {
         font-size: 20px;
         transition: 1s;
     }

@@ -11,13 +11,12 @@ export default function SecaoServicosOutros() {
             {/* Container de cada Serviço separado */}
             <div className="containerOutrosServicos">
 
-                {/* Container dos componentes de cada serviço */}
+                {/* Container dos components de cada serviço */}
                 <div className="boxOutrosServicos">
                     <h1 className="tituloOutrosServicos">Sapatos</h1>
-                    <p className="textoOutrosServicos">Sim. Por causa do código de ética do psicólogo não é autorizado divulgar
-                        os valores das sessões por aqui. Porém no pacote mensal (4 sessões) o valor é
-                        diferenciado, com desconto comparado ao valor da sessão individual.
-                        Se você tem interesse em fazer terapia, me chama no chat que te passo os valores!
+                    <p className="textoOutrosServicos">O sapato de noiva também é uma peça importante na composição do look.
+                        Aqui na Casa da Noiva você encontra opções de sapatos brancos tanto de salto alto como salto baixo, para
+                        aquelas noivas que preferem conforto no seu grande dia.
                     </p>
                     <img className="imagemOutrosServicos"
                         src="/assets/imgServicos/Sapatos/imgServicoSapato.jpg"
@@ -28,10 +27,10 @@ export default function SecaoServicosOutros() {
             <div className="containerOutrosServicos">
                 <div className="boxOutrosServicos">
                     <h1 className="tituloOutrosServicos">Costureira</h1>
-                    <p className="textoOutrosServicos">Sim. Por causa do código de ética do psicólogo não é autorizado divulgar
-                        os valores das sessões por aqui. Porém no pacote mensal (4 sessões) o valor é
-                        diferenciado, com desconto comparado ao valor da sessão individual.
-                        Se você tem interesse em fazer terapia, me chama no chat que te passo os valores!
+                    <p className="textoOutrosServicos">Nosso serviço de costura é ofertado por uma profissional que trabalha há mais
+                        de 10 anos com ajustes de vestidos de noiva. Esse serviço é incluso gratuitamente para as noivas que fecham
+                        contrato conosco, mas se você já tem o vestido e quiser apenas ajustar ou customizar conosco, também temos esse
+                        serviço à parte. Venha fazer um orçamento conosco.
                     </p>
                     <img className="imagemOutrosServicos"
                         src="/assets/imgServicos/Costureira/imgServicoCostureira.jpg"
@@ -42,10 +41,10 @@ export default function SecaoServicosOutros() {
             <div className="containerOutrosServicos">
                 <div className="boxOutrosServicos">
                     <h1 className="tituloOutrosServicos">Lavanderia</h1>
-                    <p className="textoOutrosServicos">Sim. Por causa do código de ética do psicólogo não é autorizado divulgar
-                        os valores das sessões por aqui. Porém no pacote mensal (4 sessões) o valor é
-                        diferenciado, com desconto comparado ao valor da sessão individual.
-                        Se você tem interesse em fazer terapia, me chama no chat que te passo os valores!
+                    <p className="textoOutrosServicos">Nosso serviço de lavanderia profissional é ofertado gratuitamente para as noivas
+                        que fecham contrato conosco. Entregamos o vestido e acessórios no dia do seu casamento limpo e passado, e lavamos
+                        também depois do casamento. Os produtos utilizados são próprios para lavagem de peças brancas e delicadas, assim
+                        como o ferro profissional que não queima tecidos. Também oferecemos este serviço à parte pelo valor de R$ 200,00.
                     </p>
                     <img className="imagemOutrosServicos"
                         src="/assets/imgServicos/Lavanderia/imgServicoLavanderia.jpg"

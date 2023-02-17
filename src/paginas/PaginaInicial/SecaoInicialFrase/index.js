@@ -7,8 +7,8 @@ export default function SecaoInicialFrase(){
     return (
         
         <section className="secaoInicialFrase">  
-            <h1>VIDA MAIS LEVE E RELACIONAMENTOS SAUDÁVEIS</h1>
-            <p>Anne Wendler</p>
+            <h1>Há mais de 3 anos realizando sonhos</h1>
+            <p>Atendimento apenas com hora marcada!</p>
         </section>
     );
 }

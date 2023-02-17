@@ -40,10 +40,11 @@
 }
 
 .containerListaServicos {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .containerListaServicos img {
@@ -53,12 +54,14 @@
 .boxListaServicos {
     margin-bottom: 70px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: row;
 }
 
 .linkServicos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
     color: #F6C1A1;
 }

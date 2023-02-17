@@ -9,7 +9,7 @@ import PaginaVestidos from './paginas/PaginaVestidos';
 import PaginaServicos from './paginas/PaginaServicos';
 import PaginaSobre from './paginas/PaginaSobre';
 import PaginaContato from './paginas/PaginaContato/';
-import Erro404 from './componentes/PaginaErro';
+import ErrorPage from './components/errorPage/ErrorPage';
 
 export default function Rotas() {
     return (
@@ -20,7 +20,7 @@ export default function Rotas() {
             <Route path="/sobre" element={<PaginaSobre />}></Route>
             <Route path="/contato" element={<PaginaContato />}></Route>
             {/* Página de Erro */}
-            <Route path="*" element={<Erro404 />}></Route>
+            <Route path="*" element={<ErrorPage />}></Route>
         </Routes>
     );
 }

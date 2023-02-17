@@ -1,0 +1,50 @@
+/* .cntLogin {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+.iconLogin {
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #fff;
+    transform: scale(0.9);
+}
+
+.linkLogin {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+} */
+
+/* Mouse Hover */
+/* .linkLogin:hover {
+    transform: scale(1.05);
+    -webkit-text-stroke: 0.5px #CE947B;
+    transition: 200ms linear;
+} */
+
+/* Media Query */
+/* @media screen and (max-width: 875px) {
+    .cntLogin {
+        align-self: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .linkLogin {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .linkLogin {
+        font-size: 15px;
+        transition: 1s;
+    }
+} */

@@ -1,0 +1,36 @@
+.cntIcon {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    transform: scale(0.8);
+}
+
+/* Mouse Hover */
+.iconLocation:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+.iconInstagram:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 395px) {
+    .cntIcon img {
+        width: 20px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .cntIcon {
+        width: 20%;
+    }
+
+    .cntIcon img {
+        width: 18px;
+    }
+}

@@ -1,0 +1,41 @@
+.textLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #CE947B;
+    font-size: 70px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-family: 'Great Vibes';
+}
+
+/* Mouse Hover */
+.textLogo:hover {
+    transform: scale(1.05);
+    transition: 0.5s linear;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 1160px) {
+    .textLogo {
+        font-size: 50px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .textLogo {
+        font-size: 40px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .textLogo {
+        font-size: 30px;
+        transition: 1s;
+        width: 100%;
+    }
+}

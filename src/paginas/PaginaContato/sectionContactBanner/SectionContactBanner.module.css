@@ -1,10 +1,9 @@
-.secaoContatoBanner {
-    display: flex;   
+.sectionContactBanner {
+    display: flex;
     justify-content: center;
     max-height: 100vh;
 }
 
-.imgContato {
+.imgContact {
     width: 100%;
 }
-

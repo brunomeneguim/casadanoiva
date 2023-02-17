@@ -54,10 +54,9 @@ export default function SecaoServicosVeus() {
             {/* Container apenas dos Textos */}
             <div className="boxVeus">
                 <h1 className="tituloVeus">Véus</h1>
-                <p className="textoVeus">Sim. Por causa do código de ética do psicólogo não é autorizado divulgar
-                    os valores das sessões por aqui. Porém no pacote mensal (4 sessões) o valor é
-                    diferenciado, com desconto comparado ao valor da sessão individual.
-                    Se você tem interesse em fazer terapia, me chama no chat que te passo os valores!
+                <p className="textoVeus">O Véu da Noiva tem um significado especial de transparecer a pureza e honra da mulher, além de ficar
+                    muito lindo nas fotos! Na Casa da Noiva você encontra vários modelos de véus: longos, médios, curtos, lisos, com bordados,
+                    simples, rendados, com fita de cetim... E os valores variam entre R$ 100,00 à R$ 200,00 a locação.
                 </p>
             </div>
         </section>

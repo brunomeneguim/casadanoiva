@@ -29,7 +29,8 @@ export default function SecaoInicialServicos() {
                         <img src="/assets/iconeVestido.png" alt="Ícone de Vestido" />
                         <Link className="linkServicos" to="/vestidos">
                             <h2>Vestidos</h2>
-                            <p>Tamanhos x, Tamanhos x, Tamanhos x</p>
+                            <p>Princesa, Boho Chic, Sereia</p>
+                            <p>Evasê, Plus Size e Civil</p>
                         </Link>
                     </div>
 
@@ -37,7 +38,8 @@ export default function SecaoInicialServicos() {
                         <img src="/assets/iconeAcessorios.png" alt="Ícone de Acessórios" />
                         <Link className="linkServicos" to="/servicos#acessorios">
                             <h2>Acessórios</h2>
-                            <p>Tamanhos x, Tamanhos x, Tamanhos x</p>
+                            <p>Coroas, Tiaras</p>
+                            <p>Cintos e Anáguas</p>
                         </Link>
                     </div>
 
@@ -45,7 +47,7 @@ export default function SecaoInicialServicos() {
                         <img src="/assets/iconeVeu.png" alt="Ícone de Véus" />
                         <Link className="linkServicos" to="/servicos#veus">
                             <h2>Véus</h2>
-                            <p>Tamanhos x, Tamanhos x, Tamanhos x</p>
+                            <p>Longos, Curtos e Rendados</p>
                         </Link>
                     </div>
 
@@ -53,7 +55,7 @@ export default function SecaoInicialServicos() {
                         <img src="/assets/iconeSapato.png" alt="Ícone Outros" />
                         <Link className="linkServicos" to="/servicos#outros">
                             <h2>Outros</h2>
-                            <p>Sapatos x, Costureira x, Lavanderia x</p>
+                            <p>Sapatos, Costureira e Lavanderia</p>
                         </Link>
                     </div>
                 </div>

@@ -17,9 +17,8 @@ export default function SecaoInicialContato() {
                 {/* Link para a página Contato */}
                 <Link className='tituloInicialContato' to='/contato'>Entre em contato</Link>
 
-                <p className="textoInicialContato">Tenho prazer em ajudar meus pacientes a desenvolverem as ferramentas que
-                    precisam para lidar com todos os desafios da vida.
-                    Entre em contato comigo para mais informações e também para agendar uma sessão.
+                <p className="textoInicialContato">Será um prazer te ajudar a escolher o seu vestido de
+                    noiva dos sonhos. Esperamos por você! Entre em contato para mais informações e também para agendar uma visita.
                 </p>
 
 

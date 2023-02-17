@@ -1,0 +1,37 @@
+.imgLogo {
+    transform: scale(0.9);
+    width: 180px;
+}
+
+/* Mouse hover */
+.imgLogo:hover {
+    transform: scale(1.01);
+    transition: 1s;
+}
+
+/* Media Query */
+@media screen and (max-width: 1160px) {
+    .imgLogo {
+        width: 140px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .imgLogo {
+        width: 120px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .imgLogo {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .imgLogo {
+        width: 80px;
+    }
+}

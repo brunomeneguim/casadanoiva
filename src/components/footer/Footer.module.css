@@ -1,0 +1,9 @@
+.cntFooter {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: #BB7D68;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}

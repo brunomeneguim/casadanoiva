@@ -23,10 +23,9 @@ export default function SecaoServicosAcessorios() {
             {/* Container apenas dos Textos */}
             <div className="boxAcessorios">
                 <h1 className="tituloAcessorios">Acessórios</h1>
-                <p className="textoAcessorios">Sim. Por causa do código de ética do psicólogo não é autorizado divulgar
-                    os valores das sessões por aqui. Porém no pacote mensal (4 sessões) o valor é
-                    diferenciado, com desconto comparado ao valor da sessão individual.
-                    Se você tem interesse em fazer terapia, me chama no chat que te passo os valores!
+                <p className="textoAcessorios">Na Casa da Noiva você também pode alugar separadamente os acessórios
+                    para o seu look de noiva. Temos várias opções de coroas, tiaras, grinaldas, cintos, brincos, estola
+                    de inverno e roupões. Os valores variam entre R$ 30,00 à R$ 100,00 locação.
                 </p>
             </div>
             {/* Container penas do Slider */}

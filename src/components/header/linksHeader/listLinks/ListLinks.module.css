@@ -1,0 +1,54 @@
+.cntNavLinks {
+    display: flex;
+}
+
+.linkHeader {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.linkHeader:hover {
+    transform: scale(1.1);
+    -webkit-text-stroke: 1px #CE947B;
+    transition: 200ms linear;
+}
+
+/* Media Query */
+@media screen and (max-width: 1160px) {
+    .linkHeader {
+        font-size: 18px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .linkHeader {
+        font-size: 16px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .linkHeader {
+        font-size: 13px;
+        transition: 1s;
+    }
+}
+
+
+@media screen and (max-width: 335px) {
+    .linkHeader {
+        font-size: 10px;
+    }
+
+    .cntIcon {
+        width: 20%;
+    }
+
+    .cntIcon img {
+        width: 18px;
+    }
+}

@@ -1,0 +1,17 @@
+.cntHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Media Query */
+@media screen and (max-width: 875px) {
+    .cntHeader {
+        flex-direction: column;
+        padding: 15px 0px;
+        width: 100%;
+    }
+}

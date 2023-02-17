@@ -1,0 +1,13 @@
+.textFooter {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* Media Query */
+@media screen and (max-width: 460px) {
+    .textFooter {
+        font-size: 12px;
+        transition: 1s;
+    }
+}
