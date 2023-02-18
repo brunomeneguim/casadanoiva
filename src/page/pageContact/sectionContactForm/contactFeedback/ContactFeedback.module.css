@@ -1,0 +1,34 @@
+.cntContactFeedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+    border-radius: 20px;
+    background-color: #FCF9F7;
+    width: 25%;
+    min-width: 180px;
+}
+
+/* Mouse Hover */
+.cntContactFeedback:hover {
+    transform: scale(1.03);
+    transition: 200ms linear;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 500px) {
+    .cntContactFeedback {
+        width: 80%;
+        font-size: 15px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .cntContactFeedback {
+        width: 60%;
+    }
+}

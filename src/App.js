@@ -9,7 +9,7 @@ import ScrollToTop from "react-scroll-to-top";
 /* Desenvolvido por - Bruno Marcondes */
 /* Documento que define as rotas da página */
 
-import Rotas from './Rotas';
+import MainRoute from './MainRoute';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import BackToTop from './components/BackToTop';
@@ -34,7 +34,7 @@ export default function App() {
         {/* Função que quando o usuário troca de página, inicia sempre no topo da página */}
         <BackToTop />
         <Header />
-        <Rotas />
+        <MainRoute />
         <Footer />
       </Router>
     </div>

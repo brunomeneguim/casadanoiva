@@ -9,14 +9,15 @@
   align-items: center;
   flex-direction: column;
   padding-bottom: 20px;
-  width: 80%;
 }
 
 .boxOutrosServicos {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   padding-bottom: 20px;
   width: 80%;
+  height: 100%;
 }
 
 .imagemOutrosServicos {
@@ -37,12 +38,15 @@
 }
 
 .textoOutrosServicos {
+  display: flex;
+  justify-content: center;
   text-align: justify;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   font-size: 20px;
   letter-spacing: 1px;
   padding-bottom: 30px;
+  height: 100%;
 }
 
 /* Mouse Hover */
@@ -78,6 +82,7 @@
     width: 100%;
     align-items: center;
   }
+
   .tituloOutrosServicos {
     font-size: 45px;
     transition: 1s;

@@ -1,0 +1,13 @@
+.imgContactFeedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+/* Media Query */
+@media screen and (max-width: 1020px) {
+    .imgContactFeedback {
+        padding-left: 5px;
+    }
+}

@@ -1,7 +1,8 @@
 /* Desenvolvido por - Bruno Marcondes */
 
-import styles from './IconLinks.module.css';
 import IconLinksData from './IconLinksData.json';
+
+import styles from './IconLinks.module.css';
 
 export default function IconLinks() {
     return (

@@ -15,7 +15,7 @@ export default function SecaoInicialContato() {
             <div className="containerInicialContato">
 
                 {/* Link para a página Contato */}
-                <Link className='tituloInicialContato' to='/contato'>Entre em contato</Link>
+                <Link className='tituloInicialContato' to='/contact'>Entre em contato</Link>
 
                 <p className="textoInicialContato">Será um prazer te ajudar a escolher o seu vestido de
                     noiva dos sonhos. Esperamos por você! Entre em contato para mais informações e também para agendar uma visita.

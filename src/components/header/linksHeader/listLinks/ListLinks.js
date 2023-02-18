@@ -11,12 +11,7 @@ export default function ListLinks() {
             {
                 ListLinksData.map(ListLinksData => {
                     return (
-                        <Link
-                            key={ListLinksData.id}
-                            className={styles.linkHeader}
-                            to={ListLinksData.path}>
-                            {ListLinksData.name}
-                        </Link>
+                        <Link key={ListLinksData.id} className={styles.linkHeader} to={ListLinksData.path}>{ListLinksData.name}</Link>
                     )
                 })
             }

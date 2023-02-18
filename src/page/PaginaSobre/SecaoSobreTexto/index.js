@@ -10,7 +10,7 @@ export default function SecaoSobreTexto() {
             <section className='secaoSobreTexto'>
 
                 <h1 className='tituloSobre'>Nossa História</h1>
-                <h2 className='subtituloSobre'>PSICOLOGIA COMO PROPÓSITO DE VIDA</h2>
+                <h2 className='subtituloSobre'>Há mais de 3 anos realizando sonhos</h2>
 
                 {/* Container apenas dos paragráfos */}
                 <div className='containerParagrafos'>

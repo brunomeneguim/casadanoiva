@@ -1,0 +1,63 @@
+.txtContactWhatsApp {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CE947B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.linkContactWhatsApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #BB7D68;
+    box-shadow: 1px 1px 2px #888;
+    border-radius: 50px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+
+    height: 40px;
+    width: 75%;
+    min-width: 150px;
+}
+
+
+/* Mouse Hover */
+.linkContactWhatsApp:hover {
+    transform: scale(1.03);
+    transition: 200ms linear;
+}
+
+/* Media Query */
+@media screen and (max-width: 1020px) {
+    .linkContactWhatsApp {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .linkContactWhatsApp {
+        width: 90%;
+        font-size: 15px;
+        transition: 1s;
+    }
+}
+
+
+@media screen and (max-width: 410px) {
+    .txtContactWhatsApp {
+        font-size: 18px;
+        transition: 1s;        
+    }
+}

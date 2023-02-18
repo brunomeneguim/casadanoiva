@@ -1,0 +1,48 @@
+.txtContactFeedback {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CE947B;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Great Vibes'; */
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.linkContactFeedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #BB7D68;
+    box-shadow: 1px 1px 2px #888;
+    border-radius: 50px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+
+    height: 40px;
+    width: 75%;
+    min-width: 150px;
+}
+
+/* Media Query */
+@media screen and (max-width: 410px) {
+    .txtContactFeedback {
+        font-size: 18px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .linkContactFeedback {
+        width: 90%;
+    }
+}

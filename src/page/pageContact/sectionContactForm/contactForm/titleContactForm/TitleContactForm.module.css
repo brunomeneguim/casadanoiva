@@ -1,0 +1,21 @@
+.titleForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Great Vibes';
+    letter-spacing: 3px;
+    color: #CE947B;
+    font-size: 70px;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Media Query */
+@media screen and (max-width: 500px) {
+    .titleForm {
+        font-size: 45px;
+        transition: 1s;
+    }
+}
