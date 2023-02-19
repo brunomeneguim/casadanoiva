@@ -1,0 +1,28 @@
+.linkQuestion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Great Vibes';
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Mouse Hover */
+.linkQuestion:hover {
+    transform: scale(1.05);
+    transition: 200ms linear;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 415px) {
+    .linkQuestion {
+        font-size: 60px;
+        transition: 1s;
+    }
+}

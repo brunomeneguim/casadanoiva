@@ -1,0 +1,13 @@
+.lightwidget_widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    width: 90%;
+    height: 100vh;
+}
+
+.lightwidget__footer {
+    display: none;
+    overflow: hidden;
+}

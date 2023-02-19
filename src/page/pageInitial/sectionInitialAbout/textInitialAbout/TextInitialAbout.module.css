@@ -1,0 +1,70 @@
+.subTitleInitialAbout {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #E6B194;
+    text-align: center;
+    width: 80%;
+}
+
+.textInitialAbout {
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+/* Media Query */
+@media screen and (max-width: 1070px) {
+    .subTitleInitialAbout {
+        font-size: 24px;
+        transition: 1s;
+    }
+
+    .textInitialAbout {
+        font-size: 19px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .subTitleInitialAbout {
+        font-size: 20px;
+        transition: 1s;
+    }
+
+    .textInitialAbout {
+        font-size: 18px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .subTitleInitialAbout {
+        font-size: 18px;
+        transition: 1s;
+    }
+
+    .textInitialAbout {
+        font-size: 15px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .subTitleInitialAbout {
+        font-size: 15px;
+        transition: 1s;
+    }
+
+    .textInitialAbout {
+        font-size: 13px;
+        transition: 1s;
+    }
+}

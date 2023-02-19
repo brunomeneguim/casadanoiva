@@ -1,0 +1,9 @@
+.sectionInitialQuestion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #BB7D68;
+    padding: 60px 0;
+    width: 100%;
+}

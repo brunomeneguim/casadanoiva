@@ -1,0 +1,39 @@
+.linkInitialAbout {
+    padding: 30px 0;
+    font-size: 80px;
+    font-weight: 100;
+    color: #CE947B;
+    font-family: 'Great Vibes';
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-align: center;
+    width: 80%;
+}
+
+/* Mouse Hover */
+.linkInitialAbout:hover {
+    transform: scale(1.05);
+    transition: 200ms linear;
+}
+
+/* Media Query */
+@media screen and (max-width: 1070px) {
+    .linkInitialAbout {
+        font-size: 60px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .linkInitialAbout {
+        font-size: 50px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .linkInitialAbout {
+        font-size: 40px;
+        transition: 1s;
+    }
+}

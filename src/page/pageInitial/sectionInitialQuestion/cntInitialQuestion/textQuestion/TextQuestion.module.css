@@ -1,0 +1,53 @@
+.boxInitialQuestion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.subTitleQuestion {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #E6B194;
+}
+
+.textQuestion {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: justify;
+}
+
+/* Media Query */
+@media screen and (max-width: 1200px) {
+    .subTitleQuestion {
+        font-size: 25px;
+        width: 90%;
+    }
+
+    .textQuestion {
+        width: 80%;
+    }
+
+    .boxInitialQuestion {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .textQuestion {
+        font-size: 18px;
+        flex-direction: row;
+    }
+}

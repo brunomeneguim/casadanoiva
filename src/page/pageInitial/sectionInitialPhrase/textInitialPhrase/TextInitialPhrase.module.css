@@ -1,0 +1,66 @@
+.titleInitialPhrase {
+    width: 90%;
+    font-size: 35px;
+    text-align: center;
+}
+
+.textInitialPhrase {
+    font-size: 30px;
+}
+
+/* Media Query */
+@media screen and (max-width: 960px) {
+    .titleInitialPhrase {
+        font-size: 30px;
+        transition: 1s;
+    }
+
+    .textInitialPhrase {
+        font-size: 25px;
+        transition: 1s;
+    }
+
+}
+@media screen and (max-width: 835px) {
+    .titleInitialPhrase {
+        font-size: 25px;
+        transition: 1s;
+    }
+
+    .textInitialPhrase {
+        font-size: 20px;
+        transition: 1s;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    .titleInitialPhrase {
+        font-size: 20px;
+        transition: 1s;
+    }
+
+    .textInitialPhrase {
+        font-size: 15px;
+        transition: 1s;
+    }
+
+}
+
+@media screen and (max-width: 240px) {
+    .titleInitialPhrase {
+        font-size: 15px;
+    }
+
+    .textInitialPhrase {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 180px) {
+    .titleInitialPhrase {
+        font-size: 13px;
+    }
+
+
+}

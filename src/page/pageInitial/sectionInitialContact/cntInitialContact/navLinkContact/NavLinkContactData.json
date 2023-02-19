@@ -1,0 +1,29 @@
+[
+    {
+        "id": "0",
+        "href": "https://www.google.com.br/maps/place/Casa+da+Noiva/@-25.3996489,-51.4686269,17z/data=!3m1!4b1!4m5!3m4!1s0x94ef37c33a87ec89:0x4fd3c5c50cf7b6d0!8m2!3d-25.3996571!4d-51.4664418",
+        "target": "_blank",
+        "rel": "noreferrer",
+        "pathIcon": "/assets/iconeLocalizacaoContato.png",
+        "altIcon": "Ícone da Localização",
+        "textLink": "Casa da Noiva - Rua Quintino Bocaíuva, 947 - Centro, Guarapuava - PR, 85010-300, Brasil"
+    },
+    {
+        "id": "1",
+        "href": "mailto:anne_wendler@hotmail.com",
+        "target": "_blank",
+        "rel": "noreferrer",
+        "pathIcon": "/assets/iconeEmail.png",
+        "altIcon": "Ícone E-mail",
+        "textLink": "E-mail: casadanoiva.gpuava@hotmail.com"
+    },
+    {
+        "id": "2",
+        "href": "tel:5542999901300",
+        "target": "",
+        "rel": "noreferrer",
+        "pathIcon": "/assets/iconeTelefone.png",
+        "altIcon": "Ícone Telefone",
+        "textLink": "Celular: (42) 9-9990-1300"
+    }
+]

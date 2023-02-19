@@ -1,0 +1,37 @@
+[
+    {
+        "id": "0",
+        "pathIcon": "/assets/iconeVestido.png",
+        "altIcon": "Ícone de Vestido",
+        "pathLink": "/dresses",
+        "subTitle": "Vestidos",
+        "txt1": "Princesa, Boho Chic, Sereia",
+        "txt2": "Evasê, Plus Size e Civil"
+    },
+    {
+        "id": "1",
+        "pathIcon": "/assets/iconeAcessorios.png",
+        "altIcon": "Ícone de Acessórios",
+        "pathLink": "/accessories",
+        "subTitle": "Acessórios",
+        "txt1": "Coroas, Tiaras, Brincos",
+        "txt2": "Cintos, Robes e Anáguas"
+    },
+    {
+        "id": "2",
+        "pathIcon": "/assets/iconeVeu.png",
+        "altIcon": "Ícone de Véus",
+        "pathLink": "/veils",
+        "subTitle": "Véus",
+        "txt1": "Longos, Curtos",
+        "txt2": "Rendados e Mantilhas"
+    },
+    {
+        "id": "3",
+        "pathIcon": "/assets/iconeSapato.png",
+        "altIcon": "Ícone de Sapato",
+        "pathLink": "/others",
+        "subTitle": "Outros",
+        "txt1": "Sapatos, Costureira e Lavanderia"
+    }
+]

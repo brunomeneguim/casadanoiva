@@ -1,0 +1,51 @@
+.linkSectionServices {
+    font-size: 70px;
+    color: #ffffff;
+    font-family: 'Great Vibes';
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Mouse Hover */
+.linkSectionServices:hover {
+    transform: scale(1.05);
+    transition: 200ms linear;
+}
+
+/* Media Query */
+@media screen and (max-width: 1290px) {
+    .linkSectionServices {
+        font-size: 60px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .linkSectionServices {
+        font-size: 40px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .linkSectionServices {
+        font-size: 30px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .linkSectionServices {
+        font-size: 70px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 607px) {
+    .linkSectionServices {
+        font-size: 50px;
+        transition: 1s;
+    }
+}

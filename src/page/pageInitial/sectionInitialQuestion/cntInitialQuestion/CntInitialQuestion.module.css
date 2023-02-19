@@ -1,0 +1,12 @@
+.cntInitialQuestion {
+    width: 90%;
+    height: 100%;
+    display: flex;
+}
+
+/* Media Query */
+@media screen and (max-width: 1200px) {
+    .cntInitialQuestion {
+        flex-direction: column;
+    }
+}

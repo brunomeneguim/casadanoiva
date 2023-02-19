@@ -3,26 +3,25 @@
 
 import SectionInitialIntroduction from './sectionInitialIntroduction/SectionInitialIntroduction';
 import SectionInitialSlider from './sectionInitialSlider/SectionInitialSlider';
-import SecaoInicialFrase from './SecaoInicialFrase';
-import SecaoInicialSobre from './SecaoInicialSobre';
-import SecaoInicialServicos from './SecaoInicialServicos';
-import SecaoInicialInstagram from './SecaoInicialInstagram';
-import SecaoInicialBannerPerguntas from './SecaoInicialBannerPerguntas';
-import SecaoInicialPerguntas from './SecaoInicialPerguntas';
-import SecaoInicialContato from './SecaoInicialContato';
+import SectionInitialPhrase from './sectionInitialPhrase/SectionInitialPhrase';
+import SectionInitialAbout from './sectionInitialAbout/SectionInitialAbout';
+import SectionInitialServices from './sectionInitialServices/SectionInitialServices';
+import SectionInitialInstagram from './sectionInitialInstagram/SectionInitialInstagram';
+import SectionInitialQuestion from './sectionInitialQuestion/SectionInitialQuestion';
+import SectionInitialContact from './sectionInitialContact/SectionInitialContact';
+
 
 export default function PageInitial() {
     return (
         <main>
             <SectionInitialIntroduction />
             <SectionInitialSlider />
-            <SecaoInicialFrase />
-            <SecaoInicialSobre />
-            <SecaoInicialServicos />
-            <SecaoInicialInstagram />
-            <SecaoInicialBannerPerguntas />
-            <SecaoInicialPerguntas />
-            <SecaoInicialContato />
+            <SectionInitialPhrase />
+            <SectionInitialAbout />
+            <SectionInitialServices />
+            <SectionInitialInstagram />
+            <SectionInitialQuestion />
+            <SectionInitialContact />
         </main>
     );
 }
