@@ -10,14 +10,14 @@ export default function SecaoSobreTexto() {
             <section className='secaoSobreTexto'>
 
                 <h1 className='tituloSobre'>Nossa História</h1>
-                <h2 className='subtituloSobre'>Há mais de 3 anos realizando sonhos</h2>
+                <h2 className='subtituloSobre'>Um sonho que nasceu de uma noiva</h2>
 
                 {/* Container apenas dos paragráfos */}
                 <div className='containerParagrafos'>
                     <p className='sobreParagrafo'>
                         A Casa da Noiva iniciou em 2020 pela fundadora Anne Wendler, junto com sua sogra Vera Marcondes, trazendo
                         para a cidade de Guarapuava uma ideia inovadora em locação de vestidos de noiva para aquelas que não
-                        queriam gastar valores exorbitantes no seu vestido, e ainda casarem com o seu vestido dos sonhos.
+                        queriam gastar valores exorbitantes, e ainda casarem com o seu vestido dos sonhos.
                     </p>
 
                     <p className='sobreParagrafo'>
@@ -39,7 +39,7 @@ export default function SecaoSobreTexto() {
                         com muito amor e carinho por fazer parte da realização de um sonho.
                     </p>
                     <p>
-                        Esperamos por você para conhecer o nosso ateliê, na Casa da Noiva.
+                        Esperamos por você para conhecer o nosso Ateliê, na Casa da Noiva.
                     </p>
                 </div>
             </section>

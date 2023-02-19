@@ -1,67 +1,60 @@
-.secaoInicialIntroducao {
-    padding: 60px 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #BB7D68;
-    color: #FCF9F7;
+.titleIntro {
     font-family: 'Montserrat', sans-serif;
-}
-
-.tituloIntroducao {
     color: #E6B194;
     font-size: 40px;
     text-align: center;
     width: 80%;
 }
 
-.subtituloIntroducao {
+.subTitleIntro {
     font-size: 25px;
     text-align: center;
     width: 80%;
     letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.textoIntroducao {
+.textIntro {
     width: 80%;
     text-align: justify;
     font-size: 20px;
     letter-spacing: 1px;
     font-weight: 100;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Media Query */
 @media screen and (max-width: 800px) {
-    .tituloIntroducao {
+    .titleIntro {
         font-size: 35px;
         transition: 1s;
     }
 
-    .subtituloIntroducao {
+    .subTitleIntro {
         font-size: 20px;
         transition: 1s;
     }
 
-    .textoIntroducao {
+    .textIntro {
         font-size: 18px;
         transition: 1s;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .tituloIntroducao {
+    .titleIntro {
         font-size: 28px;
         transition: 1s;
     }
 
-    .subtituloIntroducao {
+    .subTitleIntro {
         font-size: 16px;
         transition: 1s;
     }
 
-    .textoIntroducao {
+    .textIntro {
         font-size: 14px;
         transition: 1s;
     }

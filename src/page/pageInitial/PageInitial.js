@@ -1,8 +1,8 @@
 /* Desenvolvido por - Bruno Marcondes */
 /* Função que exporta as seções para a página Inicial */
 
-import SecaoInicialIntroducao from './SecaoInicialIntroducao';
-import SecaoInicialSlider from './SecaoInicialSlider';
+import SectionInitialIntroduction from './sectionInitialIntroduction/SectionInitialIntroduction';
+import SectionInitialSlider from './sectionInitialSlider/SectionInitialSlider';
 import SecaoInicialFrase from './SecaoInicialFrase';
 import SecaoInicialSobre from './SecaoInicialSobre';
 import SecaoInicialServicos from './SecaoInicialServicos';
@@ -11,18 +11,18 @@ import SecaoInicialBannerPerguntas from './SecaoInicialBannerPerguntas';
 import SecaoInicialPerguntas from './SecaoInicialPerguntas';
 import SecaoInicialContato from './SecaoInicialContato';
 
-export default function PaginaInicial() {
+export default function PageInitial() {
     return (
         <main>
-            <SecaoInicialIntroducao/>
-            <SecaoInicialSlider/>
-            <SecaoInicialFrase/>
-            <SecaoInicialSobre/>
-            <SecaoInicialServicos/>
-            <SecaoInicialInstagram/>
-            <SecaoInicialBannerPerguntas/>
-            <SecaoInicialPerguntas/>
-            <SecaoInicialContato/>
+            <SectionInitialIntroduction />
+            <SectionInitialSlider />
+            <SecaoInicialFrase />
+            <SecaoInicialSobre />
+            <SecaoInicialServicos />
+            <SecaoInicialInstagram />
+            <SecaoInicialBannerPerguntas />
+            <SecaoInicialPerguntas />
+            <SecaoInicialContato />
         </main>
     );
 }

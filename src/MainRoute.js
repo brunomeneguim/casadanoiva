@@ -4,7 +4,7 @@
 import React from "react";
 import { Routes, Route } from 'react-router-dom';
 
-import PaginaInicial from './page/PaginaInicial'
+import PageInitial from './page/pageInitial/PageInitial'
 import PaginaVestidos from './page/PaginaVestidos';
 import PaginaServicos from './page/PaginaServicos';
 import PaginaSobre from './page/PaginaSobre';
@@ -14,7 +14,7 @@ import ErrorPage from './components/errorPage/ErrorPage';
 export default function MainRoute() {
     return (
         <Routes>
-            <Route path='/' element={<PaginaInicial />}></Route>
+            <Route path='/' element={<PageInitial />}></Route>
             <Route path="/vestidos" element={<PaginaVestidos />}></Route>
             <Route path="/servicos" element={<PaginaServicos />}></Route>
             <Route path="/sobre" element={<PaginaSobre />}></Route>

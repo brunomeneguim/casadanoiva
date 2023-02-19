@@ -38,8 +38,8 @@ export default function SecaoInicialServicos() {
                         <img src="/assets/iconeAcessorios.png" alt="Ícone de Acessórios" />
                         <Link className="linkServicos" to="/servicos#acessorios">
                             <h2>Acessórios</h2>
-                            <p>Coroas, Tiaras</p>
-                            <p>Cintos e Anáguas</p>
+                            <p>Coroas, Tiaras, Brincos</p>
+                            <p>Cintos, Robes e Anáguas</p>
                         </Link>
                     </div>
 
@@ -47,7 +47,8 @@ export default function SecaoInicialServicos() {
                         <img src="/assets/iconeVeu.png" alt="Ícone de Véus" />
                         <Link className="linkServicos" to="/servicos#veus">
                             <h2>Véus</h2>
-                            <p>Longos, Curtos e Rendados</p>
+                            <p>Longos, Curtos</p>
+                            <p>Rendados e Mantilhas</p>
                         </Link>
                     </div>
 
