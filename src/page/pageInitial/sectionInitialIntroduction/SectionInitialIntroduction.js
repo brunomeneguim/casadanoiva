@@ -12,7 +12,7 @@ export default function SectionInitialIntroduction() {
         <section className={styles.secaoInicialIntroducao}>
             <TextIntro
                 titleIntro="ATELIÊ CASA DA NOIVA"
-                subTitleIntro="Aluguel de vestidos de noiva e acessórios"
+                subtitleIntro="Aluguel de vestidos de noiva e acessórios"
                 textIntro="Escolher o vestido de noiva ideal é um dos momentos
                 mais marcantes na preparação para o grande dia. Por isso a Casa da Noiva oferece
                 uma experiência única na procura do seu vestido e acessórios, com atendimento

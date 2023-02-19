@@ -9,7 +9,7 @@ export default function TextQuestion() {
                 textQuestion && textQuestion.map(textQuestion => {
                     return (
                         <div className={styles.boxInitialQuestion} key={textQuestion.id}>
-                            <h2 className={styles.subTitleQuestion}>{textQuestion.question}</h2>
+                            <h2 className={styles.subtitleQuestion}>{textQuestion.question}</h2>
                             <p className={styles.textQuestion}>{textQuestion.answer}</p>
                         </div>
                     )

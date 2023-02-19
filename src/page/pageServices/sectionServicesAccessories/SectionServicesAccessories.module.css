@@ -1,0 +1,14 @@
+.sectionServicesAccessories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+/* Media Query */
+@media screen and (max-width: 1024px) {
+  .sectionServicesAccessories {
+    flex-direction: column;
+  }
+}

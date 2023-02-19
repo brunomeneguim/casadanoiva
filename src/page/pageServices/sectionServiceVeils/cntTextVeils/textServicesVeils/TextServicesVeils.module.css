@@ -1,0 +1,54 @@
+.titleVeils {
+    font-family: 'Great Vibes';
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 70px;
+    color: #fff;
+    display: flex;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.textVeils {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+/* Media Query */
+@media screen and (max-width: 1115px) {
+    .titleVeils {
+        font-size: 60px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .textVeils {
+        font-size: 15px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .titleVeils {
+        font-size: 50px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 215px) {
+    .titleVeils {
+        font-size: 40px;
+        transition: 1s;
+    }
+
+    .textVeils {
+        font-size: 10px;
+        transition: 1s;
+    }
+}

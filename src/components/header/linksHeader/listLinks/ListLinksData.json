@@ -6,17 +6,17 @@
     },
     {
         "id": 1,
-        "path": "/vestidos",
+        "path": "/dresses",
         "name": "Vestidos"
     },
     {
         "id": 2,
-        "path": "/servicos",
+        "path": "/services",
         "name": "Serviços"
     },
     {
         "id": 3,
-        "path": "/sobre",
+        "path": "/about",
         "name": "Sobre"
     },
     {

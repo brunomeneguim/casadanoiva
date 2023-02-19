@@ -1,4 +1,4 @@
-.subTitleInitialAbout {
+.subtitleInitialAbout {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     letter-spacing: 1px;
@@ -22,7 +22,7 @@
 
 /* Media Query */
 @media screen and (max-width: 1070px) {
-    .subTitleInitialAbout {
+    .subtitleInitialAbout {
         font-size: 24px;
         transition: 1s;
     }
@@ -34,7 +34,7 @@
 }
 
 @media screen and (max-width: 825px) {
-    .subTitleInitialAbout {
+    .subtitleInitialAbout {
         font-size: 20px;
         transition: 1s;
     }
@@ -46,7 +46,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    .subTitleInitialAbout {
+    .subtitleInitialAbout {
         font-size: 18px;
         transition: 1s;
     }
@@ -58,7 +58,7 @@
 }
 
 @media screen and (max-width: 300px) {
-    .subTitleInitialAbout {
+    .subtitleInitialAbout {
         font-size: 15px;
         transition: 1s;
     }

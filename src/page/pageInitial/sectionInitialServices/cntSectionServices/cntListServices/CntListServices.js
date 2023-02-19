@@ -13,7 +13,7 @@ export default function CntListServices() {
                         <div className={styles.boxListServices} key={ListServicesData.id}>
                             <img className={styles.iconListServices} src={ListServicesData.pathIcon} alt={ListServicesData.altIcon} />
                             <Link className={styles.linkServices} to={ListServicesData.pathLink}>
-                                <h2 className={styles.subTitleServices}>{ListServicesData.subTitle}</h2>
+                                <h2 className={styles.subtitleServices}>{ListServicesData.subtitle}</h2>
                                 <p className={styles.textListServices}>{ListServicesData.txt1}</p>
                                 <p className={styles.textListServices}>{ListServicesData.txt2}</p>
                             </Link>

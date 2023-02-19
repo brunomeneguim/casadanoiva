@@ -6,7 +6,7 @@
     padding: 0 20px;
 }
 
-.subTitleQuestion {
+.subtitleQuestion {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -31,7 +31,7 @@
 
 /* Media Query */
 @media screen and (max-width: 1200px) {
-    .subTitleQuestion {
+    .subtitleQuestion {
         font-size: 25px;
         width: 90%;
     }

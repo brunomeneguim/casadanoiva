@@ -1,0 +1,15 @@
+.sectionServiceVeils {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 30px;
+  background-color: #BB7D68;
+}
+
+/* Media Query */
+@media screen and (max-width: 1024px) {
+  .sectionServiceVeils {
+    flex-direction: column;
+  }
+}

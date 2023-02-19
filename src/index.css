@@ -1,8 +1,5 @@
-html {
-  min-width: 300px;
-}
-
 body {
+  min-width: 300px;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -11,7 +8,7 @@ body {
 }
 
 /* Style do botão Scroll para o Topo */
-.scroll-to-top#scrollUp {  
+.scroll-to-top#scrollUp {
   width: 60px;
   height: 60px;
   bottom: 10px;

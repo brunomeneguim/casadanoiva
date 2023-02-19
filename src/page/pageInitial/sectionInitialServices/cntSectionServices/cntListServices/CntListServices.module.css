@@ -28,7 +28,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.subTitleServices {
+.subtitleServices {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     font-weight: 600;
@@ -44,14 +44,14 @@
 }
 
 /* Mouse Hover */
-.subTitleServices:hover {
+.subtitleServices:hover {
     transform: scale(1.05);
     transition: 200ms linear;
 }
 
 /* Media Query */
 @media screen and (max-width: 1290px) {
-    .subTitleServices {
+    .subtitleServices {
         font-size: 23px;
         transition: 1s;
     }
@@ -63,7 +63,7 @@
 }
 
 @media screen and (max-width: 1160px) {
-    .subTitleServices {
+    .subtitleServices {
         font-size: 22px;
         transition: 1s;
     }
@@ -79,7 +79,7 @@
         flex-direction: column;
     }
 
-    .subTitleServices {
+    .subtitleServices {
         font-size: 20px;
         text-align: center;
         transition: 1s;

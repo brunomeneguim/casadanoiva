@@ -1,9 +1,9 @@
-.secaoServicosOutros {
+.sectionServicesOthers {
   display: flex;
   justify-content: center;
 }
 
-.containerOutrosServicos {
+.cntServicesOthers {
   width: 33.1%;
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@
   padding-bottom: 20px;
 }
 
-.boxOutrosServicos {
+.boxServicesOthers {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -20,12 +20,12 @@
   height: 100%;
 }
 
-.imagemOutrosServicos {
+.imgServicesOthers {
   width: 100%;
   padding-bottom: 20px;
 }
 
-.tituloOutrosServicos {
+.titleServicesOthers {
   font-family: 'Great Vibes';
   text-align: center;
   letter-spacing: 3px;
@@ -37,7 +37,7 @@
   padding-top: 60px;
 }
 
-.textoOutrosServicos {
+.textServicesOthers {
   display: flex;
   justify-content: center;
   text-align: justify;
@@ -50,7 +50,7 @@
 }
 
 /* Mouse Hover */
-.imagemOutrosServicos:hover {
+.imgServicesOthers:hover {
   transform: scale(1.1);
   transition: 200ms linear;
 }
@@ -58,43 +58,43 @@
 
 /* Media Query */
 @media screen and (max-width: 1080px) {
-  .tituloOutrosServicos {
+  .titleServicesOthers {
     font-size: 50px;
     transition: 1s;
   }
 }
 
 @media screen and (max-width: 780px) {
-  .tituloOutrosServicos {
+  .titleServicesOthers {
     font-size: 35px;
     transition: 1s;
   }
 
-  .textoOutrosServicos {
+  .textServicesOthers {
     font-size: 15px;
     transition: 1s;
   }
 }
 
 @media screen and (max-width: 545px) {
-  .secaoServicosOutros {
+  .sectionServicesOthers {
     flex-direction: column;
     width: 100%;
     align-items: center;
   }
 
-  .tituloOutrosServicos {
+  .titleServicesOthers {
     font-size: 45px;
     transition: 1s;
   }
 
-  .containerOutrosServicos {
+  .cntServicesOthers {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 190px) {
-  .tituloOutrosServicos {
+  .titleServicesOthers {
     font-size: 25px;
     transition: 1s;
   }

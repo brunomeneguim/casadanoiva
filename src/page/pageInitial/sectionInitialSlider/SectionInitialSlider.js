@@ -13,9 +13,12 @@ import styles from './SectionInitialSlider.module.css';
 
 export default function SectionInitialSlider() {
     return (
-
         <section className={styles.sectionInitialSlider}>
             <Swiper
+                style={{
+                    "--swiper-pagination-color": "#BB7D68",
+                    "--swiper-navigation-color": "#BB7D68"
+                }}
                 className={styles.mySwiper}
                 slidesPerView={1}
                 spaceBetween={30}

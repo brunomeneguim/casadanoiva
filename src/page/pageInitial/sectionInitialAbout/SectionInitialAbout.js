@@ -13,7 +13,7 @@ export default function SectionInitialAbout() {
 
             <LinkInitialAbout pathAbout="/about" titleAbout="Tudo sobre a Casa da Noiva" />
             <TextInitialAbout
-                subTitleAbout="SEU VESTIDO DOS SONHOS COM VALOR ACESSÍVEL"
+                subtitleAbout="SEU VESTIDO DOS SONHOS COM VALOR ACESSÍVEL"
                 textAbout="O ateliê Casa da Noiva se iniciou com um sonho de ajudar as noivas a encontrarem
                 o seu vestido ideal sem pagar caro por isso. Nossos vestidos além de terem um preço
                 atrativo, são modernos, de qualidade, e nossa equipe também te acompanha na escolha

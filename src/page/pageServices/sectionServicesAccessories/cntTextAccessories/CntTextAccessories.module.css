@@ -1,0 +1,14 @@
+.boxAccessories {
+    margin: 0;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Media Query */
+@media screen and (max-width: 1024px) {
+    .boxAccessories {
+        width: 100%;
+    }
+}
