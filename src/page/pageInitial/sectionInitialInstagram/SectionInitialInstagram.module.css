@@ -57,6 +57,12 @@
     }
 }
 
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+    .sectionInitialInstagram {
+        height: 100%;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .sectionInitialInstagram {
         height: 70vh;
@@ -65,6 +71,6 @@
 
 @media screen and (max-width: 340px) {
     .sectionInitialInstagram {
-        height: 90vh;
+        height: 70vh;
     }
 }
