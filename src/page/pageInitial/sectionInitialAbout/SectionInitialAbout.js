@@ -1,5 +1,6 @@
 /* Desenvolvido por - Bruno Marcondes */
 /* Função que exporta a Seção Sobre para a página Inicial */
+
 import LinkInitialAbout from './linkInitialAbout/LinkInitialAbout';
 import TextInitialAbout from './textInitialAbout/TextInitialAbout'
 
