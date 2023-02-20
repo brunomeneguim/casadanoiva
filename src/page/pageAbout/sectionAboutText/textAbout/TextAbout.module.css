@@ -1,0 +1,16 @@
+.cntAboutText {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+
+}
+
+.textAbout {
+    font-family: 'Montserrat', sans-serif;
+    color: #FCF9F7;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}

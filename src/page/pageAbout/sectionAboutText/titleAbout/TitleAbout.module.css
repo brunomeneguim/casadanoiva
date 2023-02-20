@@ -1,0 +1,24 @@
+.titleAbout {
+    font-family: 'Great Vibes';
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 3px;
+    color: #E6B194;
+    font-weight: 100;
+    width: 80%;
+}
+
+.subtitleAbout {
+    font-family: 'Montserrat', sans-serif;
+    color: #FCF9F7;
+    font-size: 25px;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+/* Media Query */
+@media screen and (max-width: 320px) {
+    .titleAbout {
+        font-size: 60px;
+    }
+}

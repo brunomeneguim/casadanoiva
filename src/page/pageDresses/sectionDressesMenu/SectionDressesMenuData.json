@@ -1,0 +1,32 @@
+[
+    {
+        "id": "0",
+        "path": "/dresses#firstDress",
+        "dressName": "Princesa"
+    },
+    {
+        "id": "1",
+        "path": "/dresses#secondDress",
+        "dressName": "Boho Chic"
+    },
+    {
+        "id": "2",
+        "path": "/dresses#thirdDress",
+        "dressName": "Sereia"
+    },
+    {
+        "id": "3",
+        "path": "/dresses#fourthDress",
+        "dressName": "Evasê"
+    },
+    {
+        "id": "4",
+        "path": "/dresses#fifthDress",
+        "dressName": "Plus Size"
+    },
+    {
+        "id": "5",
+        "path": "/dresses#sixthDress",
+        "dressName": "Civil"
+    }
+]

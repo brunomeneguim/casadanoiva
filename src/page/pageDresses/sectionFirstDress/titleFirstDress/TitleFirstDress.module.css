@@ -1,0 +1,13 @@
+/* Texto da Seção */
+.titleFirstDress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Great Vibes';
+    letter-spacing: 3px;
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+    color: #BB7D68;
+    padding-top: 40px;
+}

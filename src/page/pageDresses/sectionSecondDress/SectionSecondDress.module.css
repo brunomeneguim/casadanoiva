@@ -1,0 +1,9 @@
+/* SECAO VESTIDO TIPO 2 - BACKGROUND ESCURO */
+
+/* Container da página */
+.secaoVestidosSegundo {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    background-color: #BB7D68;
+}
