@@ -1,29 +1,5 @@
-/* SECAO VESTIDO TIPO 4 - BACKGROUND ESCURO */
-
-/* Container da página */
-.secaoVestidosQuarto {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 100px;
-    background-color: #BB7D68;
-}
-
-/* Texto da Seção */
-.tituloQuartoVestido {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Great Vibes';
-    letter-spacing: 3px;
-    font-size: 80px;
-    font-weight: 100;
-    text-align: center;
-    color: #E6B194;
-    padding-top: 40px;
-}
-
 /* Container Geral para agrupamento das imagens */
-.containerQuartoVestido {
+.cntSixthDress {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +10,7 @@
 }
 
 /* Container da Imagem */
-figure.figQuartoVestido {
+figure.figSixthDress {
     width: 25%;
     display: block;
     position: relative;
@@ -43,13 +19,13 @@ figure.figQuartoVestido {
 }
 
 /* Imagem */
-.imgQuartoVestido {
+.imgSixthDress {
     width: 100%;
     display: block;
 }
 
 /* Comportamento da caption sem o mouse hover */
-figure.figQuartoVestido .captionQuartoVestido {
+figure.figSixthDress .capSixthDress {
     position: absolute;
     display: block;
     overflow: hidden;
@@ -76,7 +52,7 @@ figure.figQuartoVestido .captionQuartoVestido {
 }
 
 /* Texto que será deslocado no mouse hover */
-.textoQuartoVestido {
+.textSixthDress {
     display: block;
     color: #BB7D68;
     font-family: 'Montserrat', sans-serif;
@@ -86,7 +62,7 @@ figure.figQuartoVestido .captionQuartoVestido {
 
 /*** Efeitos ****/
 /* Deslocamento da imagem */
-figure.pushupQuartoVestido .imgQuartoVestido {
+figure.pushupSixthDress .imgSixthDress {
     transform: translate3d(0, 0, 0);
     transition: all 0.5s;
 
@@ -97,7 +73,7 @@ figure.pushupQuartoVestido .imgQuartoVestido {
 }
 
 /* Deslocamento da caption */
-figure.pushupQuartoVestido .captionQuartoVestido {
+figure.pushupSixthDress .capSixthDress {
     top: 100%;
     opacity: 85%;
 
@@ -108,14 +84,14 @@ figure.pushupQuartoVestido .captionQuartoVestido {
 
 /* Mouse Hover */
 /* Deslocamento da imagem com mouse hover */
-figure.pushupQuartoVestido:hover .imgQuartoVestido {
+figure.pushupSixthDress:hover .imgSixthDress {
     transform: translate3d(0, -20px, 0);
     transform: scale(1.1);
     transition: 300ms linear;
 }
 
 /* Deslocamento da caption com mouse hover */
-figure.pushupQuartoVestido:hover .captionQuartoVestido {
+figure.pushupSixthDress:hover .capSixthDress {
     box-shadow: 0px -2px 28px rgba(0, 0, 0, 0.3);
 
     /* Tamanho do fundo da caption que irá aparecer */
@@ -130,13 +106,13 @@ figure.pushupQuartoVestido:hover .captionQuartoVestido {
 
 /* Media Query */
 @media screen and (max-width: 975px) {
-    figure.figQuartoVestido {
+    figure.figSixthDress {
         width: 35%;
     }
 }
 
 @media screen and (max-width: 755px) {
-    .textoQuartoVestido {
+    .textSixthDress {
         font-size: 15px;
         transition: 1s;
         width: 100%;
@@ -144,35 +120,14 @@ figure.pushupQuartoVestido:hover .captionQuartoVestido {
 }
 
 @media screen and (max-width: 655px) {
-    figure.figQuartoVestido {
+    figure.figSixthDress {
         width: 70%;
     }
 }
 
 @media screen and (max-width: 335px) {
-    .textoQuartoVestido {
+    .textSixthDress {
         font-size: 10px;
-        transition: 1s;
-    }
-}
-
-@media screen and (max-width: 290px) {
-    .tituloQuartoVestido {
-        font-size: 50px;
-        transition: 1s;
-    }
-}
-
-@media screen and (max-width: 210px) {
-    .tituloQuartoVestido {
-        font-size: 40px;
-        transition: 1s;
-    }
-}
-
-@media screen and (max-width: 210px) {
-    .tituloQuartoVestido {
-        font-size: 35px;
         transition: 1s;
     }
 }

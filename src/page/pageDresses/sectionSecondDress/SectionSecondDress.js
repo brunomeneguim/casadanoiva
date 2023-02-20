@@ -6,7 +6,6 @@ import CntImgSecondDress from './cntImgSecondDress/CntImgSecondDress';
 
 import styles from './SectionSecondDress.module.css';
 
-
 export default function SectionSecondDress() {
     return (
         <section className={styles.sectionSecondDress}>

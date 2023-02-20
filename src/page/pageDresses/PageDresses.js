@@ -5,9 +5,9 @@ import SectionDressesMenu from "./sectionDressesMenu/SectionDressesMenu";
 import SectionFirstDress from "./sectionFirstDress/SectionFirstDress";
 import SectionSecondDress from "./sectionSecondDress/SectionSecondDress";
 import SectionThirdDress from "./sectionThirdDress/SectionThirdDress";
-import SecaoVestidosQuarto from "./SecaoVestidosQuarto";
-import SecaoVestidosQuinto from "./SecaoVestidosQuinto";
-import SecaoVestidosSexto from "./SecaoVestidosSexto";
+import SectionFourthDress from "./sectionFourthDress/SectionFourthDress";
+import SectionFifthDress from "./sectionFifthDress/SectionFifthDress";
+import SectionSixthDress from "./sectionSixthDress/SectionSixthDress";
 
 
 export default function PageDresses() {
@@ -17,9 +17,9 @@ export default function PageDresses() {
             <SectionFirstDress />
             <SectionSecondDress />
             <SectionThirdDress />
-            <SecaoVestidosQuarto />
-            <SecaoVestidosQuinto />
-            <SecaoVestidosSexto />
+            <SectionFourthDress />
+            <SectionFifthDress />
+            <SectionSixthDress />
         </main>
     );
 }

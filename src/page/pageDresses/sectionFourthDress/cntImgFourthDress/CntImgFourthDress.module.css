@@ -1,29 +1,5 @@
-/* SECAO VESTIDO TIPO 6 - BACKGROUND ESCURO */
-
-/* Container da página */
-.secaoVestidosSexto {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 100px;
-    background-color: #BB7D68;
-}
-
-/* Texto da Seção */
-.tituloSextoVestido {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Great Vibes';
-    letter-spacing: 3px;
-    font-size: 80px;
-    font-weight: 100;
-    text-align: center;
-    color: #E6B194;
-    padding-top: 40px;
-}
-
 /* Container Geral para agrupamento das imagens */
-.containerSextoVestido {
+.cntFourthDress {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +10,7 @@
 }
 
 /* Container da Imagem */
-figure.figSextoVestido {
+figure.figFourthDress {
     width: 25%;
     display: block;
     position: relative;
@@ -43,13 +19,13 @@ figure.figSextoVestido {
 }
 
 /* Imagem */
-.imgSextoVestido {
+.imgFourthDress {
     width: 100%;
     display: block;
 }
 
 /* Comportamento da caption sem o mouse hover */
-figure.figSextoVestido .captionSextoVestido {
+figure.figFourthDress .capFourthDress {
     position: absolute;
     display: block;
     overflow: hidden;
@@ -76,7 +52,7 @@ figure.figSextoVestido .captionSextoVestido {
 }
 
 /* Texto que será deslocado no mouse hover */
-.textoSextoVestido {
+.textFourthDress {
     display: block;
     color: #BB7D68;
     font-family: 'Montserrat', sans-serif;
@@ -86,7 +62,7 @@ figure.figSextoVestido .captionSextoVestido {
 
 /*** Efeitos ****/
 /* Deslocamento da imagem */
-figure.pushupSextoVestido .imgSextoVestido {
+figure.pushupFourthDress .imgFourthDress {
     transform: translate3d(0, 0, 0);
     transition: all 0.5s;
 
@@ -97,7 +73,7 @@ figure.pushupSextoVestido .imgSextoVestido {
 }
 
 /* Deslocamento da caption */
-figure.pushupSextoVestido .captionSextoVestido {
+figure.pushupFourthDress .capFourthDress {
     top: 100%;
     opacity: 85%;
 
@@ -108,14 +84,14 @@ figure.pushupSextoVestido .captionSextoVestido {
 
 /* Mouse Hover */
 /* Deslocamento da imagem com mouse hover */
-figure.pushupSextoVestido:hover .imgSextoVestido {
+figure.pushupFourthDress:hover .imgFourthDress {
     transform: translate3d(0, -20px, 0);
     transform: scale(1.1);
     transition: 300ms linear;
 }
 
 /* Deslocamento da caption com mouse hover */
-figure.pushupSextoVestido:hover .captionSextoVestido {
+figure.pushupFourthDress:hover .capFourthDress {
     box-shadow: 0px -2px 28px rgba(0, 0, 0, 0.3);
 
     /* Tamanho do fundo da caption que irá aparecer */
@@ -130,13 +106,13 @@ figure.pushupSextoVestido:hover .captionSextoVestido {
 
 /* Media Query */
 @media screen and (max-width: 975px) {
-    figure.figSextoVestido {
+    figure.figFourthDress {
         width: 35%;
     }
 }
 
 @media screen and (max-width: 755px) {
-    .textoSextoVestido {
+    .textFourthDress {
         font-size: 15px;
         transition: 1s;
         width: 100%;
@@ -144,35 +120,14 @@ figure.pushupSextoVestido:hover .captionSextoVestido {
 }
 
 @media screen and (max-width: 655px) {
-    figure.figSextoVestido {
+    figure.figFourthDress {
         width: 70%;
     }
 }
 
 @media screen and (max-width: 335px) {
-    .textoSextoVestido {
+    .textFourthDress {
         font-size: 10px;
-        transition: 1s;
-    }
-}
-
-@media screen and (max-width: 290px) {
-    .tituloSextoVestido {
-        font-size: 50px;
-        transition: 1s;
-    }
-}
-
-@media screen and (max-width: 210px) {
-    .tituloSextoVestido {
-        font-size: 40px;
-        transition: 1s;
-    }
-}
-
-@media screen and (max-width: 210px) {
-    .tituloSextoVestido {
-        font-size: 35px;
         transition: 1s;
     }
 }
