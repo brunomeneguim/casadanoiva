@@ -24,6 +24,7 @@ export default function App() {
         {/* Função que cria botão quando o usuário desce a página e volta para o topo com a função propriedade Smooth */}
         <ScrollToTop
           id='scrollUp'
+          className='scrollUp'
           smooth
           component={<MySVG />} />
 
