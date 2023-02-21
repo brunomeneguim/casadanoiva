@@ -7,7 +7,7 @@ import SectionContactForm from './sectionContactForm/SectionContactForm';
 export default function PageContact() {
     return (
         <main>
-            <SectionContactBanner pathImgPageContact="/assets/imgPaginaContato.jpg" altImgPageContact="Banner da Página Contato" />
+            <SectionContactBanner pathImgPageContact="/assets/imgPageContact.jpg" altImgPageContact="Banner da Página Contato" />
             <SectionContactForm />
         </main>
     );

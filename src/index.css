@@ -19,7 +19,7 @@ body {
   z-index: 1000;
   margin-top: 16px;
   background-color: #8d5951;
-  background-image: url("../public/assets/iconeSetaParaCima.png");
+  background-image: url("../public/assets/iconArrowUp.png");
   background-size: cover;
 }
 

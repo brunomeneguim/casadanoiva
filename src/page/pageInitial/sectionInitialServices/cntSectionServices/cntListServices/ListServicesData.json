@@ -1,7 +1,7 @@
 [
   {
     "id": "0",
-    "pathIcon": "/assets/iconeVestido.png",
+    "pathIcon": "/assets/iconDress.png",
     "altIcon": "Ícone de Vestido",
     "pathLink": "/dresses",
     "subtitle": "Vestidos",
@@ -19,7 +19,7 @@
   },
   {
     "id": "2",
-    "pathIcon": "/assets/iconeVeu.png",
+    "pathIcon": "/assets/iconVeils.png",
     "altIcon": "Ícone de Véus",
     "pathLink": "/services#veils",
     "subtitle": "Véus",
@@ -28,7 +28,7 @@
   },
   {
     "id": "3",
-    "pathIcon": "/assets/iconeSapato.png",
+    "pathIcon": "/assets/iconHighHeel.png",
     "altIcon": "Ícone de Sapato",
     "pathLink": "/services#others",
     "subtitle": "Outros",

@@ -9,7 +9,7 @@ export default function SectionAboutBanner() {
     return (
         <section className={styles.sectionAboutBanner}>
             <ImgAboutBanner
-                pathImgBanner="/assets/imgSecaoSobre.jpg"
+                pathImgBanner="/assets/imgSectionAbout.jpg"
                 altImgBanner="Banner da Seção Sobre"
             />
         </section>

@@ -3,7 +3,7 @@
 /* Cabecaolho e Rodapé vão estar presentes em todas as telas */
 
 import { BrowserRouter as Router } from 'react-router-dom';
-import { ReactComponent as MySVG } from "./components/iconeSetaParaCima.svg";
+import { ReactComponent as MySVG } from "./components/iconArrowUp.svg";
 import ScrollToTop from "react-scroll-to-top";
 
 /* Desenvolvido por - Bruno Marcondes */

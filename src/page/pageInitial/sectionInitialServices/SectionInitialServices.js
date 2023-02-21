@@ -11,7 +11,7 @@ import styles from './SectionInitialServices.module.css';
 export default function SectionInitialServices() {
     return (
         <section className={styles.sectionInitialServices}>
-            <ImgInitialServices pathImgServices="/assets/imgSecaoServicos.jpg" altImgServices="Imagem da Seção de Serviços" />
+            <ImgInitialServices pathImgServices="/assets/imgSectionServices.jpg" altImgServices="Imagem da Seção de Serviços" />
             <CntSectionServices />
         </section>
     );
