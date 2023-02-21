@@ -10,7 +10,7 @@ export default function TextWhatsApp({ textWP, linkWP, targetWP, relWP, hrefWP }
             <p className={styles.txtContactWhatsApp}>{textWP}</p>
             <a className={styles.linkContactWhatsApp} target={targetWP} rel={relWP} href={hrefWP}>
                 {linkWP}
-                <ImgContactWhatsApp pathImgWP="/assets/iconeCalendarioContato.png" altImgWP="Ícone de Agendamento" />
+                <ImgContactWhatsApp pathImgWP="/assets/iconCalendarContact.png" altImgWP="Ícone de Agendamento" />
             </a>
         </>
     );

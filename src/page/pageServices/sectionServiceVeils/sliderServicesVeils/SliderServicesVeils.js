@@ -36,7 +36,7 @@ export default function SliderServicesVeils() {
                 <SwiperSlide><img className={styles.imgSliderVeils} src="/assets/imgServicos/Veus/imgServicoVeus4.jpg" alt="Véu 4" /></SwiperSlide>
                 <SwiperSlide><img className={styles.imgSliderVeils} src="/assets/imgServicos/Veus/imgServicoVeus5.jpg" alt="Véu 5" /></SwiperSlide>
                 <SwiperSlide><img className={styles.imgSliderVeils} src="/assets/imgServicos/Veus/imgServicoVeus6.jpg" alt="Véu 6" /></SwiperSlide>
-                <SwiperSlide><img className={styles.imgSliderVeils} src="/assets/imgServicos/Veus/imgServicoVeus7.jpg" alt="Véu 7" /></SwiperSlide>
+                {/* <SwiperSlide><img className={styles.imgSliderVeils} src="/assets/imgServicos/Veus/imgServicoVeus7.jpg" alt="Véu 7" /></SwiperSlide> */}
             </Swiper>
         </>
     )

@@ -1,74 +1,110 @@
 [
-    {
-        "id": 1,
-        "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-1.jpg",
-        "alt": "Imagem 1",
-        "caption": "Vestido Exemplo"
-    },
-    {
-        "id": 2,
-        "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-2.jpg",
-        "alt": "Imagem 2",
-        "caption": "Vestido Exemplo"
-    },
-    {
-        "id": 3,
-        "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-3.jpg",
-        "alt": "Imagem 3",
-        "caption": "Vestido Exemplo"
-    },
-    {
-        "id": 4,
-        "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-4.jpg",
-        "alt": "Imagem 4",
-        "caption": "Vestido Exemplo"
-    },
-    {
-        "id": 5,
-        "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-5.jpg",
-        "alt": "Imagem 5",
-        "caption": "Vestido Exemplo"
-    },
-    {
-        "id": 6,
-        "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-6.jpg",
-        "alt": "Imagem 6",
-        "caption": "Vestido Exemplo"
-    },
-    {
-        "id": 7,
-        "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-7.jpg",
-        "alt": "Imagem 7",
-        "caption": "Vestido Exemplo"
-    },
-    {
-        "id": 8,
-        "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-8.jpg",
-        "alt": "Imagem 8",
-        "caption": "Vestido Exemplo"
-    },
-    {
-        "id": 9,
-        "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-9.jpg",
-        "alt": "Imagem 9",
-        "caption": "Vestido Exemplo"
-    },
-    {
-        "id": 10,
-        "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-10.jpg",
-        "alt": "Imagem 10",
-        "caption": "Vestido Exemplo"
-    },
-    {
-        "id": 11,
-        "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-11.jpg",
-        "alt": "Imagem 11",
-        "caption": "Vestido Exemplo"
-    },
-    {
-        "id": 12,
-        "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-12.jpg",
-        "alt": "Imagem 12",
-        "caption": "Vestido Exemplo"
-    }
+  {
+    "id": 1,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-1.jpg",
+    "alt": "Imagem 1",
+    "caption": "Vestido Delicadeza"
+  },
+  {
+    "id": 2,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-2.jpg",
+    "alt": "Imagem 2",
+    "caption": "Vestido Delicadeza"
+  },
+  {
+    "id": 3,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-3.jpg",
+    "alt": "Imagem 3",
+    "caption": "Vestido Delicadeza"
+  },
+  {
+    "id": 4,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-4.jpg",
+    "alt": "Imagem 4",
+    "caption": "Vestido Herança"
+  },
+  {
+    "id": 5,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-5.jpg",
+    "alt": "Imagem 5",
+    "caption": "Vestido Herança"
+  },
+  {
+    "id": 6,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-6.jpg",
+    "alt": "Imagem 6",
+    "caption": "Vestido Herança"
+  },
+  {
+    "id": 7,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-7.jpg",
+    "alt": "Imagem 7",
+    "caption": "Vestido Delicadeza"
+  },
+  {
+    "id": 8,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-8.jpg",
+    "alt": "Imagem 8",
+    "caption": "Vestido Delicadeza"
+  },
+  {
+    "id": 9,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-9.jpg",
+    "alt": "Imagem 9",
+    "caption": "Vestido Delicadeza"
+  },
+  {
+    "id": 10,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-10.jpg",
+    "alt": "Imagem 10",
+    "caption": "Vestido Graça"
+  },
+  {
+    "id": 11,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-11.jpg",
+    "alt": "Imagem 11",
+    "caption": "Vestido Paixão"
+  },
+  {
+    "id": 12,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-12.jpg",
+    "alt": "Imagem 12",
+    "caption": "Vestido Paixão"
+  },
+  {
+    "id": 13,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-13.jpg",
+    "alt": "Imagem 13",
+    "caption": "Vestido Gratidão"
+  },
+  {
+    "id": 14,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-14.jpg",
+    "alt": "Imagem 14",
+    "caption": "Vestido Gratidão"
+  },
+  {
+    "id": 15,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-15.jpg",
+    "alt": "Imagem 15",
+    "caption": "Vestido Gratidão"
+  },
+  {
+    "id": 16,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-16.jpg",
+    "alt": "Imagem 16",
+    "caption": "Vestido Graça"
+  },
+  {
+    "id": 17,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-17.jpg",
+    "alt": "Imagem 17",
+    "caption": "Vestido Graça"
+  },
+  {
+    "id": 18,
+    "pathImg": "assets/imgVestidos/segundoVestido/imgVestido2-18.jpg",
+    "alt": "Imagem 18",
+    "caption": "Vestido Graça"
+  }
 ]

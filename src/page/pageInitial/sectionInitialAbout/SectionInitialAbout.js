@@ -10,7 +10,6 @@ export default function SectionInitialAbout() {
     return (
 
         <section className={styles.sectionInitialAbout}>
-
             <LinkInitialAbout pathAbout="/about" titleAbout="Tudo sobre a Casa da Noiva" />
             <TextInitialAbout
                 subtitleAbout="SEU VESTIDO DOS SONHOS COM VALOR ACESSÍVEL"

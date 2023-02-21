@@ -10,7 +10,7 @@ export default function TextFeedback({ txtFb, linkFb, hrefFb, targetFb, relFb })
             <p className={styles.txtContactFeedback}>{txtFb}</p>
             <a className={styles.linkContactFeedback} target={targetFb} rel={relFb} href={hrefFb}>
                 {linkFb}
-                <ImgContactFeedback pathImgFb="/assets/iconeFeedback.png" altImgFb="Ícone de Feedback" />
+                <ImgContactFeedback pathImgFb="/assets/iconFeedback.png" altImgFb="Ícone de Feedback" />
             </a>
         </>
     );
