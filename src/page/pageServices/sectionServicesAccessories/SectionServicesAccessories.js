@@ -12,13 +12,11 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import styles from "./SectionServicesAccessories.module.css";
 
-
-
 export default function SectionServicesAccessories() {
-    return (
-        <section className={styles.sectionServicesAccessories} id="accessories">
-            <CntTextAccessories />
-            <SliderServicesAccessories />
-        </section>
-    );
+  return (
+    <section className={styles.sectionServicesAccessories} id="accessories">
+      <CntTextAccessories />
+      <SliderServicesAccessories />
+    </section>
+  );
 }

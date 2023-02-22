@@ -1,36 +1,15 @@
-
 .titleServices {
-    color: #E6B194;
-    font-size: 35px;
-    font-weight: 600;
-    text-align: center;
-    width: 80%;
+  color: #e6b194;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  width: 80%;
 }
 
 .subtitleServices {
-    width: 80%;
-    color: #fff;
-    font-size: 20px;
-    letter-spacing: 1px;
-    text-align: center;
-}
-
-/* Media Query */
-@media screen and (max-width: 200px) {
-    .titleServices {
-        font-size: 20px;
-    }
-
-    .subtitleServices {
-        font-size: 10px;
-        transition: 1s;
-    }
-}
-
-
-@media screen and (max-width: 290px) {
-    .subtitleServices {
-        font-size: 10px;
-        transition: 1s;
-    }
+  width: 80%;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
 }

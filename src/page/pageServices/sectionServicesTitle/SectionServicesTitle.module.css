@@ -1,10 +1,9 @@
 .sectionServicesTitle {
-    width: 100%;
-    padding: 50px 0px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #BB7D68;
-    font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
+  width: 100%;
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #bb7d68;
+  font-family: "Montserrat", sans-serif;
 }

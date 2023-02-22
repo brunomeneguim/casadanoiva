@@ -1,14 +1,14 @@
 .boxVeils {
-    margin: 0;
-    width: 35%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  margin: 0;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* Media Query */
 @media screen and (max-width: 1024px) {
-    .boxVeils {
-        width: 100%;
-    }
+  .boxVeils {
+    width: 100%;
+  }
 }

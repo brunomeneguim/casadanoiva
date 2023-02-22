@@ -28,7 +28,7 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #B9AEAC !important;
+  color: #b9aeac !important;
 }
 
 /* Mouse Hover */
@@ -46,13 +46,15 @@
 
 /* Media Query */
 @media screen and (max-width: 500px) {
-  .swiper-button-next, .swiper-button-prev {
+  .swiper-button-next,
+  .swiper-button-prev {
     --swiper-navigation-size: 25px;
   }
 }
 
 @media screen and (max-width: 300px) {
-  .swiper-button-next, .swiper-button-prev {
+  .swiper-button-next,
+  .swiper-button-prev {
     --swiper-navigation-size: 20px;
   }
 }
