@@ -32,46 +32,45 @@ export default function SliderServicesVeils() {
         <SwiperSlide>
           <img
             className={styles.imgSliderVeils}
-            src="/assets/imgServicos/Veus/imgServicoVeus1.jpg"
+            src="/assets/img/imgServices/Veils/imgServicesVeils1.jpg"
             alt="Véu 1"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className={styles.imgSliderVeils}
-            src="/assets/imgServicos/Veus/imgServicoVeus2.jpg"
+            src="/assets/img/imgServices/Veils/imgServicesVeils2.jpg"
             alt="Véu 2"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className={styles.imgSliderVeils}
-            src="/assets/imgServicos/Veus/imgServicoVeus3.jpg"
+            src="/assets/img/imgServices/Veils/imgServicesVeils3.jpg"
             alt="Véu 3"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className={styles.imgSliderVeils}
-            src="/assets/imgServicos/Veus/imgServicoVeus4.jpg"
+            src="/assets/img/imgServices/Veils/imgServicesVeils4.jpg"
             alt="Véu 4"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className={styles.imgSliderVeils}
-            src="/assets/imgServicos/Veus/imgServicoVeus5.jpg"
+            src="/assets/img/imgServices/Veils/imgServicesVeils5.jpg"
             alt="Véu 5"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className={styles.imgSliderVeils}
-            src="/assets/imgServicos/Veus/imgServicoVeus6.jpg"
+            src="/assets/img/imgServices/Veils/imgServicesVeils6.jpg"
             alt="Véu 6"
           />
         </SwiperSlide>
-        {/* <SwiperSlide><img className={styles.imgSliderVeils} src="/assets/imgServicos/Veus/imgServicoVeus7.jpg" alt="Véu 7" /></SwiperSlide> */}
       </Swiper>
     </>
   );

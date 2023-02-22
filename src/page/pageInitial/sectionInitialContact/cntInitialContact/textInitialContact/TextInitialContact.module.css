@@ -1,45 +1,45 @@
 .linkInitialContact {
-    padding-top: 100px;
-    color: #CE947B;
-    font-size: 80px;
-    font-family: 'Great Vibes';
-    letter-spacing: 3px;
-    text-decoration: none;
-    width: 80%;
-    text-align: center;
+  padding-top: 100px;
+  color: #ce947b;
+  font-size: 80px;
+  font-family: "Great Vibes";
+  letter-spacing: 3px;
+  text-decoration: none;
+  width: 80%;
+  text-align: center;
 }
 
 .textInitialContact {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    letter-spacing: 1px;
-    font-weight: 100;
-    text-align: justify;
-    width: 80%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  text-align: justify;
+  width: 80%;
 }
 
 /* Mouse Hover */
 .linkInitialContact:hover {
-    transform: scale(1.01);
-    transition: 200ms linear;
+  transform: scale(1.01);
+  transition: 200ms linear;
 }
 
 /* Media Query */
 @media screen and (max-width: 800px) {
-    .linkInitialContact {
-        font-size: 70px;
-        transition: 1s;
-    }
+  .linkInitialContact {
+    font-size: 70px;
+    transition: 1s;
+  }
 
-    .textInitialContact {
-        font-size: 15px;
-        transition: 1s;
-    }
+  .textInitialContact {
+    font-size: 15px;
+    transition: 1s;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .linkInitialContact {
-        font-size: 60px;
-        transition: 1s;
-    }
+  .linkInitialContact {
+    font-size: 60px;
+    transition: 1s;
+  }
 }

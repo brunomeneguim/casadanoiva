@@ -1,73 +1,73 @@
 [
   {
     "id": 1,
-    "pathImg": "assets/imgVestidos/quartoVestido/imgVestido4-1.jpg",
+    "pathImg": "assets/img/imgDresses/fourthDress/imgDress4-1.jpg",
     "alt": "Imagem 1",
     "caption": "Vestido Felicidade"
   },
   {
     "id": 2,
-    "pathImg": "assets/imgVestidos/quartoVestido/imgVestido4-2.jpg",
+    "pathImg": "assets/img/imgDresses/fourthDress/imgDress4-2.jpg",
     "alt": "Imagem 2",
     "caption": "Vestido Felicidade"
   },
   {
     "id": 3,
-    "pathImg": "assets/imgVestidos/quartoVestido/imgVestido4-3.jpg",
+    "pathImg": "assets/img/imgDresses/fourthDress/imgDress4-3.jpg",
     "alt": "Imagem 3",
     "caption": "Vestido Felicidade"
   },
   {
     "id": 4,
-    "pathImg": "assets/imgVestidos/quartoVestido/imgVestido4-4.jpg",
+    "pathImg": "assets/img/imgDresses/fourthDress/imgDress4-4.jpg",
     "alt": "Imagem 4",
     "caption": "Vestido Perfeição"
   },
   {
     "id": 5,
-    "pathImg": "assets/imgVestidos/quartoVestido/imgVestido4-5.jpg",
+    "pathImg": "assets/img/imgDresses/fourthDress/imgDress4-5.jpg",
     "alt": "Imagem 5",
     "caption": "Vestido Perfeição"
   },
   {
     "id": 6,
-    "pathImg": "assets/imgVestidos/quartoVestido/imgVestido4-6.jpg",
+    "pathImg": "assets/img/imgDresses/fourthDress/imgDress4-6.jpg",
     "alt": "Imagem 6",
     "caption": "Vestido Perfeição"
   },
   {
     "id": 7,
-    "pathImg": "assets/imgVestidos/quartoVestido/imgVestido4-7.jpg",
+    "pathImg": "assets/img/imgDresses/fourthDress/imgDress4-7.jpg",
     "alt": "Imagem 7",
     "caption": "Vestido Elegância"
   },
   {
     "id": 8,
-    "pathImg": "assets/imgVestidos/quartoVestido/imgVestido4-8.jpg",
+    "pathImg": "assets/img/imgDresses/fourthDress/imgDress4-8.jpg",
     "alt": "Imagem 8",
     "caption": "Vestido Elegância"
   },
   {
     "id": 9,
-    "pathImg": "assets/imgVestidos/quartoVestido/imgVestido4-9.jpg",
+    "pathImg": "assets/img/imgDresses/fourthDress/imgDress4-9.jpg",
     "alt": "Imagem 9",
     "caption": "Vestido Elegância"
   },
   {
     "id": 10,
-    "pathImg": "assets/imgVestidos/quartoVestido/imgVestido4-10.jpg",
+    "pathImg": "assets/img/imgDresses/fourthDress/imgDress4-10.jpg",
     "alt": "Imagem 10",
     "caption": "Vestido Encanto"
   },
   {
     "id": 11,
-    "pathImg": "assets/imgVestidos/quartoVestido/imgVestido4-11.jpg",
+    "pathImg": "assets/img/imgDresses/fourthDress/imgDress4-11.jpg",
     "alt": "Imagem 11",
     "caption": "Vestido Encanto"
   },
   {
     "id": 12,
-    "pathImg": "assets/imgVestidos/quartoVestido/imgVestido4-12.jpg",
+    "pathImg": "assets/img/imgDresses/fourthDress/imgDress4-12.jpg",
     "alt": "Imagem 12",
     "caption": "Vestido Encanto"
   }

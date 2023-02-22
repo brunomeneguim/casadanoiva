@@ -33,42 +33,42 @@ export default function SliderServicesAccessories() {
         <SwiperSlide>
           <img
             className={styles.imgSliderAccessories}
-            src="/assets/imgServicos/Acessorios/imgServicoAcessorios1.jpg"
+            src="/assets/img/imgServices/Accessories/imgServicesAccessories1.jpg"
             alt="Acessório 1"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className={styles.imgSliderAccessories}
-            src="/assets/imgServicos/Acessorios/imgServicoAcessorios2.jpg"
+            src="/assets/img/imgServices/Accessories/imgServicesAccessories2.jpg"
             alt="Acessório 2"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className={styles.imgSliderAccessories}
-            src="/assets/imgServicos/Acessorios/imgServicoAcessorios3.jpg"
+            src="/assets/img/imgServices/Accessories/imgServicesAccessories3.jpg"
             alt="Acessório 3"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className={styles.imgSliderAccessories}
-            src="/assets/imgServicos/Acessorios/imgServicoAcessorios4.jpg"
+            src="/assets/img/imgServices/Accessories/imgServicesAccessories4.jpg"
             alt="Acessório 4"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className={styles.imgSliderAccessories}
-            src="/assets/imgServicos/Acessorios/imgServicoAcessorios5.jpg"
+            src="/assets/img/imgServices/Accessories/imgServicesAccessories5.jpg"
             alt="Acessório 5"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className={styles.imgSliderAccessories}
-            src="/assets/imgServicos/Acessorios/imgServicoAcessorios6.jpg"
+            src="/assets/img/imgServices/Accessories/imgServicesAccessories6.jpg"
             alt="Acessório 6"
           />
         </SwiperSlide>

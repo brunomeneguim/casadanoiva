@@ -1,23 +1,23 @@
 [
-    {
-        "id": "0",
-        "titleOthers": "Sapatos",
-        "textOthers": "O sapato de noiva também é uma peça importante na composição do look. Aqui na Casa da Noiva você encontra opções de sapatos brancos tanto de salto alto como salto baixo, para aquelas noivas que preferem conforto no seu grande dia.",
-        "pathImg": "/assets/imgServicos/Sapatos/imgServicoSapato.jpg",
-        "altImg": "Imagem Sapato"
-    },
-    {
-        "id": "1",
-        "titleOthers": "Costureira",
-        "textOthers": "Nosso serviço de costura é ofertado por uma profissional que trabalha há mais de 10 anos com ajustes de vestidos de noiva. Esse serviço é incluso gratuitamente para as noivas que fecham contrato conosco, mas se você já tem o vestido e quiser apenas ajustar ou customizar conosco, também temos esse serviço à parte. Venha fazer um orçamento conosco.",
-        "pathImg": "/assets/imgServicos/Costureira/imgServicoCostureira.jpg",
-        "altImg": "Imagem Costureira"
-    },
-    {
-        "id": "2",
-        "titleOthers": "Lavanderia",
-        "textOthers": "Nosso serviço de lavanderia profissional é ofertado gratuitamente para as noivas que fecham contrato conosco. Entregamos o vestido e acessórios no dia do seu casamento limpo e passado, e lavamos também depois do casamento. Os produtos utilizados são próprios para lavagem de peças brancas e delicadas, assim como o ferro profissional que não queima tecidos. Também oferecemos este serviço à parte pelo valor de R$ 200,00.",
-        "pathImg": "/assets/imgServicos/Lavanderia/imgServicoLavanderia.jpg",
-        "altImg": "Imagem Lavanderia"
-    }
+  {
+    "id": "0",
+    "titleOthers": "Sapatos",
+    "textOthers": "O sapato de noiva também é uma peça importante na composição do look. Aqui na Casa da Noiva você encontra opções de sapatos brancos tanto de salto alto como salto baixo, para aquelas noivas que preferem conforto no seu grande dia.",
+    "pathImg": "/assets/img/imgServices/HighHeels/imgServicesHighHeels.jpg",
+    "altImg": "Imagem Sapato"
+  },
+  {
+    "id": "1",
+    "titleOthers": "Costureira",
+    "textOthers": "Nosso serviço de costura é ofertado por uma profissional que trabalha há mais de 10 anos com ajustes de vestidos de noiva. Esse serviço é incluso gratuitamente para as noivas que fecham contrato conosco, mas se você já tem o vestido e quiser apenas ajustar ou customizar conosco, também temos esse serviço à parte. Venha fazer um orçamento conosco.",
+    "pathImg": "/assets/img/imgServices/Dressmaker/imgServicesDressmaker.jpg",
+    "altImg": "Imagem Costureira"
+  },
+  {
+    "id": "2",
+    "titleOthers": "Lavanderia",
+    "textOthers": "Nosso serviço de lavanderia profissional é ofertado gratuitamente para as noivas que fecham contrato conosco. Entregamos o vestido e acessórios no dia do seu casamento limpo e passado, e lavamos também depois do casamento. Os produtos utilizados são próprios para lavagem de peças brancas e delicadas, assim como o ferro profissional que não queima tecidos. Também oferecemos este serviço à parte pelo valor de R$ 200,00.",
+    "pathImg": "/assets/img/imgServices/Laundry/imgServicesLaundry.jpg",
+    "altImg": "Imagem Lavanderia"
+  }
 ]

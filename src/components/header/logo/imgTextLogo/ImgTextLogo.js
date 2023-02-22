@@ -1,18 +1,17 @@
 /* Desenvolvido por - Bruno Marcondes */
 
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
-import ImgLogo from './imgLogo/ImgLogo';
-import TextLogo from './textLogo/TextLogo';
+import ImgLogo from "./imgLogo/ImgLogo";
+import TextLogo from "./textLogo/TextLogo";
 
-import styles from './ImgTextLogo.module.css';
+import styles from "./ImgTextLogo.module.css";
 
 export default function ImgTextLogo({ pathLogo }) {
-    return (
-        <Link className={styles.cntLogo} to={pathLogo}>
-            <ImgLogo ImgLogo="/assets/imgLogo.jpg" altImgLogo="Imagem Logo" />
-            <TextLogo textLogo="Casa da Noiva" />
-        </Link>
-    );
+  return (
+    <Link className={styles.cntLogo} to={pathLogo}>
+      <ImgLogo ImgLogo="/assets/img/imgLogo.jpg" altImgLogo="Imagem Logo" />
+      <TextLogo textLogo="Casa da Noiva" />
+    </Link>
+  );
 }
-

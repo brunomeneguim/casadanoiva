@@ -1,91 +1,91 @@
 [
   {
     "id": 1,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-1.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-1.jpg",
     "alt": "Imagem 1",
     "caption": "Vestido Emoção"
   },
   {
     "id": 2,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-2.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-2.jpg",
     "alt": "Imagem 2",
     "caption": "Vestido Emoção"
   },
   {
     "id": 3,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-3.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-3.jpg",
     "alt": "Imagem 3",
     "caption": "Vestido Emoção"
   },
   {
     "id": 4,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-4.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-4.jpg",
     "alt": "Imagem 4",
     "caption": "Vestido Força"
   },
   {
     "id": 5,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-5.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-5.jpg",
     "alt": "Imagem 5",
     "caption": "Vestido Força"
   },
   {
     "id": 6,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-6.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-6.jpg",
     "alt": "Imagem 6",
     "caption": "Vestido Força"
   },
   {
     "id": 7,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-7.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-7.jpg",
     "alt": "Imagem 7",
     "caption": "Vestido Lealdade"
   },
   {
     "id": 8,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-8.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-8.jpg",
     "alt": "Imagem 8",
     "caption": "Vestido Lealdade"
   },
   {
     "id": 9,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-9.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-9.jpg",
     "alt": "Imagem 9",
     "caption": "Vestido Lealdade"
   },
   {
     "id": 10,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-10.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-10.jpg",
     "alt": "Imagem 10",
     "caption": "Vestido Simpatia"
   },
   {
     "id": 11,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-11.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-11.jpg",
     "alt": "Imagem 11",
     "caption": "Vestido Simpatia"
   },
   {
     "id": 12,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-12.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-12.jpg",
     "alt": "Imagem 12",
     "caption": "Vestido Simpatia"
   },
   {
     "id": 13,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-13.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-13.jpg",
     "alt": "Imagem 13",
     "caption": "Vestido Lealdade"
   },
   {
     "id": 14,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-14.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-14.jpg",
     "alt": "Imagem 14",
     "caption": "Vestido Lealdade"
   },
   {
     "id": 15,
-    "pathImg": "assets/imgVestidos/terceiroVestido/imgVestido3-15.jpg",
+    "pathImg": "assets/img/imgDresses/thirdDress/imgDress3-15.jpg",
     "alt": "Imagem 15",
     "caption": "Vestido Lealdade"
   }

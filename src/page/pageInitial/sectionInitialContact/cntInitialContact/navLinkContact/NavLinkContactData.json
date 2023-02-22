@@ -1,29 +1,29 @@
 [
-    {
-        "id": "0",
-        "href": "https://www.google.com.br/maps/place/Casa+da+Noiva/@-25.3996489,-51.4686269,17z/data=!3m1!4b1!4m5!3m4!1s0x94ef37c33a87ec89:0x4fd3c5c50cf7b6d0!8m2!3d-25.3996571!4d-51.4664418",
-        "target": "_blank",
-        "rel": "noreferrer",
-        "pathIcon": "/assets/iconLocationContact.png",
-        "altIcon": "Ícone da Localização",
-        "textLink": "Casa da Noiva - Rua Quintino Bocaíuva, 947 - Centro, Guarapuava - PR, 85010-300, Brasil"
-    },
-    {
-        "id": "1",
-        "href": "mailto:anne_wendler@hotmail.com",
-        "target": "_blank",
-        "rel": "noreferrer",
-        "pathIcon": "/assets/iconEmail.png",
-        "altIcon": "Ícone E-mail",
-        "textLink": "E-mail: casadanoiva.gpuava@hotmail.com"
-    },
-    {
-        "id": "2",
-        "href": "tel:5542999901300",
-        "target": "",
-        "rel": "noreferrer",
-        "pathIcon": "/assets/iconTelephone.png",
-        "altIcon": "Ícone Telefone",
-        "textLink": "Celular: (42) 9-9990-1300"
-    }
+  {
+    "id": "0",
+    "href": "https://www.google.com.br/maps/place/Casa+da+Noiva/@-25.3996489,-51.4686269,17z/data=!3m1!4b1!4m5!3m4!1s0x94ef37c33a87ec89:0x4fd3c5c50cf7b6d0!8m2!3d-25.3996571!4d-51.4664418",
+    "target": "_blank",
+    "rel": "noreferrer",
+    "pathIcon": "data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAgCAYAAAAIXrg4AAAB30lEQVRIia2WsS4FQRSGv7kkComQiOaKKCgodBIKpea2olNJ7q20KjpP4AkUHkBLIVFKqBQaEoWIgpCQKIiMHM7KWHNmZ12TnORm5///b+/uzJl13nus4ZwbAOaA2aBknAR17L1/MkMEECtgCbgTSUWJZsnM+XUBBoHdjOByiWcwCQCawPUfwosSbzMF2O8ivKj9KADoVBjvgQOt+wpt5wcAGAeeDfEt0Iq8q5bOxTySNR4CNg3hJTCcWGnDqol5N0PAXkTwDixY4QFkQbVl/14IiK2cw6rwAHIYW1Ey13DOjQCjkT14au7OPO2oZDeAMcN0UwNgaccEcGVMztQAWNqr4hk+RJ7hBdCb8fx7VVv2P3y+AyWdRegTwEbG3W+otjy+MvUulo21/Aa0E3ffVk3Muxwu04bxN7/7C7ACTGmtVPQtyWqUe9HqPzS6olZjzc4BR/8QLhnOateTwEsX4eKdrDrR1rsArOccmT269euGi6enEqAQ2ZmvNcJFO5N16AeQrRqALTMnAegDzjPCRdNXG6CQeeMwKUrm5pMZGc1sOwHYrvRnAPq1pZfD5Vp/1wCFLEYAi1neHJFCdoLwnVxf8us6HM65IV0xMqa99485PjmNsoYEOufWit9ZJuAD++UnDqcRIvkAAAAASUVORK5CYII=",
+    "altIcon": "Ícone da Localização",
+    "textLink": "Casa da Noiva - Rua Quintino Bocaíuva, 947 - Centro, Guarapuava - PR, 85010-300, Brasil"
+  },
+  {
+    "id": "1",
+    "href": "mailto:anne_wendler@hotmail.com",
+    "target": "_blank",
+    "rel": "noreferrer",
+    "pathIcon": "data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAABo0lEQVRIie2WsUoDQRCGvw12wVSBVDZ2NsEELK5JkwfwAWys0gWtrCwSn0AfQVCwsrCw8QEsbAQLGxFFwVQWERFJ4srIXBiOS8ydOWPhwoaZnX/+/7/by7LOe49zrgBsACuAxFmOLnAB7HnvJaYE3AH+l6dolhxwAKzpE78Al8BHRm8gBywD85ofys9T5MmvgCXZmmlO4VRuqyXaw8RuwyuwPi0DwqWccVrDoA3sAAOztg/kfyCcV46Qb6Aa7TgDLW2qR7blGiinEC9rr33dda21RhpQgPwzzkztDWgkEG9oT9gvXCVTH29AQfLFbgN9gzmSc2KMcEExIb6vHLkI7nsDBlwDHg3uBqjG4KpaC3HSUxvBObkBbSgCpwb7DjRNvalrYV2wxTF8yQxokxxaW0DP9BzrDPOeYtw3XMkNmOYAuI85tmUtmJBjaCCX9Cz13p8DFeDELEtc0VqiMZe0QU08A6vOuU3Nd9PwyEhlwBhJLRyOxFsw7fFv4E8Y6GgcOOdc1oKqEWjaiV7JboGHjD0sAIsaf13JZnsplaNxZtdy77ufLzW0PiFBvWgAAAAASUVORK5CYII=",
+    "altIcon": "Ícone E-mail",
+    "textLink": "E-mail: casadanoiva.gpuava@hotmail.com"
+  },
+  {
+    "id": "2",
+    "href": "tel:5542999901300",
+    "target": "",
+    "rel": "noreferrer",
+    "pathIcon": "data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADO0lEQVRYhbWXWYhOYRjHfz7L2A3KNmQpF1zIUnMhO2VPIzLkznKhNCNjhNRYrmzJhULKBYWx5MYFWW5ku7SMTDL2siQKw5j59Nb/5en0nnO+w3jq1OlZ/+d9n+0QoH7ATuAx8AY4AvQOKRpaCHwBrgGbgGEp+omOPgD5yPMAGJBgVwb8MDY/gVpgTJbgq4FmObgAlAIjgVvi3QbaJdj3BBYDx4HvBsg+oEta8NkK3gJURmTdgXo5rC7wY0qAAwLgT3BInHIv4L0UN8boTJb8HdCpQBDoFOtk+ybuSnZI4RLQJsHZDektM7wiYH7S1wHFwFUDYnBU4aGE41O+ZoP0DhreWpN4j4CKmPvuYEDcBzpb4ScJuqYAKJPeGcMbqmx/b4A8A+bGnIS/jt1WcFvMshQANYET8JTTVfiKccm8OaBXqsRsAkZ75joZ1SYEnwl8k+MpCXo5+WuSzy0BnQOSnfaMAULlAvRICO6M9iYEt7RAIFp0MpZK1CeabPJeVoBVAWcvJTucUiVR8if7PJBfx6Nlv1SM+kC3OyHZ2QzB0XX4nIg2t0XiX/OMtqYcV0SUB2nQONmSjCDmy64uwncV0Qh8tsxyKT9V3VqqlOwt0DcDgJwp0WizmhOtvJyahFOuCji6ItnNjO34pOzmFaI8S5nrsn5ERNZHCeWcnROoQmggsEZtuyA6oiB3Agk51nTOQ8qdVic3fhsUpCbgfKrpC+ejfb21aJrZD5bGgPhsciKUmJOAPTqpXUq4jlnw+cxvjGm/44AXZk8oF981q/2BtS6viqjJAmSfDD8CowLyvmomeZOcR/X+VcvtcmCrGXp+QxpeCICchoYHMTVGZ70C5k3wGQHdCcA96TSkLLq/qciAaIxsRJbcpnNKsyMU3JNL2uvyd6wQAP4r/XW4xNyWsiGn0Sj5epXVsMKs7ne1tv8NTTBrXGaaonmRVz+oCsyOJHJVclH22//2CLtpP2gxCbUSaF+AbbUp3SyDLUgzTVa754n+sIoDym20J7boGhf8a3BPOe0JDw2Qb9qeyzQ5J5pp2hyzebUKENcN3Xrnf8miz2tg+v8IHqX+2gndRHXblNszXAt2v4F/CPgFVYsG5eQ/7/0AAAAASUVORK5CYII=",
+    "altIcon": "Ícone Telefone",
+    "textLink": "Celular: (42) 9-9990-1300"
+  }
 ]

@@ -1,73 +1,73 @@
 [
     {
         "id": 1,
-        "pathImg": "assets/imgVestidos/sextoVestido/imgVestido6-1.jpg",
+        "pathImg": "assets/img/imgDresses/sixthDress/imgDress6-1.jpg",
         "alt": "Imagem 1",
         "caption": "Vestido Beijo"
     },
     {
         "id": 2,
-        "pathImg": "assets/imgVestidos/sextoVestido/imgVestido6-2.jpg",
+        "pathImg": "assets/img/imgDresses/sixthDress/imgDress6-2.jpg",
         "alt": "Imagem 2",
         "caption": "Vestido Beijo"
     },
     {
         "id": 3,
-        "pathImg": "assets/imgVestidos/sextoVestido/imgVestido6-3.jpg",
+        "pathImg": "assets/img/imgDresses/sixthDress/imgDress6-3.jpg",
         "alt": "Imagem 3",
         "caption": "Vestido Decência"
     },
     {
         "id": 4,
-        "pathImg": "assets/imgVestidos/sextoVestido/imgVestido6-4.jpg",
+        "pathImg": "assets/img/imgDresses/sixthDress/imgDress6-4.jpg",
         "alt": "Imagem 4",
         "caption": "Vestido Beijo"
     },
     {
         "id": 5,
-        "pathImg": "assets/imgVestidos/sextoVestido/imgVestido6-5.jpg",
+        "pathImg": "assets/img/imgDresses/sixthDress/imgDress6-5.jpg",
         "alt": "Imagem 5",
         "caption": "Vestido Chamego"
     },
     {
         "id": 6,
-        "pathImg": "assets/imgVestidos/sextoVestido/imgVestido6-6.jpg",
+        "pathImg": "assets/img/imgDresses/sixthDress/imgDress6-6.jpg",
         "alt": "Imagem 6",
         "caption": "Vestido Chamego"
     },
     {
         "id": 7,
-        "pathImg": "assets/imgVestidos/sextoVestido/imgVestido6-7.jpg",
+        "pathImg": "assets/img/imgDresses/sixthDress/imgDress6-7.jpg",
         "alt": "Imagem 7",
         "caption": "Vestido Compaixão"
     },
     {
         "id": 8,
-        "pathImg": "assets/imgVestidos/sextoVestido/imgVestido6-8.jpg",
+        "pathImg": "assets/img/imgDresses/sixthDress/imgDress6-8.jpg",
         "alt": "Imagem 8",
         "caption": "Vestido Resiliência"
     },
     {
         "id": 9,
-        "pathImg": "assets/imgVestidos/sextoVestido/imgVestido6-9.jpg",
+        "pathImg": "assets/img/imgDresses/sixthDress/imgDress6-9.jpg",
         "alt": "Imagem 9",
         "caption": "Vestido Honestidade"
     },
     {
         "id": 10,
-        "pathImg": "assets/imgVestidos/sextoVestido/imgVestido6-10.jpg",
+        "pathImg": "assets/img/imgDresses/sixthDress/imgDress6-10.jpg",
         "alt": "Imagem 10",
         "caption": "Vestido Honra"
     },
     {
         "id": 11,
-        "pathImg": "assets/imgVestidos/sextoVestido/imgVestido6-11.jpg",
+        "pathImg": "assets/img/imgDresses/sixthDress/imgDress6-11.jpg",
         "alt": "Imagem 11",
         "caption": "Vestido Honra"
     },
     {
         "id": 12,
-        "pathImg": "assets/imgVestidos/sextoVestido/imgVestido6-12.jpg",
+        "pathImg": "assets/img/imgDresses/sixthDress/imgDress6-12.jpg",
         "alt": "Imagem 12",
         "caption": "Vestido Honestidade"
     }

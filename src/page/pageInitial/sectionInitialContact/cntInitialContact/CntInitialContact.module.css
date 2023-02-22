@@ -1,6 +1,6 @@
 .cntInitialContact {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 80px;
 }

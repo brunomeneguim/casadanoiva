@@ -1,18 +1,18 @@
 [
-    {
-        "id": 0,
-        "path": "https://www.google.com.br/maps/place/Casa+da+Noiva/@-25.3996489,-51.4686269,17z/data=!3m1!4b1!4m5!3m4!1s0x94ef37c33a87ec89:0x4fd3c5c50cf7b6d0!8m2!3d-25.3996571!4d-51.4664418",
-        "target": "_blank",
-        "rel": "noreferrer",
-        "pathImg": "/assets/iconLocation.png",
-        "altImg": "Ícone da Localização"
-    },
-    {
-        "id": 1,
-        "path": "https://www.instagram.com/casadanoiva.gpuava",
-        "target": "_blank",
-        "rel": "noreferrer",
-        "pathImg": "/assets/iconInstagram.png",
-        "altImg": "Ícone do Instagram"
-    }
+  {
+    "id": 0,
+    "path": "https://www.google.com.br/maps/place/Casa+da+Noiva/@-25.3996489,-51.4686269,17z/data=!3m1!4b1!4m5!3m4!1s0x94ef37c33a87ec89:0x4fd3c5c50cf7b6d0!8m2!3d-25.3996571!4d-51.4664418",
+    "target": "_blank",
+    "rel": "noreferrer",
+    "pathImg": "data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAYCAYAAAD3Va0xAAABaklEQVQ4jZWUv2oCQRDGfxtz2Nj4DDY2gpBOsLWOpNM8QIq8RAofQF9AEB/AFwlcIykESWWaQNJJOGTDwFyyzu365+ADme+bn9zOzjnvPfZxznWBe+BOJc+rauW9zytNAioFZMALUIiVUKGZ7Kg3gDT1H1MAK8k2Y6DlFZBSyyMQMIyEfoAp8KCaas3mhiFobcxPoBOegeY66oXZdTmwBnAw5thCAtjYZA/KoG+MvZ1IZLJ709O/AdrmRmy990XlnvxfF/G2ptwW0M4UW865LAVSr2XKOwFtTLEOPKZA6tVNbVO+d27e+RvoRc6np16YzcPxjyL3Q6axAJ5Ui8h0RaMQVLtyPUpJT82uSPfMslpJtlvZNYVNrgBNotuvIJnG2wUQydSToGAysUMNh1CdaGINZidAs2hPAiRL+B6BSK1xMUhhgwhokMynDIXNA8j8ZPYMSL7jH6q/73NMtyeWUwJfzrnn8ncyCPwCRsVNFLh6eckAAAAASUVORK5CYII=",
+    "altImg": "Ícone da Localização"
+  },
+  {
+    "id": 1,
+    "path": "https://www.instagram.com/casadanoiva.gpuava",
+    "target": "_blank",
+    "rel": "noreferrer",
+    "pathImg": "data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACUklEQVRIia2WyWtUQRDGfxmjKLiO+xo0EEMU8SR48CA6BwUPXtwQhHhRxPg/CEGvIupJcdeLB73rSRBCQBH1lKAxg2MMjjEaddyp4etYafrNhMQPHq9r6a96qa7uBsZiPnAYKACrgbysU4GZke9n4IfaQ8Ar4AFwCXhDAvuBYeDPJL+vwLFAH2awF7gluQ+4CjzVyEaA76kRAY3ALH1twEGgVbYO4Kw15gIfNOo7wPQMsvFgCnBBXN+AVdbnuBT9wIwJEh8FuoE9CvJEnJ1mvCvhdB0SW47lwEptukdZHC+kOyH5UQ5YI+WzDOJlmvY7oAi8Bt4Dl5VphmtABbgu+bn+Ve5+RduRIN8k4qzM+ghsT/TbIHs1OUoSCpHTEmBAtpLSeI4yZpdmHII0R33bZPttwqCErZHTGenfKlgMC9Qjn5uRba2b5WiKbnEODSI2/aH01lSxUz4jUQY2+wCf1NjsHPLOYWmNANOAX/Jrdfqm0D+X0TGuUeNBso8F+Kl2o9OXtcGGbTXIC+L4omIX4LnqbvJLYFGCfLbb5BuRrcXvQdjMOJ8XR2l6wKXpbgWul6bV1SnWOWgDjD1c/hvKWMJw0Co5palhQcKxC9ioUlF2+mGVCrPdT/RbqL+VFO4p2qmEo0etYhejQ5wPcULfJO+CAFuVx+I8abp5WktT3NbhmSjsLjjHv6tzRTgc+1RPTO4FrujKtOyxkxpgJcEKmGVSgPWxWrVOV+Z6GexePu8H+r8ufRvEER/dw54t7e7ZYrIh9Wyx02uXjME/Wy5q5gD8BZAbzsqDj0OXAAAAAElFTkSuQmCC",
+    "altImg": "Ícone do Instagram"
+  }
 ]

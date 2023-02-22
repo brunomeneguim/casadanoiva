@@ -1,58 +1,56 @@
 .navLinkContact {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
 }
 
 .iconInitialContact {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .linkIconContact {
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #CE947B;
-    font-weight: 600;
-    font-size: 20px;
-    padding-bottom: 10px;
-    margin: 15px 0;
-    text-align: center;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ce947b;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin: 15px 0;
+  text-align: center;
 }
 
 .imgInicialLocalizacao {
-    padding-right: 10px;
+  padding-right: 10px;
 }
-
 
 /* Mouse Hover */
 .linkIconContact:hover {
-    transform: scale(1.01);
-    transition: 200ms linear;
+  transform: scale(1.01);
+  transition: 200ms linear;
 }
-
 
 /* Media Query */
 @media screen and (max-width: 1200px) {
-    .linkIconContact {
-        font-size: 18px;
-        transition: 1s;
-    }
+  .linkIconContact {
+    font-size: 18px;
+    transition: 1s;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .linkIconContact {
-        font-size: 15px;
-        transition: 1s;
-    }
+  .linkIconContact {
+    font-size: 15px;
+    transition: 1s;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .iconInitialContact {
-        width: 25px;
-        padding: 0 5px;
-        margin: 0;
-    }
+  .iconInitialContact {
+    width: 25px;
+    padding: 0 5px;
+    margin: 0;
+  }
 }

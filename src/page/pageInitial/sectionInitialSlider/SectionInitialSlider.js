@@ -37,28 +37,28 @@ export default function SectionInitialSlider() {
         <SwiperSlide>
           <img
             className={styles.imgSliderInitial}
-            src="/assets/imgSlider1.jpg"
+            src="/assets/img/imgSlider1.jpg"
             alt="Slide Inicial 1"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className={styles.imgSliderInitial}
-            src="/assets/imgSlider2.jpg"
+            src="/assets/img/imgSlider2.jpg"
             alt="Slide Inicial 2"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className={styles.imgSliderInitial}
-            src="/assets/imgSlider3.jpg"
+            src="/assets/img/imgSlider3.jpg"
             alt="Slide Inicial 3"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className={styles.imgSliderInitial}
-            src="/assets/imgSlider4.jpg"
+            src="/assets/img/imgSlider4.jpg"
             alt="Slide Inicial 4"
           />
         </SwiperSlide>

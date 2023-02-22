@@ -3,16 +3,19 @@
 
 import React from "react";
 
-import ImgInitialServices from './imgInitialServices/ImgInitialServices';
-import CntSectionServices from './cntSectionServices/CntSectionServices';
+import ImgInitialServices from "./imgInitialServices/ImgInitialServices";
+import CntSectionServices from "./cntSectionServices/CntSectionServices";
 
-import styles from './SectionInitialServices.module.css';
+import styles from "./SectionInitialServices.module.css";
 
 export default function SectionInitialServices() {
-    return (
-        <section className={styles.sectionInitialServices}>
-            <ImgInitialServices pathImgServices="/assets/imgSectionServices.jpg" altImgServices="Imagem da Seção de Serviços" />
-            <CntSectionServices />
-        </section>
-    );
+  return (
+    <section className={styles.sectionInitialServices}>
+      <ImgInitialServices
+        pathImgServices="/assets/img/imgSectionServices.jpg"
+        altImgServices="Imagem da Seção de Serviços"
+      />
+      <CntSectionServices />
+    </section>
+  );
 }

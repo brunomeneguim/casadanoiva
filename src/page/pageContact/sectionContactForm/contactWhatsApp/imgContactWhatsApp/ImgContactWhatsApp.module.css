@@ -1,13 +1,13 @@
 .imgContactWhatsApp {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
 }
 
 /* Media Query */
 @media screen and (max-width: 1020px) {
-    .imgContactWhatsApp {
-        padding-left: 5px;
-    }
+  .imgContactWhatsApp {
+    padding-left: 5px;
+  }
 }
