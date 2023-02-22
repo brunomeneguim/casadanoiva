@@ -24,7 +24,7 @@ body {
 }
 
 /* Mouse Hover */
-.scroll-to-top#scrollUp {
+.scroll-to-top#scrollUp:hover {
   transform: scale(1.2);
   transition: 200ms linear;
 }
