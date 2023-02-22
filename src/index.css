@@ -8,7 +8,7 @@ body {
 }
 
 /* Style do botão Scroll para o Topo */
-.scrollUp {
+.scroll-to-top#scrollUp {
   width: 60px;
   height: 60px;
   bottom: 10px;
@@ -24,7 +24,7 @@ body {
 }
 
 /* Mouse Hover */
-.scrollUp:hover {
+.scroll-to-top#scrollUp {
   transform: scale(1.2);
   transition: 200ms linear;
 }
