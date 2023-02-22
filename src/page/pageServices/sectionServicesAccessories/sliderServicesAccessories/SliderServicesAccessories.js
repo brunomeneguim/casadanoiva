@@ -3,6 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
 import styles from "./SliderServicesAccessories.module.css";
 
 export default function SliderServicesAccessories() {
@@ -20,7 +24,8 @@ export default function SliderServicesAccessories() {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className={`${styles.mySwiperAccessories}`}
+        className={styles.mySwiperAccessories}
+        id="swiperAccessories"
         breakpoints={{
           0: {
             slidesPerView: 1,
