@@ -13,7 +13,6 @@ export default function SliderServicesAccessories() {
           "--swiper-pagination-color": "#BB7D68",
           "--swiper-navigation-color": "#BB7D68",
         }}
-        className={styles.mySwiperAccessories}
         spaceBetween={30}
         loop={true}
         pagination={{
@@ -21,6 +20,7 @@ export default function SliderServicesAccessories() {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
+        className={`${styles.mySwiperAccessories}`}
         breakpoints={{
           0: {
             slidesPerView: 1,

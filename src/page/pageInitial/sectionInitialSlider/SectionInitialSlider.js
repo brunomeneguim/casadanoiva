@@ -19,7 +19,7 @@ export default function SectionInitialSlider() {
           "--swiper-pagination-color": "#BB7D68",
           "--swiper-navigation-color": "#BB7D68",
         }}
-        className={styles.mySwiperInitial}
+        className={`${styles.mySwiperInitial}`}
         slidesPerView={1}
         spaceBetween={30}
         autoplay={{
