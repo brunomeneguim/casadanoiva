@@ -9,36 +9,60 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import styles from './SectionInitialSlider.module.css';
+import styles from "./SectionInitialSlider.module.css";
 
 export default function SectionInitialSlider() {
-    return (
-        <section className={styles.sectionInitialSlider}>
-            <Swiper
-                style={{
-                    "--swiper-pagination-color": "#BB7D68",
-                    "--swiper-navigation-color": "#BB7D68"
-                }}
-                className={styles.mySwiper}
-                slidesPerView={1}
-                spaceBetween={30}
-                autoplay={{
-                    delay: 4500,
-                    disableOnInteraction: false,
-                }}
-                loop={true}
-                freeMode={true}
-                pagination={{
-                    clickable: true,
-                }}
-                navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
-            >
-                <SwiperSlide><img className={styles.imgSliderInitial} src="/assets/imgSlider1.jpg" alt="Slide Inicial 1" /></SwiperSlide>
-                <SwiperSlide><img className={styles.imgSliderInitial} src="/assets/imgSlider2.jpg" alt="Slide Inicial 2" /></SwiperSlide>
-                <SwiperSlide><img className={styles.imgSliderInitial} src="/assets/imgSlider3.jpg" alt="Slide Inicial 3" /></SwiperSlide>
-                <SwiperSlide><img className={styles.imgSliderInitial} src="/assets/imgSlider4.jpg" alt="Slide Inicial 4" /></SwiperSlide>
-            </Swiper>
-        </section>
-    );
+  return (
+    <section className={styles.sectionInitialSlider}>
+      <Swiper
+        style={{
+          "--swiper-pagination-color": "#BB7D68",
+          "--swiper-navigation-color": "#BB7D68",
+        }}
+        className={styles.mySwiperInitial}
+        slidesPerView={1}
+        spaceBetween={30}
+        autoplay={{
+          delay: 4500,
+          disableOnInteraction: false,
+        }}
+        loop={true}
+        freeMode={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+      >
+        <SwiperSlide>
+          <img
+            className={styles.imgSliderInitial}
+            src="/assets/imgSlider1.jpg"
+            alt="Slide Inicial 1"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            className={styles.imgSliderInitial}
+            src="/assets/imgSlider2.jpg"
+            alt="Slide Inicial 2"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            className={styles.imgSliderInitial}
+            src="/assets/imgSlider3.jpg"
+            alt="Slide Inicial 3"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            className={styles.imgSliderInitial}
+            src="/assets/imgSlider4.jpg"
+            alt="Slide Inicial 4"
+          />
+        </SwiperSlide>
+      </Swiper>
+    </section>
+  );
 }
