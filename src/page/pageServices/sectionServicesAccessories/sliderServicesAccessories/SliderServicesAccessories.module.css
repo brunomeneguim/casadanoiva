@@ -1,10 +1,9 @@
-.mySwiperAccessories {
-  width: 100%;
+/* .swiperAccessories {
+  width: 80%;
   height: 100%;
   padding: 50px 0;
-  margin-left: auto;
-  margin-right: auto;
-}
+  display: flex;
+} */
 
 .imgSliderAccessories {
   display: flex;
