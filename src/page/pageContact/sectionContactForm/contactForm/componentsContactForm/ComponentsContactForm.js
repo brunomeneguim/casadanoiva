@@ -1,72 +1,181 @@
 /* Desenvolvido por - Bruno Marcondes */
 
-import React, { useState } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useState, useRef } from "react";
 
-import styles from './ComponentsContactForm.module.css'
+import { useForm } from "react-hook-form";
+import { isAlpha, isEmail, isMobile } from "validator";
 
+import emailjs from "@emailjs/browser";
+
+import styles from "./ComponentsContactForm.module.css";
 
 export default function ComponentsContactForm() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
+  const [remetenteNome, setRemetenteNome] = useState("");
+  const [remetenteEmail, setRemetenteEmail] = useState("");
+  const [remetenteCelular, setRemetenteCelular] = useState("");
+  const [remetenteAssunto, setRemetenteAssunto] = useState("");
+  const [remetenteMensagem, setRemetenteMensagem] = useState("");
 
-    const [remetenteNome, setRemetenteNome] = useState('');
-    const [remetenteEmail, setRemetenteEmail] = useState('');
-    const [remetenteCelular, setRemetenteCelular] = useState('');
-    const [remetenteAssunto, setRemetenteAssunto] = useState('');
-    const [remetenteMensagem, setRemetenteMensagem] = useState('');
+  const form = useRef();
 
-    //será executada pelo form
-    const SendEmail = (e) => {
-        e.preventDefault();
+  const SendEmail = (e) => {
+    e.preventDefault();
 
-        var templateParams = {
-            remetenteNome: remetenteNome,
-            remetenteEmail: remetenteEmail,
-            remetenteCelular: remetenteCelular,
-            remetenteAssunto: remetenteAssunto,
-            remetenteMensagem: remetenteMensagem
-        };
+    var templateParams = {
+      remetenteNome: remetenteNome,
+      remetenteEmail: remetenteEmail,
+      remetenteCelular: remetenteCelular,
+      remetenteAssunto: remetenteAssunto,
+      remetenteMensagem: remetenteMensagem,
+    };
 
-        emailjs.send('service_casa_da_noiva', 'template_casa_da_noiva', templateParams, 'STyo0BYl8_59vaemH')
-            .then(function (response) {
-                console.log('Success!!!!', response.status, response.text);
-                alert("Sua mensagem foi enviada com sucesso.");
-            }, function (error) {
-                console.log('Failed...', error);
-            });
-        console.log(templateParams);
-    }
-    return (
-        <>
-            <form className={styles.contactForm} onSubmit={SendEmail}>
+    emailjs
+      .send(
+        "service_casa_da_noiva",
+        "template_casa_da_noiva",
+        templateParams,
+        "STyo0BYl8_59vaemH"
+      )
+      .then(
+        function (response) {
+          console.log("Success!!!!", response.status, response.text);
+        },
+        function (error) {
+          console.log("Failed...", error);
+        }
+      );
+    console.log(templateParams);
+  };
 
-                <label htmlFor="nome">Nome</label>
-                <input type="text" id="nome" name="nome" required
-                    onChange={(e) => { setRemetenteNome(e.target.value); }} value={remetenteNome}
-                />
+  return (
+    <>
+      <form
+        className={styles.contactForm}
+        ref={form}
+        onSubmit={handleSubmit(SendEmail)}
+      >
+        {/* Input Nome */}
+        <div className={styles.formLabelError}>
+          <div>
+            <label>Nome</label>
+          </div>
+          <div>
+            {errors?.name?.type === "required" && (
+              <p className={styles.errorMsg}>Campo Obrigatório</p>
+            )}
+            {errors?.name?.type === "validate" && (
+              <p className={styles.errorMsg}>
+                Dados Inválidos. Digite apenas letras.
+              </p>
+            )}
+          </div>
+        </div>
 
-                <label htmlFor="email">E-mail</label>
-                <input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" required
-                    onChange={(e) => { setRemetenteEmail(e.target.value); }} value={remetenteEmail}
-                />
+        <input
+          className={errors?.name && `${styles.inputError}`}
+          type="text"
+          placeholder="Digite seu nome"
+          {...register("name", {
+            required: true,
+            validate: (value) => isAlpha(value),
+          })}
+          onChange={(e) => {
+            setRemetenteNome(e.target.value);
+          }}
+          value={remetenteNome}
+        />
 
-                <label htmlFor="celular">Celular</label>
-                <input type="tel" id="celular" patern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" name="celular"
-                    onChange={(e) => { setRemetenteCelular(e.target.value); }} value={remetenteCelular}
-                />
+        {/* Input E-mail */}
+        <div className={styles.formLabelError}>
+          <div>
+            <label>E-mail</label>
+          </div>
+          <div>
+            {errors?.email?.type === "required" && (
+              <p className={styles.errorMsg}>Campo Obrigatório</p>
+            )}
+            {errors?.email?.type === "validate" && (
+              <p className={styles.errorMsg}>Formato de E-mail inválido</p>
+            )}
+          </div>
+        </div>
 
-                <label htmlFor="assunto">Assunto</label>
-                <input type="text" id="assunto" name="assunto" required
-                    onChange={(e) => { setRemetenteAssunto(e.target.value); }} value={remetenteAssunto}
-                />
+        <input
+          className={errors?.email && `${styles.inputError}`}
+          type="email"
+          placeholder="Digite seu e-mail"
+          {...register("email", {
+            required: true,
+            validate: (value) => isEmail(value),
+          })}
+          onChange={(e) => {
+            setRemetenteEmail(e.target.value);
+          }}
+          value={remetenteEmail}
+        />
 
-                <label htmlFor="mensagem">Mensagem</label>
-                <textarea type="text" id="mensagem" name="mensagem" required
-                    onChange={(e) => { setRemetenteMensagem(e.target.value); }} value={remetenteMensagem}
-                />
+        {/* Input Celular */}
+        <label>Celular</label>
+        <input
+          className={errors?.celular && `${styles.inputError}`}
+          type="tel"
+          placeholder="Digite seu celular"
+          {...register("celular", {
+            required: true,
+            validate: (value) => isMobile(value),
+          })}
+          onChange={(e) => {
+            setRemetenteCelular(e.target.value);
+          }}
+          value={remetenteCelular}
+        />
+        {/* {errors?.celular?.type === "required" && (
+          <p className={styles.errorMsg}>Campo Obrigatório</p>
+        )} */}
+        {errors?.celular?.type === "validate" && (
+          <p className={styles.errorMsg}>Número inválido.</p>
+        )}
 
-                <button type="submit">Enviar</button>
-            </form>
-        </>
-    );
+        {/* Input Assunto */}
+        <label>Assunto</label>
+        <input
+          className={errors?.assunto && `${styles.inputError}`}
+          type="text"
+          placeholder="Digite o assunto"
+          {...register("assunto", { required: true })}
+          onChange={(e) => {
+            setRemetenteAssunto(e.target.value);
+          }}
+          value={remetenteAssunto}
+        />
+        {errors?.assunto?.type === "required" && (
+          <p className={styles.errorMsg}>Campo Obrigatório</p>
+        )}
+
+        {/* Input Mensagem */}
+        <label>Mensagem</label>
+        <textarea
+          className={errors?.mensagem && `${styles.inputError}`}
+          type="text"
+          placeholder="Digite a mensagem"
+          {...register("mensagem", { required: true })}
+          onChange={(e) => {
+            setRemetenteMensagem(e.target.value);
+          }}
+          value={remetenteMensagem}
+        />
+        {errors?.mensagem?.type === "required" && (
+          <p className={styles.errorMsg}>Campo Obrigatório</p>
+        )}
+        {/* <button onClick={() => handleSubmit(SendEmail)()}>Enviar</button> */}
+        <button type="submit">Enviar</button>
+      </form>
+    </>
+  );
 }

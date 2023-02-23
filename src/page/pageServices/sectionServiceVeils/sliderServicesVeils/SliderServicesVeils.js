@@ -2,6 +2,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
+// Import Swiper styles
+import 'swiper/swiper-bundle.min.css'
+import 'swiper/swiper.min.css'
+
 import styles from "./SliderServicesVeils.module.css";
 
 export default function SliderServicesVeils() {

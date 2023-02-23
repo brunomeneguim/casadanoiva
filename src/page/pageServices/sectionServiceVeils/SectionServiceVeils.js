@@ -6,10 +6,6 @@ import React from "react";
 import SliderServicesVeils from "./sliderServicesVeils/SliderServicesVeils";
 import CntTextVeils from "./cntTextVeils/CntTextVeils";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
 import styles from "./SectionServiceVeils.module.css";
 
 export default function SectionServiceVeils() {
