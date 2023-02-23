@@ -20,6 +20,7 @@ export default function SliderServicesVeils() {
         navigation={true}
         modules={[Pagination, Navigation]}
         className={styles.mySwiperVeils}
+        id="swiperVeils"
         breakpoints={{
           0: {
             slidesPerView: 1,

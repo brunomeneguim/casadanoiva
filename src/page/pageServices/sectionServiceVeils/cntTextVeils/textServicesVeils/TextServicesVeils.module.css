@@ -40,15 +40,3 @@
     transition: 1s;
   }
 }
-
-@media screen and (max-width: 215px) {
-  .titleVeils {
-    font-size: 40px;
-    transition: 1s;
-  }
-
-  .textVeils {
-    font-size: 10px;
-    transition: 1s;
-  }
-}

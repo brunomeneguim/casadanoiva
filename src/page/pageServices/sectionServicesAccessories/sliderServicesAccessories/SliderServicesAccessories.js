@@ -25,6 +25,7 @@ export default function SliderServicesAccessories() {
         navigation={true}
         modules={[Pagination, Navigation]}
         className={styles.mySwiperAccessories}
+        id="swiperAccessories"
         breakpoints={{
           0: {
             slidesPerView: 1,
