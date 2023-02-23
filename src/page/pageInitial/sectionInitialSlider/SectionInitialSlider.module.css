@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-.sectionInitialSlider .mySwiperInitial {
+.mySwiperInitial {
   display: flex;
   /* Define a largura máxima do slider */
   max-width: 1200px;
