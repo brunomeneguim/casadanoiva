@@ -1,7 +1,36 @@
-.contactForm {
+.form {
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 100%;
+}
+
+.msgSent {
+  display: none;
+}
+
+.form.formActive .contactForm {
+  display: none;
+}
+
+.form.formActive .msgSent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #ce947b;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contactForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 .contactForm label {
@@ -67,6 +96,11 @@
   border-radius: 5px;
 }
 
+.contactForm button:disabled {
+  cursor: not-allowed;
+  background-color: #555b69;
+}
+
 /* Efeitos */
 .contactForm input:focus-visible,
 .contactForm textarea:focus-visible {
@@ -83,4 +117,12 @@
 .contactForm textarea:hover {
   background-color: #eeeeee75;
   transition: 0.5s;
+}
+
+/* Media Query */
+@media screen and (max-width: 410px) {
+  .msgSent {
+    font-size: 18px;
+    transition: 1s;
+  }
 }

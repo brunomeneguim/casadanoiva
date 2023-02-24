@@ -1,9 +1,8 @@
 /* Desenvolvido por - Bruno Marcondes */
 
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 
 import { useForm } from "react-hook-form";
-import { isAlpha, isEmail, isMobile } from "validator";
 
 import emailjs from "@emailjs/browser";
 
@@ -13,8 +12,17 @@ export default function ComponentsContactForm() {
   const {
     register,
     handleSubmit,
-    formState: { errors },
-  } = useForm();
+    formState: { errors, isSubmitSuccessful, isSubmitting },
+  } = useForm({
+    mode: "onChange",
+    defaultValues: {
+      remetenteNome: "",
+      remetenteEmail: "",
+      remetenteCelular: "",
+      remetenteAssunto: "",
+      remetenteMensagem: "",
+    },
+  });
 
   const [remetenteNome, setRemetenteNome] = useState("");
   const [remetenteEmail, setRemetenteEmail] = useState("");
@@ -22,12 +30,12 @@ export default function ComponentsContactForm() {
   const [remetenteAssunto, setRemetenteAssunto] = useState("");
   const [remetenteMensagem, setRemetenteMensagem] = useState("");
 
-  const form = useRef();
+  const SendEmail = async (e) => {
+    const sleep = (ms) => new Promise((res) => setTimeout(res, ms));
+    await sleep(5000);
+    // e.preventDefault();
 
-  const SendEmail = (e) => {
-    e.preventDefault();
-
-    var templateParams = {
+    const templateParams = {
       remetenteNome: remetenteNome,
       remetenteEmail: remetenteEmail,
       remetenteCelular: remetenteCelular,
@@ -45,6 +53,11 @@ export default function ComponentsContactForm() {
       .then(
         function (response) {
           console.log("Success!!!!", response.status, response.text);
+          // setRemetenteNome("");
+          // setRemetenteEmail("");
+          // setRemetenteCelular("");
+          // setRemetenteAssunto("");
+          // setRemetenteMensagem("");
         },
         function (error) {
           console.log("Failed...", error);
@@ -54,128 +67,133 @@ export default function ComponentsContactForm() {
   };
 
   return (
-    <>
-      <form
-        className={styles.contactForm}
-        ref={form}
-        onSubmit={handleSubmit(SendEmail)}
-      >
-        {/* Input Nome */}
-        <div className={styles.formLabelError}>
-          <div>
-            <label>Nome</label>
+    <div
+      className={
+        isSubmitSuccessful
+          ? `${styles.form} ${styles.formActive}`
+          : `${styles.form}`
+      }
+    >
+      <h1 className={styles.msgSent}>Mensagem Enviada com Sucesso.</h1>
+      <div className={`${styles.form}`}>
+        <form className={styles.contactForm} onSubmit={handleSubmit(SendEmail)}>
+          {isSubmitting}
+          {/* Input Nome */}
+          <div className={styles.formLabelError}>
+            <div>
+              <label>Nome</label>
+            </div>
+            <div>
+              {errors?.name?.type === "required" && (
+                <p className={styles.errorMsg}>Campo Obrigatório</p>
+              )}
+            </div>
           </div>
-          <div>
-            {errors?.name?.type === "required" && (
-              <p className={styles.errorMsg}>Campo Obrigatório</p>
-            )}
-            {errors?.name?.type === "validate" && (
-              <p className={styles.errorMsg}>
-                Dados Inválidos. Digite apenas letras.
-              </p>
-            )}
+
+          <input
+            className={errors?.name && `${styles.inputError}`}
+            type="text"
+            placeholder="Digite seu nome"
+            {...register("name", {
+              required: true,
+            })}
+            onChange={(e) => {
+              setRemetenteNome(e.target.value);
+            }}
+            value={remetenteNome}
+          />
+
+          {/* Input E-mail */}
+          <div className={styles.formLabelError}>
+            <div>
+              <label>E-mail</label>
+            </div>
+            <div>
+              {errors?.email?.type === "required" && (
+                <p className={styles.errorMsg}>Campo Obrigatório</p>
+              )}
+            </div>
           </div>
-        </div>
 
-        <input
-          className={errors?.name && `${styles.inputError}`}
-          type="text"
-          placeholder="Digite seu nome"
-          {...register("name", {
-            required: true,
-            validate: (value) => isAlpha(value),
-          })}
-          onChange={(e) => {
-            setRemetenteNome(e.target.value);
-          }}
-          value={remetenteNome}
-        />
+          <input
+            className={errors?.email && `${styles.inputError}`}
+            type="email"
+            placeholder="Digite seu e-mail"
+            {...register("email", {
+              required: true,
+            })}
+            onChange={(e) => {
+              setRemetenteEmail(e.target.value);
+            }}
+            value={remetenteEmail}
+          />
 
-        {/* Input E-mail */}
-        <div className={styles.formLabelError}>
-          <div>
-            <label>E-mail</label>
+          {/* Input Celular */}
+          <div className={styles.formLabelError}>
+            <label>Celular</label>
           </div>
-          <div>
-            {errors?.email?.type === "required" && (
-              <p className={styles.errorMsg}>Campo Obrigatório</p>
-            )}
-            {errors?.email?.type === "validate" && (
-              <p className={styles.errorMsg}>Formato de E-mail inválido</p>
-            )}
+
+          <input
+            className={errors?.celular && `${styles.inputError}`}
+            type="tel"
+            placeholder="(00) 00000-0000"
+            {...register("celular")}
+            onChange={(e) => {
+              setRemetenteCelular(e.target.value);
+            }}
+            value={remetenteCelular}
+          />
+
+          {/* Input Assunto */}
+          <div className={styles.formLabelError}>
+            <div>
+              <label>Assunto</label>
+            </div>
+            <div>
+              {errors?.assunto?.type === "required" && (
+                <p className={styles.errorMsg}>Campo Obrigatório</p>
+              )}
+            </div>
           </div>
-        </div>
 
-        <input
-          className={errors?.email && `${styles.inputError}`}
-          type="email"
-          placeholder="Digite seu e-mail"
-          {...register("email", {
-            required: true,
-            validate: (value) => isEmail(value),
-          })}
-          onChange={(e) => {
-            setRemetenteEmail(e.target.value);
-          }}
-          value={remetenteEmail}
-        />
+          <input
+            className={errors?.assunto && `${styles.inputError}`}
+            type="text"
+            placeholder="Digite o assunto"
+            {...register("assunto", { required: true })}
+            onChange={(e) => {
+              setRemetenteAssunto(e.target.value);
+            }}
+            value={remetenteAssunto}
+          />
 
-        {/* Input Celular */}
-        <label>Celular</label>
-        <input
-          className={errors?.celular && `${styles.inputError}`}
-          type="tel"
-          placeholder="Digite seu celular"
-          {...register("celular", {
-            required: true,
-            validate: (value) => isMobile(value),
-          })}
-          onChange={(e) => {
-            setRemetenteCelular(e.target.value);
-          }}
-          value={remetenteCelular}
-        />
-        {/* {errors?.celular?.type === "required" && (
-          <p className={styles.errorMsg}>Campo Obrigatório</p>
-        )} */}
-        {errors?.celular?.type === "validate" && (
-          <p className={styles.errorMsg}>Número inválido.</p>
-        )}
+          {/* Input Mensagem */}
+          <div className={styles.formLabelError}>
+            <div>
+              <label>Mensagem</label>
+            </div>
+            <div>
+              {errors?.mensagem?.type === "required" && (
+                <p className={styles.errorMsg}>Campo Obrigatório</p>
+              )}
+            </div>
+          </div>
 
-        {/* Input Assunto */}
-        <label>Assunto</label>
-        <input
-          className={errors?.assunto && `${styles.inputError}`}
-          type="text"
-          placeholder="Digite o assunto"
-          {...register("assunto", { required: true })}
-          onChange={(e) => {
-            setRemetenteAssunto(e.target.value);
-          }}
-          value={remetenteAssunto}
-        />
-        {errors?.assunto?.type === "required" && (
-          <p className={styles.errorMsg}>Campo Obrigatório</p>
-        )}
-
-        {/* Input Mensagem */}
-        <label>Mensagem</label>
-        <textarea
-          className={errors?.mensagem && `${styles.inputError}`}
-          type="text"
-          placeholder="Digite a mensagem"
-          {...register("mensagem", { required: true })}
-          onChange={(e) => {
-            setRemetenteMensagem(e.target.value);
-          }}
-          value={remetenteMensagem}
-        />
-        {errors?.mensagem?.type === "required" && (
-          <p className={styles.errorMsg}>Campo Obrigatório</p>
-        )}
-        {/* <button onClick={() => handleSubmit(SendEmail)()}>Enviar</button> */}
-        <button type="submit">Enviar</button>
-      </form>
-    </>
+          <textarea
+            className={errors?.mensagem && `${styles.inputError}`}
+            type="text"
+            placeholder="Digite a mensagem"
+            {...register("mensagem", { required: true })}
+            onChange={(e) => {
+              setRemetenteMensagem(e.target.value);
+            }}
+            value={remetenteMensagem}
+          />
+          <button type="submit" disabled={isSubmitting}>
+            {isSubmitting ? "Enviando..." : "Enviar"}
+          </button>
+        </form>
+      </div>
+    </div>
   );
 }
