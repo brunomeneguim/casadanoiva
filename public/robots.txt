@@ -1,3 +1,9 @@
 # https://www.robotstxt.org/robotstxt.html
+
+User-agente: Googlebot
+Disallow: /nogooglebot/
+
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https:casadanoiva.net/sitemap.xml
